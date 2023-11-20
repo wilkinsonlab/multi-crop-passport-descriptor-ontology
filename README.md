@@ -2,6 +2,7 @@
 # multi-crop-passport-descriptor-ontology
 Archived repository hosting the FAO-IPGRI multi-crop passport descriptor ontology, which was created for the Crop Ontology project.
 
+Ontology is here:  [./multi-passport-descriptor.owl]
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].

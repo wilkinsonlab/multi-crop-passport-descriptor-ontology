@@ -1,0 +1,972 @@
+@prefix : <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl> .
+
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl> rdf:type owl:Ontology ;
+                                                           <http://www.geneontology.org/formats/oboInOwl#NamespaceIdRule> "* CO_020:$sequence(7,0,9999999)$"^^xsd:string ;
+                                                           <http://www.geneontology.org/formats/oboInOwl#date> "07:08:2009 11:34"^^xsd:string ;
+                                                           <http://www.geneontology.org/formats/oboInOwl#default-namespace> "multicrop passport ontology"^^xsd:string ;
+                                                           <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "1.2"^^xsd:string ;
+                                                           <http://www.geneontology.org/formats/oboInOwl#saved-by> "RSHRESTHA"^^xsd:string .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.geneontology.org/formats/oboInOwl#NamespaceIdRule
+<http://www.geneontology.org/formats/oboInOwl#NamespaceIdRule> rdf:type owl:AnnotationProperty ;
+                                                               rdfs:label "namespace-id-rule"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#auto-generated-by
+<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#date
+<http://www.geneontology.org/formats/oboInOwl#date> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#default-namespace
+<http://www.geneontology.org/formats/oboInOwl#default-namespace> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasDbXref
+<http://www.geneontology.org/formats/oboInOwl#hasDbXref> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:label "database_cross_reference"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> rdf:type owl:AnnotationProperty ;
+                                                               rdfs:label "has_exact_synonym"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion
+<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> rdf:type owl:AnnotationProperty ;
+                                                                   rdfs:label "has_obo_format_version"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> rdf:type owl:AnnotationProperty ;
+                                                               rdfs:label "has_obo_namespace"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> rdf:type owl:AnnotationProperty ;
+                                                                 rdfs:label "has_related_synonym"^^xsd:string .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#id
+<http://www.geneontology.org/formats/oboInOwl#id> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#saved-by
+<http://www.geneontology.org/formats/oboInOwl#saved-by> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#comment
+rdfs:comment rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001> rdf:type owl:ObjectProperty ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000001"^^xsd:string ;
+                                                rdfs:label "range_of"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000002
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000002> rdf:type owl:ObjectProperty ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000002"^^xsd:string ;
+                                                rdfs:label "descriptor_of"^^xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000> rdf:type owl:Class ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCPDomainModel:CO_000:0000165"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000000"^^xsd:string ;
+                                                rdfs:comment """release date: July 31, 2007
+version: 1.0. Adapted from FAO/Bioversity Multi-Crop Passport Descriptors, 2004
+coverage: Multi-Crop Passport Descriptors
+creator: Jeffrey Detras, Tom Hazekamp and Richard Bruskiewich
+publisher: Bioversity International and IRRI under the Generation Challenge Program"""^^xsd:string ;
+                                                rdfs:label "multicrop passport ontology"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000003
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000003> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000014"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(COLLNUMB)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000003"^^xsd:string ;
+                                                rdfs:comment "Original number assigned by the collector(s) of the sample, normally composed of the name or initials of the collector(s) followed by a number. This item is essential for identifying duplicates held in different collections. It should be unique and always accompany subsamples wherever they are sent."^^xsd:string ;
+                                                rdfs:label "collecting number"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000004
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000004> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000024"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(COLLCODE)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000004"^^xsd:string ;
+                                                rdfs:comment "Code of the Institute collecting the sample. If the holding institute has collected the material, the collecting institute code (COLLCODE) should be the same as the holding institute code (INSTCODE). Follows INSTCODE standard."^^xsd:string ;
+                                                rdfs:label "collecting institute code"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000005
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000005> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000042"^^xsd:string ,
+                                                                                                         "GCPDomainModel:CO_000:0000154"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(GENUS)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000005"^^xsd:string ;
+                                                rdfs:comment "Genus name for taxon. Initial Uppercase letter required."^^xsd:string ;
+                                                rdfs:label "genus"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000006
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000006> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000039"^^xsd:string ,
+                                                                                                         "GCPDomainModel:CO_000:0000205"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(SPECIES)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000006"^^xsd:string ;
+                                                rdfs:comment "Specific epithet portion of the scientific name in lowercase letters plus authority1. Following abbreviation is allowed: sp."^^xsd:string ;
+                                                rdfs:label "species"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000007
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000007> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000157"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(SPAUTHOR)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000007"^^xsd:string ;
+                                                rdfs:comment "Provide the authority for the species name."^^xsd:string ;
+                                                rdfs:label "species authority"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000008
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000008> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000040"^^xsd:string ,
+                                                                                                         "GCPDomainModel:CO_000:0000151"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(SUBTAXA)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Subspecies"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000008"^^xsd:string ;
+                                                rdfs:comment "Subtaxa can be used to store any additional taxonomic identifier plus authority1. Following abbreviations are allowed: ssp. (for subspecies); var. (for variety); convar. (for convariety); f. (for form)."^^xsd:string ;
+                                                rdfs:label "subtaxa"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000009
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000009> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000158"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(SUBTAUTHOR)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000009"^^xsd:string ;
+                                                rdfs:comment "Provide the subtaxa authority at the most detailed taxonomic level."^^xsd:string ;
+                                                rdfs:label "subtaxa authority"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000010
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000010> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000153"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(CROPNAME)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000010"^^xsd:string ;
+                                                rdfs:comment "Name of the crop in colloquial language, preferably English (i.e. 'malting barley, 'cauliflower', or 'white cabbage')"^^xsd:string ;
+                                                rdfs:label "common crop name"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000011
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000011> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000045"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(ACCENAME)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000011"^^xsd:string ;
+                                                rdfs:comment "Either a registered or other formal designation given to the accession. First letter uppercase. Multiple names separated with semicolon."^^xsd:string ;
+                                                rdfs:label "accession name"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000012
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000012> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000057"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(ACQDATE)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000012"^^xsd:string ;
+                                                rdfs:comment "Date on which the accession entered the collection where YYYY is the year, MM is the month and DD is the day. Missing data (MM or DD) should be indicated with hyphens. Leading zeros are required. [DDMMYYYY]."^^xsd:string ;
+                                                rdfs:label "acquisition date"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000013
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000013> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000010"^^xsd:string ,
+                                                                                                         "GCPDomainModel:CO_000:0000173"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(ORIGCTY)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000013"^^xsd:string ;
+                                                rdfs:comment "Name of the country in which the sample was originally collected or derived. Use the ISO 3166 extended codes, (i.e. current and old 3 letter ISO 3166 country codes)."^^xsd:string ;
+                                                rdfs:label "country of origin"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000014
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000014> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000028"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(COLLSITE)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000014"^^xsd:string ;
+                                                rdfs:comment "Location information below the country level that describes where the accession was collected starting with the most detailed information. Might include the distance in kilometers and direction from the nearest town, village or map grid reference point, (e.g. CURITIBA 7S, PARANA means 7 km south of Curitiba in the state of Parana)."^^xsd:string ;
+                                                rdfs:label "location of collecting site"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000015
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000015> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000008"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(LATITUDE)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000015"^^xsd:string ;
+                                                rdfs:comment "Degrees and minutes followed by N (North) or S (South) (e.g. 1030S). Missing data (minutes) should be indicated with hyphen (e.g. 10 S)."^^xsd:string ;
+                                                rdfs:label "latitude of collecting site"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000016
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000016> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000026"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(LONGITUDE)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000016"^^xsd:string ;
+                                                rdfs:comment "Degrees and minutes followed by E (East) or W (West) (e.g. 07625W). Missing data (minutes) should be indicated with hyphen (e.g. 076 W)."^^xsd:string ;
+                                                rdfs:label "longitude of collecting site"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000017
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000017> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000004"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(ELEVATION)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000017"^^xsd:string ;
+                                                rdfs:comment "Elevation of collecting site expressed in meters above sea level. Negative values allowed. Format: [m asl]."^^xsd:string ;
+                                                rdfs:label "elevation of collecting site"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000018
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000018> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000030"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(COLLDATE)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000018"^^xsd:string ;
+                                                rdfs:comment "Collecting date of the sample where YYYY is the year, MM is the month and DD is the day. Missing data (MM or DD) should be indicated with hyphens. Leading zeros are required. Format: [DDMMYYYY]."^^xsd:string ;
+                                                rdfs:label "collecting date of sample"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000019
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000019> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000155"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(BREDCODE)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000019"^^xsd:string ;
+                                                rdfs:comment "Institute code of the institute that has bred the material. If the holding institute has bred the material, the breeding institute code (BREDCODE) should be the same as the holding institute code (INSTCODE). Follows INSTCODE standard."^^xsd:string ;
+                                                rdfs:label "breeding institute code"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000020
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000020> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000022"^^xsd:string ,
+                                                                                                         "GCPDomainModel:CO_000:0000138"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(SAMPSTAT)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000020"^^xsd:string ;
+                                                rdfs:comment "The coding scheme proposed can be used at 3 different levels of detail: either by using the general codes (in boldface) such as 100, 200, 300, 400 or by using the more specific codes such as 110, 120 etc."^^xsd:string ;
+                                                rdfs:label "biological status of accession"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000021
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000021> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000152"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(ANCEST)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000021"^^xsd:string ;
+                                                rdfs:comment "Information about either pedigree or other description of ancestral information (i.e. parent variety in case of mutant or selection). For example a pedigree 'Hanna/7*Atlas//Turk/8*Atlas' or a description 'mutation found in Hanna', 'selection from Irene' or 'cross involving amongst others Hanna and Irene'."^^xsd:string ;
+                                                rdfs:label "ancestral data"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000022
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000022> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000005"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(COLLSRC)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000022"^^xsd:string ;
+                                                rdfs:comment "The coding scheme proposed can be used at 2 different levels of detail: Either by using the global codes such as 1, 2, 3, 4 or by using the more detailed coding such as 1.1, 1.2, 1.3 etc."^^xsd:string ;
+                                                rdfs:label "collecting or acquisition source"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000023
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000023> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000156"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(DONORCODE)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000023"^^xsd:string ;
+                                                rdfs:comment "Code for the donor institute. Follows INSTCODE standard."^^xsd:string ;
+                                                rdfs:label "donor institute code"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000024
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000024> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000089> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000059"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(DONORNUMB)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000024"^^xsd:string ;
+                                                rdfs:comment "Number assigned to an accession by the donor. Follows ACCENUMB standard."^^xsd:string ;
+                                                rdfs:label "donor accession number"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000025
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000025> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000061"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(OTHERNUMB)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000025"^^xsd:string ;
+                                                rdfs:comment """Other identification (numbers) associated with the accession (OTHERNUMB).
+Any other identification (numbers) known to exist in other collections for this accession. Use the following system: INSTCODE:ACCENUMB;INSTCODE:ACCENUMB; INSTCODE and ACCENUMB follow the standard described above and are separated by a colon. Pairs of INSTCODE and ACCENUMB are separated by a semicolon without space. When the institute is not known, the number should be preceded by a colon."""^^xsd:string ;
+                                                rdfs:label "other identification numbers associated with the accession"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000026
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000026> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000126"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(DUPLSITE)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000026"^^xsd:string ;
+                                                rdfs:comment "Code of the institute where a safety duplicate of the accession is maintained. Follows INSTCODE standard."^^xsd:string ;
+                                                rdfs:label "location of safety duplicates"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000027
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000027> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000137"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(STORAGE)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000027"^^xsd:string ;
+                                                rdfs:comment "If germplasm is maintained under different types of storage, multiple choices are allowed, separated by a semicolon (e.g. 20;30). (Refer to FAO/IPGRI Genebank Standards 1994 for details on storage type.)."^^xsd:string ;
+                                                rdfs:label "type of germplasm storage"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000028
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000028> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000051"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(REMARKS)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000028"^^xsd:string ;
+                                                rdfs:comment "The remarks field is used to add notes or to elaborate on descriptors with value 99 or 999 (=Other). Prefix remarks with the field name they refer to and a colon (e.g. COLLSRC:riverside). Separate remarks referring to different fields are separated by semicolons without space."^^xsd:string ;
+                                                rdfs:label "remarks"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000090"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000029"^^xsd:string ;
+                                                rdfs:label "100 wild"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000030
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000030> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000195"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000030"^^xsd:string ;
+                                                rdfs:label "110 natural"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000031
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000031> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000196"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000031"^^xsd:string ;
+                                                rdfs:label "120 semi-natural or wild"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000032
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000032> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000091"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000032"^^xsd:string ;
+                                                rdfs:label "200 weedy"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000033
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000033> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000092"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "primitive cultivar"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000033"^^xsd:string ;
+                                                rdfs:label "300 traditional cultivar or landrace"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000159"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000034"^^xsd:string ;
+                                                rdfs:label "400 breeding or research material"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000093"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000035"^^xsd:string ;
+                                                rdfs:label "410 breeder's line"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000036
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000036> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000164"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000036"^^xsd:string ;
+                                                rdfs:label "411 synthetic population"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000037
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000037> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000161"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000037"^^xsd:string ;
+                                                rdfs:label "412 hybrid"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000038
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000038> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000160"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000038"^^xsd:string ;
+                                                rdfs:label "413 founder stock or base population"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000039
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000039> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000162"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000039"^^xsd:string ;
+                                                rdfs:label "414 inbred line (parent of hybrid cultivar)"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000040
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000040> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000163"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000040"^^xsd:string ;
+                                                rdfs:label "415 segregating population"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000041
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000041> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000194"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000041"^^xsd:string ;
+                                                rdfs:label "420 mutant or genetic stock"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000042
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000042> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000094"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000042"^^xsd:string ;
+                                                rdfs:label "500 advanced or improved cultivar"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000043
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000043> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000101"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000043"^^xsd:string ;
+                                                rdfs:comment "Elaborate in REMARKS field."^^xsd:string ;
+                                                rdfs:label "999 other biological status of accession"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000066"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000044"^^xsd:string ;
+                                                rdfs:label "10 wild habitat"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000045
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000045> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000211"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000045"^^xsd:string ;
+                                                rdfs:label "11 forest or woodland"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000046
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000046> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000213"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000046"^^xsd:string ;
+                                                rdfs:label "12 shrubland"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000047
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000047> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000212"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000047"^^xsd:string ;
+                                                rdfs:label "13 grassland"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000048
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000048> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000210"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000048"^^xsd:string ;
+                                                rdfs:label "14 desert or tundra"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000049
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000049> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000209"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000049"^^xsd:string ;
+                                                rdfs:label "15 aquatic habitat"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000067"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000050"^^xsd:string ;
+                                                rdfs:label "20 farm or cultivated habitat"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000051
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000051> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000202"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000051"^^xsd:string ;
+                                                rdfs:label "21 field"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000052
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000052> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000203"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000052"^^xsd:string ;
+                                                rdfs:label "22 orchard"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000053
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000053> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000199"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000053"^^xsd:string ;
+                                                rdfs:label "23 backyard, kitchen, or home garden (urban, peri-urban or rural)"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000054
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000054> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000200"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000054"^^xsd:string ;
+                                                rdfs:label "24 fallow land"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000055
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000055> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000205"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000055"^^xsd:string ;
+                                                rdfs:label "25 pasture"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000056
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000056> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000201"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000056"^^xsd:string ;
+                                                rdfs:label "26 farm store"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000057
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000057> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000206"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000057"^^xsd:string ;
+                                                rdfs:label "27 threshing floor"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000058
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000058> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000204"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000058"^^xsd:string ;
+                                                rdfs:label "28 park"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000059
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000059> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000068"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000059"^^xsd:string ;
+                                                rdfs:label "30 market or shop"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000060
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000060> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000069"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000060"^^xsd:string ;
+                                                rdfs:label "40 institute, experimental station, research organization, genebank"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000061
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000061> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000197"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000061"^^xsd:string ;
+                                                rdfs:label "50 seed company"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000198"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000062"^^xsd:string ;
+                                                rdfs:label "60 weedy, disturbed or ruderal habitat"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000063
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000063> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000208"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000063"^^xsd:string ;
+                                                rdfs:label "61 roadside"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000064
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000064> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000207"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000064"^^xsd:string ;
+                                                rdfs:label "62 field margin"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000065"^^xsd:string ;
+                                                rdfs:comment "The coded values for some descriptors."^^xsd:string ;
+                                                rdfs:label "MultiCropPassportDescriptorCode"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000146"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000066"^^xsd:string ;
+                                                rdfs:label "10 seed collection"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000067
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000067> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000219"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000067"^^xsd:string ;
+                                                rdfs:label "11short term"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000068
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000068> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000218"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000068"^^xsd:string ;
+                                                rdfs:label "12 medium term"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000069
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000069> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000217"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000069"^^xsd:string ;
+                                                rdfs:label "13 long term"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000070
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000070> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000144"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000070"^^xsd:string ;
+                                                rdfs:label "20 field collection"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000071
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000071> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000145"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000071"^^xsd:string ;
+                                                rdfs:comment "Has slow growth."^^xsd:string ;
+                                                rdfs:label "30 in vitro collection"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000072
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000072> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000216"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000072"^^xsd:string ;
+                                                rdfs:label "40 cryopreserved collection"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000073
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000073> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000147"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000073"^^xsd:string ;
+                                                rdfs:comment "Elaborate in REMARKS field."^^xsd:string ;
+                                                rdfs:label "99 other type of germplasm storage"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000074"^^xsd:string ;
+                                                rdfs:comment "The list of multi-crop passport descriptors is developed jointly by Bioversity (formerly IPGRI) and FAO to provide international standards to facilitate germplasm passport information exchange. These descriptors aim to be compatible with Bioversity crop descriptor lists and with the descriptors used for the FAO World Information and Early Warning System (WIEWS) on plant genetic resources (PGR). For each multi-crop passport descriptor, a brief explanation of content, coding scheme and suggested fieldname (in parentheses) is provided to assist in the computerized exchange of this type of data. It is recognized that networks or groups of users may want to further expand this GCP.mcpd List to meet their specific needs. As long as these additions allow for an easy conversion to the format proposed in the multi-crop passport descriptors, basic passport data can be exchanged worldwide in a consistent manner. AUTHORS: Adriana Alercia, Stefano Diulgheroff, Thomas Metz YEAR:2001"^^xsd:string ;
+                                                rdfs:label "multicrop passport descriptor"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065> ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001> ;
+                                                                  owl:someValuesFrom <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000020>
+                                                                ] ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000089"^^xsd:string ,
+                                                                                                         "GCPDomainModel:CO_000:0000071"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000075"^^xsd:string ;
+                                                rdfs:label "BiologicalStatusOfAccessionCode"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065> ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001> ;
+                                                                  owl:someValuesFrom <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000022>
+                                                                ] ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000065"^^xsd:string ,
+                                                                                                         "GCPDomainModel:CO_000:0000136"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000076"^^xsd:string ;
+                                                rdfs:label "CollectingOrAcquisitionSourceCode"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000077
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000077> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000102"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000077"^^xsd:string ;
+                                                rdfs:comment "Elaborate in REMARKS field."^^xsd:string ;
+                                                rdfs:label "99 other collecting or acquisition source"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065> ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001> ;
+                                                                  owl:someValuesFrom <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000027>
+                                                                ] ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000143"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000078"^^xsd:string ;
+                                                rdfs:label "TypeOfGermplasmStorageCode"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000079"^^xsd:string ;
+                                                rdfs:label "germplasm identifier descriptor"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000080
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000080> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000080"^^xsd:string ;
+                                                rdfs:label "institute descriptor"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000081"^^xsd:string ;
+                                                rdfs:label "taxonomy descriptor"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000082"^^xsd:string ;
+                                                rdfs:label "origin descriptor"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000084
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000084> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065> ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001> ;
+                                                                  owl:someValuesFrom <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088>
+                                                                ] ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000215"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000084"^^xsd:string ;
+                                                rdfs:label "InstituteCode"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000085
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000085> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065> ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001> ;
+                                                                  owl:someValuesFrom <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000013>
+                                                                ] ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000214"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000085"^^xsd:string ;
+                                                rdfs:label "CountryOfOriginCode"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000086"^^xsd:string ;
+                                                rdfs:label "date descriptor"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000087"^^xsd:string ;
+                                                rdfs:label "location descriptor"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000080> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000154"^^xsd:string ,
+                                                                                                         "GCPDomainModel:CO_000:0000224"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(INSTCODE)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000088"^^xsd:string ;
+                                                rdfs:comment "Code of the institute where the accession is maintained. The codes consist of the 3-letter ISO 3166 country code of the country where the institute is located plus number or an acronym as specified in the Institute database that will be made available by FAO. Preliminary codes (i.e. codes not yet incorporated in the FAO Institute database) start with an asterisk followed by a 3-letter ISO 3166 country code and an acronym."^^xsd:string ;
+                                                rdfs:label "institute code"^^xsd:string .
+
+
+###  https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000089
+<https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000089> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079> ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GCP germplasm ontology:CO_010:0000058"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "(ACCENUMB)"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "multicrop passport ontology"^^xsd:string ;
+                                                <http://www.geneontology.org/formats/oboInOwl#id> "CO_020:0000089"^^xsd:string ;
+                                                rdfs:comment "This number serves as a unique identifier for accessions and is assigned when an accession is entered into the collection. Once assigned this number should never be reassigned to another accession in the collection. Even if an accession is lost, its assigned number should never be reused. Letters should be used before the number to identify the genebank or national system (e.g. IDG indicates an accession that comes from the genebank at Bari, Italy; CGN indicates an accession from the genebank at Wageningen, The Netherlands; PI indicates an accession within the USA system)."^^xsd:string ;
+                                                rdfs:label "accession number"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
