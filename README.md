@@ -1,8 +1,22 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 # multi-crop-passport-descriptor-ontology
-Archived repository hosting the FAO-IPGRI multi-crop passport descriptor ontology, which was created for the Crop Ontology project.
+Resurrected repository hosting the FAO-IPGRI multi-crop passport descriptor ontology, which was created for the Crop Ontology project.
 
-Ontology is [here](./multi-passport-descriptor.owl)
+Attribution (varies depending on original source... this is as close as I can find!)
+
+```
+release date: July 31, 2007
+version: 1.0. Adapted from FAO/Bioversity Multi-Crop Passport Descriptors, 2004
+coverage: Multi-Crop Passport Descriptors
+creator: Jeffrey Detras, Tom Hazekamp, Richard Bruskiewich, A. Alercia, S. Diulgheroff, M. Mackay
+publisher: Bioversity International and IRRI under the Generation Challenge Program
+Funded By	CGIAR (www.cgiar.org/)
+
+Resurrected by:  Mark D Wilkinson, Alberto Camara, CBGP-UPM/INIA/CSIC, 2023
+
+```
+
+Ontology is [HERE](./multi-passport-descriptor.owl)
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
