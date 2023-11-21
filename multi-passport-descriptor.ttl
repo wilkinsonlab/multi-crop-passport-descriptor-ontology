@@ -1,0 +1,759 @@
+@prefix : <https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://138.4.139.18:8890/DAV/home/LDP/Ontologies/multi-passport-descriptor.owl> a ldp:Resource .
+
+<http://localhost:8890/DAV/home/LDP/Ontologies/multi-passport-descriptor.owl> a ldp:Resource .
+
+oboInOwl:NamespaceIdRule a owl:AnnotationProperty;
+  rdfs:label "namespace-id-rule" .
+
+oboInOwl:auto-generated-by a owl:AnnotationProperty .
+
+oboInOwl:date a owl:AnnotationProperty .
+
+oboInOwl:default-namespace a owl:AnnotationProperty .
+
+oboInOwl:hasDbXref a owl:AnnotationProperty;
+  rdfs:label "database_cross_reference" .
+
+oboInOwl:hasExactSynonym a owl:AnnotationProperty;
+  rdfs:label "has_exact_synonym" .
+
+oboInOwl:hasOBOFormatVersion a owl:AnnotationProperty;
+  rdfs:label "has_obo_format_version" .
+
+oboInOwl:hasOBONamespace a owl:AnnotationProperty;
+  rdfs:label "has_obo_namespace" .
+
+oboInOwl:hasRelatedSynonym a owl:AnnotationProperty;
+  rdfs:label "has_related_synonym" .
+
+oboInOwl:id a owl:AnnotationProperty .
+
+oboInOwl:saved-by a owl:AnnotationProperty .
+
+rdfs:comment a owl:AnnotationProperty .
+
+rdfs:label a owl:AnnotationProperty .
+
+<https://w3id.org/fao-ipgr/multi-passport-descriptor.owl> a owl:Ontology,
+    ldp:Resource;
+  oboInOwl:NamespaceIdRule "* CO_020:$sequence(7,0,9999999)$";
+  oboInOwl:date "07:08:2009 11:34";
+  oboInOwl:default-namespace "multicrop passport ontology";
+  oboInOwl:hasOBOFormatVersion "1.2";
+  oboInOwl:saved-by "RSHRESTHA" .
+
+:CO_020_0000002 a owl:ObjectProperty;
+  rdfs:label "descriptor_of";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000002" .
+
+:CO_020_0000003 a owl:Class;
+  rdfs:label "collecting number";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000014";
+  oboInOwl:hasExactSynonym "(COLLNUMB)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000003";
+  rdfs:comment "Original number assigned by the collector(s) of the sample, normally composed of the name or initials of the collector(s) followed by a number. This item is essential for identifying duplicates held in different collections. It should be unique and always accompany subsamples wherever they are sent.";
+  rdfs:subClassOf :CO_020_0000079 .
+
+:CO_020_0000004 a owl:Class;
+  rdfs:label "collecting institute code";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000024";
+  oboInOwl:hasExactSynonym "(COLLCODE)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000004";
+  rdfs:comment "Code of the Institute collecting the sample. If the holding institute has collected the material, the collecting institute code (COLLCODE) should be the same as the holding institute code (INSTCODE). Follows INSTCODE standard.";
+  rdfs:subClassOf :CO_020_0000088 .
+
+:CO_020_0000005 a owl:Class;
+  rdfs:label "genus";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000042",
+    "GCPDomainModel:CO_000:0000154";
+  oboInOwl:hasExactSynonym "(GENUS)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000005";
+  rdfs:comment "Genus name for taxon. Initial Uppercase letter required.";
+  rdfs:subClassOf :CO_020_0000081 .
+
+:CO_020_0000006 a owl:Class;
+  rdfs:label "species";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000039",
+    "GCPDomainModel:CO_000:0000205";
+  oboInOwl:hasExactSynonym "(SPECIES)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000006";
+  rdfs:comment "Specific epithet portion of the scientific name in lowercase letters plus authority1. Following abbreviation is allowed: sp.";
+  rdfs:subClassOf :CO_020_0000081 .
+
+:CO_020_0000007 a owl:Class;
+  rdfs:label "species authority";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000157";
+  oboInOwl:hasExactSynonym "(SPAUTHOR)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000007";
+  rdfs:comment "Provide the authority for the species name.";
+  rdfs:subClassOf :CO_020_0000081 .
+
+:CO_020_0000008 a owl:Class;
+  rdfs:label "subtaxa";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000040",
+    "GCPDomainModel:CO_000:0000151";
+  oboInOwl:hasExactSynonym "(SUBTAXA)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:hasRelatedSynonym "Subspecies";
+  oboInOwl:id "CO_020:0000008";
+  rdfs:comment "Subtaxa can be used to store any additional taxonomic identifier plus authority1. Following abbreviations are allowed: ssp. (for subspecies); var. (for variety); convar. (for convariety); f. (for form).";
+  rdfs:subClassOf :CO_020_0000081 .
+
+:CO_020_0000009 a owl:Class;
+  rdfs:label "subtaxa authority";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000158";
+  oboInOwl:hasExactSynonym "(SUBTAUTHOR)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000009";
+  rdfs:comment "Provide the subtaxa authority at the most detailed taxonomic level.";
+  rdfs:subClassOf :CO_020_0000081 .
+
+:CO_020_0000010 a owl:Class;
+  rdfs:label "common crop name";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000153";
+  oboInOwl:hasExactSynonym "(CROPNAME)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000010";
+  rdfs:comment "Name of the crop in colloquial language, preferably English (i.e. 'malting barley, 'cauliflower', or 'white cabbage')";
+  rdfs:subClassOf :CO_020_0000081 .
+
+:CO_020_0000011 a owl:Class;
+  rdfs:label "accession name";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000045";
+  oboInOwl:hasExactSynonym "(ACCENAME)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000011";
+  rdfs:comment "Either a registered or other formal designation given to the accession. First letter uppercase. Multiple names separated with semicolon.";
+  rdfs:subClassOf :CO_020_0000079 .
+
+:CO_020_0000012 a owl:Class;
+  rdfs:label "acquisition date";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000057";
+  oboInOwl:hasExactSynonym "(ACQDATE)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000012";
+  rdfs:comment "Date on which the accession entered the collection where YYYY is the year, MM is the month and DD is the day. Missing data (MM or DD) should be indicated with hyphens. Leading zeros are required. [DDMMYYYY].";
+  rdfs:subClassOf :CO_020_0000086 .
+
+:CO_020_0000014 a owl:Class;
+  rdfs:label "location of collecting site";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000028";
+  oboInOwl:hasExactSynonym "(COLLSITE)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000014";
+  rdfs:comment "Location information below the country level that describes where the accession was collected starting with the most detailed information. Might include the distance in kilometers and direction from the nearest town, village or map grid reference point, (e.g. CURITIBA 7S, PARANA means 7 km south of Curitiba in the state of Parana).";
+  rdfs:subClassOf :CO_020_0000087 .
+
+:CO_020_0000015 a owl:Class;
+  rdfs:label "latitude of collecting site";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000008";
+  oboInOwl:hasExactSynonym "(LATITUDE)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000015";
+  rdfs:comment "Degrees and minutes followed by N (North) or S (South) (e.g. 1030S). Missing data (minutes) should be indicated with hyphen (e.g. 10 S).";
+  rdfs:subClassOf :CO_020_0000087 .
+
+:CO_020_0000016 a owl:Class;
+  rdfs:label "longitude of collecting site";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000026";
+  oboInOwl:hasExactSynonym "(LONGITUDE)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000016";
+  rdfs:comment "Degrees and minutes followed by E (East) or W (West) (e.g. 07625W). Missing data (minutes) should be indicated with hyphen (e.g. 076 W).";
+  rdfs:subClassOf :CO_020_0000087 .
+
+:CO_020_0000017 a owl:Class;
+  rdfs:label "elevation of collecting site";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000004";
+  oboInOwl:hasExactSynonym "(ELEVATION)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000017";
+  rdfs:comment "Elevation of collecting site expressed in meters above sea level. Negative values allowed. Format: [m asl].";
+  rdfs:subClassOf :CO_020_0000087 .
+
+:CO_020_0000018 a owl:Class;
+  rdfs:label "collecting date of sample";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000030";
+  oboInOwl:hasExactSynonym "(COLLDATE)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000018";
+  rdfs:comment "Collecting date of the sample where YYYY is the year, MM is the month and DD is the day. Missing data (MM or DD) should be indicated with hyphens. Leading zeros are required. Format: [DDMMYYYY].";
+  rdfs:subClassOf :CO_020_0000086 .
+
+:CO_020_0000019 a owl:Class;
+  rdfs:label "breeding institute code";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000155";
+  oboInOwl:hasExactSynonym "(BREDCODE)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000019";
+  rdfs:comment "Institute code of the institute that has bred the material. If the holding institute has bred the material, the breeding institute code (BREDCODE) should be the same as the holding institute code (INSTCODE). Follows INSTCODE standard.";
+  rdfs:subClassOf :CO_020_0000088 .
+
+:CO_020_0000021 a owl:Class;
+  rdfs:label "ancestral data";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000152";
+  oboInOwl:hasExactSynonym "(ANCEST)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000021";
+  rdfs:comment "Information about either pedigree or other description of ancestral information (i.e. parent variety in case of mutant or selection). For example a pedigree 'Hanna/7*Atlas//Turk/8*Atlas' or a description 'mutation found in Hanna', 'selection from Irene' or 'cross involving amongst others Hanna and Irene'.";
+  rdfs:subClassOf :CO_020_0000082 .
+
+:CO_020_0000023 a owl:Class;
+  rdfs:label "donor institute code";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000156";
+  oboInOwl:hasExactSynonym "(DONORCODE)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000023";
+  rdfs:comment "Code for the donor institute. Follows INSTCODE standard.";
+  rdfs:subClassOf :CO_020_0000088 .
+
+:CO_020_0000024 a owl:Class;
+  rdfs:label "donor accession number";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000059";
+  oboInOwl:hasExactSynonym "(DONORNUMB)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000024";
+  rdfs:comment "Number assigned to an accession by the donor. Follows ACCENUMB standard.";
+  rdfs:subClassOf :CO_020_0000089 .
+
+:CO_020_0000025 a owl:Class;
+  rdfs:label "other identification numbers associated with the accession";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000061";
+  oboInOwl:hasExactSynonym "(OTHERNUMB)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000025";
+  rdfs:comment """Other identification (numbers) associated with the accession (OTHERNUMB).
+Any other identification (numbers) known to exist in other collections for this accession. Use the following system: INSTCODE:ACCENUMB;INSTCODE:ACCENUMB; INSTCODE and ACCENUMB follow the standard described above and are separated by a colon. Pairs of INSTCODE and ACCENUMB are separated by a semicolon without space. When the institute is not known, the number should be preceded by a colon.""";
+  rdfs:subClassOf :CO_020_0000079 .
+
+:CO_020_0000026 a owl:Class;
+  rdfs:label "location of safety duplicates";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000126";
+  oboInOwl:hasExactSynonym "(DUPLSITE)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000026";
+  rdfs:comment "Code of the institute where a safety duplicate of the accession is maintained. Follows INSTCODE standard.";
+  rdfs:subClassOf :CO_020_0000088 .
+
+:CO_020_0000028 a owl:Class;
+  rdfs:label "remarks";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000051";
+  oboInOwl:hasExactSynonym "(REMARKS)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000028";
+  rdfs:comment "The remarks field is used to add notes or to elaborate on descriptors with value 99 or 999 (=Other). Prefix remarks with the field name they refer to and a colon (e.g. COLLSRC:riverside). Separate remarks referring to different fields are separated by semicolons without space.";
+  rdfs:subClassOf :CO_020_0000074 .
+
+:CO_020_0000030 a owl:Class;
+  rdfs:label "110 natural";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000195";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000030";
+  rdfs:subClassOf :CO_020_0000029 .
+
+:CO_020_0000031 a owl:Class;
+  rdfs:label "120 semi-natural or wild";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000196";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000031";
+  rdfs:subClassOf :CO_020_0000029 .
+
+:CO_020_0000032 a owl:Class;
+  rdfs:label "200 weedy";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000091";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000032";
+  rdfs:subClassOf :CO_020_0000075 .
+
+:CO_020_0000033 a owl:Class;
+  rdfs:label "300 traditional cultivar or landrace";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000092";
+  oboInOwl:hasExactSynonym "primitive cultivar";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000033";
+  rdfs:subClassOf :CO_020_0000075 .
+
+:CO_020_0000036 a owl:Class;
+  rdfs:label "411 synthetic population";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000164";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000036";
+  rdfs:subClassOf :CO_020_0000035 .
+
+:CO_020_0000037 a owl:Class;
+  rdfs:label "412 hybrid";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000161";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000037";
+  rdfs:subClassOf :CO_020_0000035 .
+
+:CO_020_0000038 a owl:Class;
+  rdfs:label "413 founder stock or base population";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000160";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000038";
+  rdfs:subClassOf :CO_020_0000035 .
+
+:CO_020_0000039 a owl:Class;
+  rdfs:label "414 inbred line (parent of hybrid cultivar)";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000162";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000039";
+  rdfs:subClassOf :CO_020_0000035 .
+
+:CO_020_0000040 a owl:Class;
+  rdfs:label "415 segregating population";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000163";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000040";
+  rdfs:subClassOf :CO_020_0000035 .
+
+:CO_020_0000041 a owl:Class;
+  rdfs:label "420 mutant or genetic stock";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000194";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000041";
+  rdfs:subClassOf :CO_020_0000034 .
+
+:CO_020_0000042 a owl:Class;
+  rdfs:label "500 advanced or improved cultivar";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000094";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000042";
+  rdfs:subClassOf :CO_020_0000075 .
+
+:CO_020_0000043 a owl:Class;
+  rdfs:label "999 other biological status of accession";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000101";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000043";
+  rdfs:comment "Elaborate in REMARKS field.";
+  rdfs:subClassOf :CO_020_0000075 .
+
+:CO_020_0000045 a owl:Class;
+  rdfs:label "11 forest or woodland";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000211";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000045";
+  rdfs:subClassOf :CO_020_0000044 .
+
+:CO_020_0000046 a owl:Class;
+  rdfs:label "12 shrubland";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000213";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000046";
+  rdfs:subClassOf :CO_020_0000044 .
+
+:CO_020_0000047 a owl:Class;
+  rdfs:label "13 grassland";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000212";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000047";
+  rdfs:subClassOf :CO_020_0000044 .
+
+:CO_020_0000048 a owl:Class;
+  rdfs:label "14 desert or tundra";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000210";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000048";
+  rdfs:subClassOf :CO_020_0000044 .
+
+:CO_020_0000049 a owl:Class;
+  rdfs:label "15 aquatic habitat";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000209";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000049";
+  rdfs:subClassOf :CO_020_0000044 .
+
+:CO_020_0000051 a owl:Class;
+  rdfs:label "21 field";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000202";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000051";
+  rdfs:subClassOf :CO_020_0000050 .
+
+:CO_020_0000052 a owl:Class;
+  rdfs:label "22 orchard";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000203";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000052";
+  rdfs:subClassOf :CO_020_0000050 .
+
+:CO_020_0000053 a owl:Class;
+  rdfs:label "23 backyard, kitchen, or home garden (urban, peri-urban or rural)";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000199";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000053";
+  rdfs:subClassOf :CO_020_0000050 .
+
+:CO_020_0000054 a owl:Class;
+  rdfs:label "24 fallow land";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000200";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000054";
+  rdfs:subClassOf :CO_020_0000050 .
+
+:CO_020_0000055 a owl:Class;
+  rdfs:label "25 pasture";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000205";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000055";
+  rdfs:subClassOf :CO_020_0000050 .
+
+:CO_020_0000056 a owl:Class;
+  rdfs:label "26 farm store";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000201";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000056";
+  rdfs:subClassOf :CO_020_0000050 .
+
+:CO_020_0000057 a owl:Class;
+  rdfs:label "27 threshing floor";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000206";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000057";
+  rdfs:subClassOf :CO_020_0000050 .
+
+:CO_020_0000058 a owl:Class;
+  rdfs:label "28 park";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000204";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000058";
+  rdfs:subClassOf :CO_020_0000050 .
+
+:CO_020_0000059 a owl:Class;
+  rdfs:label "30 market or shop";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000068";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000059";
+  rdfs:subClassOf :CO_020_0000076 .
+
+:CO_020_0000060 a owl:Class;
+  rdfs:label "40 institute, experimental station, research organization, genebank";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000069";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000060";
+  rdfs:subClassOf :CO_020_0000076 .
+
+:CO_020_0000061 a owl:Class;
+  rdfs:label "50 seed company";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000197";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000061";
+  rdfs:subClassOf :CO_020_0000076 .
+
+:CO_020_0000063 a owl:Class;
+  rdfs:label "61 roadside";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000208";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000063";
+  rdfs:subClassOf :CO_020_0000062 .
+
+:CO_020_0000064 a owl:Class;
+  rdfs:label "62 field margin";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000207";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000064";
+  rdfs:subClassOf :CO_020_0000062 .
+
+:CO_020_0000067 a owl:Class;
+  rdfs:label "11short term";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000219";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000067";
+  rdfs:subClassOf :CO_020_0000066 .
+
+:CO_020_0000068 a owl:Class;
+  rdfs:label "12 medium term";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000218";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000068";
+  rdfs:subClassOf :CO_020_0000066 .
+
+:CO_020_0000069 a owl:Class;
+  rdfs:label "13 long term";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000217";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000069";
+  rdfs:subClassOf :CO_020_0000066 .
+
+:CO_020_0000070 a owl:Class;
+  rdfs:label "20 field collection";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000144";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000070";
+  rdfs:subClassOf :CO_020_0000078 .
+
+:CO_020_0000071 a owl:Class;
+  rdfs:label "30 in vitro collection";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000145";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000071";
+  rdfs:comment "Has slow growth.";
+  rdfs:subClassOf :CO_020_0000078 .
+
+:CO_020_0000072 a owl:Class;
+  rdfs:label "40 cryopreserved collection";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000216";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000072";
+  rdfs:subClassOf :CO_020_0000078 .
+
+:CO_020_0000073 a owl:Class;
+  rdfs:label "99 other type of germplasm storage";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000147";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000073";
+  rdfs:comment "Elaborate in REMARKS field.";
+  rdfs:subClassOf :CO_020_0000078 .
+
+:CO_020_0000077 a owl:Class;
+  rdfs:label "99 other collecting or acquisition source";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000102";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000077";
+  rdfs:comment "Elaborate in REMARKS field.";
+  rdfs:subClassOf :CO_020_0000076 .
+
+:CO_020_0000084 a owl:Class;
+  rdfs:label "InstituteCode";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000215";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000084";
+  rdfs:subClassOf :CO_020_0000065, [
+    a owl:Restriction;
+    owl:onProperty :CO_020_0000001;
+    owl:someValuesFrom :CO_020_0000088
+  ] .
+
+:CO_020_0000085 a owl:Class;
+  rdfs:label "CountryOfOriginCode";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000214";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000085";
+  rdfs:subClassOf :CO_020_0000065, [
+    a owl:Restriction;
+    owl:onProperty :CO_020_0000001;
+    owl:someValuesFrom :CO_020_0000013
+  ] .
+
+:CO_020_0000013 a owl:Class;
+  rdfs:label "country of origin";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000010",
+    "GCPDomainModel:CO_000:0000173";
+  oboInOwl:hasExactSynonym "(ORIGCTY)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000013";
+  rdfs:comment "Name of the country in which the sample was originally collected or derived. Use the ISO 3166 extended codes, (i.e. current and old 3 letter ISO 3166 country codes).";
+  rdfs:subClassOf :CO_020_0000087 .
+
+:CO_020_0000020 a owl:Class;
+  rdfs:label "biological status of accession";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000022",
+    "GCPDomainModel:CO_000:0000138";
+  oboInOwl:hasExactSynonym "(SAMPSTAT)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000020";
+  rdfs:comment "The coding scheme proposed can be used at 3 different levels of detail: either by using the general codes (in boldface) such as 100, 200, 300, 400 or by using the more specific codes such as 110, 120 etc.";
+  rdfs:subClassOf :CO_020_0000074 .
+
+:CO_020_0000022 a owl:Class;
+  rdfs:label "collecting or acquisition source";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000005";
+  oboInOwl:hasExactSynonym "(COLLSRC)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000022";
+  rdfs:comment "The coding scheme proposed can be used at 2 different levels of detail: Either by using the global codes such as 1, 2, 3, 4 or by using the more detailed coding such as 1.1, 1.2, 1.3 etc.";
+  rdfs:subClassOf :CO_020_0000087 .
+
+:CO_020_0000027 a owl:Class;
+  rdfs:label "type of germplasm storage";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000137";
+  oboInOwl:hasExactSynonym "(STORAGE)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000027";
+  rdfs:comment "If germplasm is maintained under different types of storage, multiple choices are allowed, separated by a semicolon (e.g. 20;30). (Refer to FAO/IPGRI Genebank Standards 1994 for details on storage type.).";
+  rdfs:subClassOf :CO_020_0000074 .
+
+:CO_020_0000080 a owl:Class;
+  rdfs:label "institute descriptor";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000080";
+  rdfs:subClassOf :CO_020_0000074 .
+
+:CO_020_0000089 a owl:Class;
+  rdfs:label "accession number";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000058";
+  oboInOwl:hasExactSynonym "(ACCENUMB)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000089";
+  rdfs:comment "This number serves as a unique identifier for accessions and is assigned when an accession is entered into the collection. Once assigned this number should never be reassigned to another accession in the collection. Even if an accession is lost, its assigned number should never be reused. Letters should be used before the number to identify the genebank or national system (e.g. IDG indicates an accession that comes from the genebank at Bari, Italy; CGN indicates an accession from the genebank at Wageningen, The Netherlands; PI indicates an accession within the USA system).";
+  rdfs:subClassOf :CO_020_0000079 .
+
+:CO_020_0000000 a owl:Class;
+  rdfs:label "multicrop passport ontology";
+  oboInOwl:hasDbXref "GCPDomainModel:CO_000:0000165";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000000";
+  rdfs:comment """release date: July 31, 2007
+version: 1.0. Adapted from FAO/Bioversity Multi-Crop Passport Descriptors, 2004
+coverage: Multi-Crop Passport Descriptors
+creator: Jeffrey Detras, Tom Hazekamp and Richard Bruskiewich
+publisher: Bioversity International and IRRI under the Generation Challenge Program""" .
+
+:CO_020_0000029 a owl:Class;
+  rdfs:label "100 wild";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000090";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000029";
+  rdfs:subClassOf :CO_020_0000075 .
+
+:CO_020_0000034 a owl:Class;
+  rdfs:label "400 breeding or research material";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000159";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000034";
+  rdfs:subClassOf :CO_020_0000075 .
+
+:CO_020_0000062 a owl:Class;
+  rdfs:label "60 weedy, disturbed or ruderal habitat";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000198";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000062";
+  rdfs:subClassOf :CO_020_0000076 .
+
+:CO_020_0000082 a owl:Class;
+  rdfs:label "origin descriptor";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000082";
+  rdfs:subClassOf :CO_020_0000074 .
+
+:CO_020_0000086 a owl:Class;
+  rdfs:label "date descriptor";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000086";
+  rdfs:subClassOf :CO_020_0000074 .
+
+:CO_020_0000066 a owl:Class;
+  rdfs:label "10 seed collection";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000146";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000066";
+  rdfs:subClassOf :CO_020_0000078 .
+
+:CO_020_0000079 a owl:Class;
+  rdfs:label "germplasm identifier descriptor";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000079";
+  rdfs:subClassOf :CO_020_0000074 .
+
+:CO_020_0000001 a owl:ObjectProperty;
+  rdfs:label "range_of";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000001" .
+
+:CO_020_0000035 a owl:Class;
+  rdfs:label "410 breeder's line";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000093";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000035";
+  rdfs:subClassOf :CO_020_0000034 .
+
+:CO_020_0000044 a owl:Class;
+  rdfs:label "10 wild habitat";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000066";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000044";
+  rdfs:subClassOf :CO_020_0000076 .
+
+:CO_020_0000065 a owl:Class;
+  rdfs:label "MultiCropPassportDescriptorCode";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000065";
+  rdfs:comment "The coded values for some descriptors.";
+  rdfs:subClassOf :CO_020_0000000 .
+
+:CO_020_0000078 a owl:Class;
+  rdfs:label "TypeOfGermplasmStorageCode";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000143";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000078";
+  rdfs:subClassOf :CO_020_0000065, [
+    a owl:Restriction;
+    owl:onProperty :CO_020_0000001;
+    owl:someValuesFrom :CO_020_0000027
+  ] .
+
+:CO_020_0000088 a owl:Class;
+  rdfs:label "institute code";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000154",
+    "GCPDomainModel:CO_000:0000224";
+  oboInOwl:hasExactSynonym "(INSTCODE)";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000088";
+  rdfs:comment "Code of the institute where the accession is maintained. The codes consist of the 3-letter ISO 3166 country code of the country where the institute is located plus number or an acronym as specified in the Institute database that will be made available by FAO. Preliminary codes (i.e. codes not yet incorporated in the FAO Institute database) start with an asterisk followed by a 3-letter ISO 3166 country code and an acronym.";
+  rdfs:subClassOf :CO_020_0000080 .
+
+:CO_020_0000075 a owl:Class;
+  rdfs:label "BiologicalStatusOfAccessionCode";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000089",
+    "GCPDomainModel:CO_000:0000071";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000075";
+  rdfs:subClassOf :CO_020_0000065, [
+    a owl:Restriction;
+    owl:onProperty :CO_020_0000001;
+    owl:someValuesFrom :CO_020_0000020
+  ] .
+
+:CO_020_0000081 a owl:Class;
+  rdfs:label "taxonomy descriptor";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000081";
+  rdfs:subClassOf :CO_020_0000074 .
+
+:CO_020_0000087 a owl:Class;
+  rdfs:label "location descriptor";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000087";
+  rdfs:subClassOf :CO_020_0000082 .
+
+:CO_020_0000076 a owl:Class;
+  rdfs:label "CollectingOrAcquisitionSourceCode";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000065",
+    "GCPDomainModel:CO_000:0000136";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000076";
+  rdfs:subClassOf :CO_020_0000065, [
+    a owl:Restriction;
+    owl:onProperty :CO_020_0000001;
+    owl:someValuesFrom :CO_020_0000022
+  ] .
+
+:CO_020_0000050 a owl:Class;
+  rdfs:label "20 farm or cultivated habitat";
+  oboInOwl:hasDbXref "GCP germplasm ontology:CO_010:0000067";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000050";
+  rdfs:subClassOf :CO_020_0000076 .
+
+:CO_020_0000074 a owl:Class;
+  rdfs:label "multicrop passport descriptor";
+  oboInOwl:hasOBONamespace "multicrop passport ontology";
+  oboInOwl:id "CO_020:0000074";
+  rdfs:comment "The list of multi-crop passport descriptors is developed jointly by Bioversity (formerly IPGRI) and FAO to provide international standards to facilitate germplasm passport information exchange. These descriptors aim to be compatible with Bioversity crop descriptor lists and with the descriptors used for the FAO World Information and Early Warning System (WIEWS) on plant genetic resources (PGR). For each multi-crop passport descriptor, a brief explanation of content, coding scheme and suggested fieldname (in parentheses) is provided to assist in the computerized exchange of this type of data. It is recognized that networks or groups of users may want to further expand this GCP.mcpd List to meet their specific needs. As long as these additions allow for an easy conversion to the format proposed in the multi-crop passport descriptors, basic passport data can be exchanged worldwide in a consistent manner. AUTHORS: Adriana Alercia, Stefano Diulgheroff, Thomas Metz YEAR:2001";
+  rdfs:subClassOf :CO_020_0000000 .
