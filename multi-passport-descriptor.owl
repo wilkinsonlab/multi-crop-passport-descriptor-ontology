@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#"
-     xml:base="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl"
+<rdf:RDF xmlns="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#"
+     xml:base="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl">
+    <owl:Ontology rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl">
         <oboInOwl:NamespaceIdRule rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* CO_020:$sequence(7,0,9999999)$</oboInOwl:NamespaceIdRule>
         <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07:08:2009 11:34</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:default-namespace>
@@ -129,9 +129,9 @@
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001 -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001">
+    <owl:ObjectProperty rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001">
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000001</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">range_of</rdfs:label>
@@ -139,9 +139,9 @@
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000002 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000002 -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000002">
+    <owl:ObjectProperty rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000002">
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000002</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">descriptor_of</rdfs:label>
@@ -160,9 +160,9 @@
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000165</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000000</oboInOwl:id>
@@ -176,10 +176,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000003 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000003 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000003">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000003">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000014</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(COLLNUMB)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -190,10 +190,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000004 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000004 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000004">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000004">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000024</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(COLLCODE)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -204,10 +204,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000005 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000005 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000005">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000005">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000042</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000154</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(GENUS)</oboInOwl:hasExactSynonym>
@@ -219,10 +219,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000006 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000006 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000006">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000006">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000039</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000205</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(SPECIES)</oboInOwl:hasExactSynonym>
@@ -234,10 +234,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000007 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000007 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000007">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000007">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000157</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(SPAUTHOR)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -248,10 +248,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000008 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000008 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000008">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000008">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000040</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000151</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(SUBTAXA)</oboInOwl:hasExactSynonym>
@@ -264,10 +264,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000009 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000009 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000009">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000009">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000158</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(SUBTAUTHOR)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -278,10 +278,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000010 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000010 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000010">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000010">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000153</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(CROPNAME)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -292,10 +292,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000011 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000011 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000011">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000011">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000045</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ACCENAME)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -306,10 +306,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000012 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000012 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000012">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000012">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000057</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ACQDATE)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -320,10 +320,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000013 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000013 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000013">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000013">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000010</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000173</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ORIGCTY)</oboInOwl:hasExactSynonym>
@@ -335,10 +335,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000014 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000014 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000014">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000014">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000028</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(COLLSITE)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -349,10 +349,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000015 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000015 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000015">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000015">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000008</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(LATITUDE)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -363,10 +363,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000016 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000016 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000016">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000016">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000026</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(LONGITUDE)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -377,10 +377,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000017 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000017 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000017">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000017">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000004</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ELEVATION)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -391,10 +391,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000018 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000018 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000018">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000018">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000030</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(COLLDATE)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -405,10 +405,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000019 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000019 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000019">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000019">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000155</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(BREDCODE)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -419,10 +419,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000020 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000020 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000020">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000020">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000022</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000138</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(SAMPSTAT)</oboInOwl:hasExactSynonym>
@@ -434,10 +434,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000021 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000021 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000021">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000021">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000152</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ANCEST)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -448,10 +448,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000022 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000022 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000022">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000022">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000005</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(COLLSRC)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -462,10 +462,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000023 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000023 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000023">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000023">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000156</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DONORCODE)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -476,10 +476,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000024 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000024 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000024">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000089"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000024">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000089"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000059</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DONORNUMB)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -490,10 +490,10 @@ publisher: Bioversity International and IRRI under the Generation Challenge Prog
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000025 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000025 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000025">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000025">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000061</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OTHERNUMB)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -505,10 +505,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000026 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000026 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000026">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000026">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000126</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DUPLSITE)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -519,10 +519,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000027 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000027 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000027">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000027">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000137</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(STORAGE)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -533,10 +533,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000028 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000028 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000028">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000028">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000051</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(REMARKS)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -547,10 +547,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000090</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000029</oboInOwl:id>
@@ -559,10 +559,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000030 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000030 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000030">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000030">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000195</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000030</oboInOwl:id>
@@ -571,10 +571,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000031 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000031 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000031">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000031">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000196</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000031</oboInOwl:id>
@@ -583,10 +583,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000032 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000032 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000032">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000032">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000091</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000032</oboInOwl:id>
@@ -595,10 +595,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000033 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000033 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000033">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000033">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000092</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primitive cultivar</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
@@ -608,10 +608,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000159</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000034</oboInOwl:id>
@@ -620,10 +620,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000093</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000035</oboInOwl:id>
@@ -632,10 +632,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000036 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000036 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000036">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000036">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000164</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000036</oboInOwl:id>
@@ -644,10 +644,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000037 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000037 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000037">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000037">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000161</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000037</oboInOwl:id>
@@ -656,10 +656,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000038 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000038 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000038">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000038">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000160</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000038</oboInOwl:id>
@@ -668,10 +668,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000039 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000039 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000039">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000039">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000162</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000039</oboInOwl:id>
@@ -680,10 +680,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000040 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000040 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000040">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000040">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000163</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000040</oboInOwl:id>
@@ -692,10 +692,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000041 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000041 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000041">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000041">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000194</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000041</oboInOwl:id>
@@ -704,10 +704,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000042 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000042 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000042">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000042">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000094</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000042</oboInOwl:id>
@@ -716,10 +716,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000043 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000043 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000043">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000043">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000101</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000043</oboInOwl:id>
@@ -729,10 +729,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000066</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000044</oboInOwl:id>
@@ -741,10 +741,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000045 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000045 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000045">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000045">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000211</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000045</oboInOwl:id>
@@ -753,10 +753,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000046 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000046 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000046">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000046">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000213</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000046</oboInOwl:id>
@@ -765,10 +765,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000047 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000047 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000047">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000047">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000212</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000047</oboInOwl:id>
@@ -777,10 +777,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000048 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000048 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000048">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000048">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000210</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000048</oboInOwl:id>
@@ -789,10 +789,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000049 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000049 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000049">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000049">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000209</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000049</oboInOwl:id>
@@ -801,10 +801,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000067</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000050</oboInOwl:id>
@@ -813,10 +813,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000051 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000051 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000051">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000051">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000202</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000051</oboInOwl:id>
@@ -825,10 +825,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000052 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000052 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000052">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000052">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000203</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000052</oboInOwl:id>
@@ -837,10 +837,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000053 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000053 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000053">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000053">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000199</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000053</oboInOwl:id>
@@ -849,10 +849,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000054 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000054 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000054">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000054">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000200</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000054</oboInOwl:id>
@@ -861,10 +861,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000055 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000055 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000055">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000055">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000205</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000055</oboInOwl:id>
@@ -873,10 +873,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000056 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000056 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000056">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000056">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000201</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000056</oboInOwl:id>
@@ -885,10 +885,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000057 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000057 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000057">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000057">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000206</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000057</oboInOwl:id>
@@ -897,10 +897,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000058 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000058 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000058">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000058">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000204</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000058</oboInOwl:id>
@@ -909,10 +909,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000059 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000059 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000059">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000059">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000068</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000059</oboInOwl:id>
@@ -921,10 +921,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000060 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000060 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000060">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000060">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000069</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000060</oboInOwl:id>
@@ -933,10 +933,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000061 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000061 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000061">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000061">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000197</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000061</oboInOwl:id>
@@ -945,10 +945,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000198</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000062</oboInOwl:id>
@@ -957,10 +957,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000063 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000063 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000063">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000063">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000208</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000063</oboInOwl:id>
@@ -969,10 +969,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000064 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000064 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000064">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000064">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000207</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000064</oboInOwl:id>
@@ -981,10 +981,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000065</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The coded values for some descriptors.</rdfs:comment>
@@ -993,10 +993,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000146</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000066</oboInOwl:id>
@@ -1005,10 +1005,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000067 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000067 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000067">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000067">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000219</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000067</oboInOwl:id>
@@ -1017,10 +1017,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000068 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000068 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000068">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000068">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000218</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000068</oboInOwl:id>
@@ -1029,10 +1029,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000069 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000069 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000069">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000069">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000217</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000069</oboInOwl:id>
@@ -1041,10 +1041,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000070 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000070 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000070">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000070">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000144</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000070</oboInOwl:id>
@@ -1053,10 +1053,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000071 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000071 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000071">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000071">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000145</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000071</oboInOwl:id>
@@ -1066,10 +1066,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000072 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000072 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000072">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000072">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000216</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000072</oboInOwl:id>
@@ -1078,10 +1078,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000073 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000073 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000073">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000073">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000147</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000073</oboInOwl:id>
@@ -1091,10 +1091,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000074</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The list of multi-crop passport descriptors is developed jointly by Bioversity (formerly IPGRI) and FAO to provide international standards to facilitate germplasm passport information exchange. These descriptors aim to be compatible with Bioversity crop descriptor lists and with the descriptors used for the FAO World Information and Early Warning System (WIEWS) on plant genetic resources (PGR). For each multi-crop passport descriptor, a brief explanation of content, coding scheme and suggested fieldname (in parentheses) is provided to assist in the computerized exchange of this type of data. It is recognized that networks or groups of users may want to further expand this GCP.mcpd List to meet their specific needs. As long as these additions allow for an easy conversion to the format proposed in the multi-crop passport descriptors, basic passport data can be exchanged worldwide in a consistent manner. AUTHORS: Adriana Alercia, Stefano Diulgheroff, Thomas Metz YEAR:2001</rdfs:comment>
@@ -1103,14 +1103,14 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000020"/>
+                <owl:onProperty rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000089</oboInOwl:hasDbXref>
@@ -1122,14 +1122,14 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000022"/>
+                <owl:onProperty rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000065</oboInOwl:hasDbXref>
@@ -1141,10 +1141,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000077 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000077 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000077">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000077">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000102</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000077</oboInOwl:id>
@@ -1154,14 +1154,14 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000027"/>
+                <owl:onProperty rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000143</oboInOwl:hasDbXref>
@@ -1172,10 +1172,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000079</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">germplasm identifier descriptor</rdfs:label>
@@ -1183,10 +1183,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000080 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000080 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000080">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000080">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000080</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">institute descriptor</rdfs:label>
@@ -1194,10 +1194,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000081</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxonomy descriptor</rdfs:label>
@@ -1205,10 +1205,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000082</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">origin descriptor</rdfs:label>
@@ -1216,14 +1216,14 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000084 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000084 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000084">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000084">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
+                <owl:onProperty rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000215</oboInOwl:hasDbXref>
@@ -1234,14 +1234,14 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000085 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000085 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000085">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000085">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000013"/>
+                <owl:onProperty rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000214</oboInOwl:hasDbXref>
@@ -1252,10 +1252,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000086</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date descriptor</rdfs:label>
@@ -1263,10 +1263,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000087</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">location descriptor</rdfs:label>
@@ -1274,10 +1274,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000080"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000080"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000154</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000224</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(INSTCODE)</oboInOwl:hasExactSynonym>
@@ -1289,10 +1289,10 @@ Any other identification (numbers) known to exist in other collections for this 
     
 
 
-    <!-- https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000089 -->
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000089 -->
 
-    <owl:Class rdf:about="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000089">
-        <rdfs:subClassOf rdf:resource="https://w3id.orf/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000089">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000058</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ACCENUMB)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
