@@ -1,1308 +1,904 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#"
-     xml:base="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl">
-        <oboInOwl:NamespaceIdRule rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* CO_020:$sequence(7,0,9999999)$</oboInOwl:NamespaceIdRule>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07:08:2009 11:34</oboInOwl:date>
-        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:default-namespace>
-        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSHRESTHA</oboInOwl:saved-by>
-    </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#NamespaceIdRule -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#NamespaceIdRule">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">namespace-id-rule</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001 -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000001</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">range_of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000002 -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000002">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000002</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">descriptor_of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000165</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000000</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">release date: July 31, 2007
-version: 1.0. Adapted from FAO/Bioversity Multi-Crop Passport Descriptors, 2004
-coverage: Multi-Crop Passport Descriptors
-creator: Jeffrey Detras, Tom Hazekamp and Richard Bruskiewich
-publisher: Bioversity International and IRRI under the Generation Challenge Program</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000003 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000003">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000014</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(COLLNUMB)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000003</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Original number assigned by the collector(s) of the sample, normally composed of the name or initials of the collector(s) followed by a number. This item is essential for identifying duplicates held in different collections. It should be unique and always accompany subsamples wherever they are sent.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collecting number</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000004 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000004">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000024</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(COLLCODE)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000004</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Code of the Institute collecting the sample. If the holding institute has collected the material, the collecting institute code (COLLCODE) should be the same as the holding institute code (INSTCODE). Follows INSTCODE standard.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collecting institute code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000005 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000005">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000042</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000154</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(GENUS)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000005</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genus name for taxon. Initial Uppercase letter required.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000006 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000006">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000039</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000205</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(SPECIES)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000006</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specific epithet portion of the scientific name in lowercase letters plus authority1. Following abbreviation is allowed: sp.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000007 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000007">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000157</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(SPAUTHOR)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000007</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide the authority for the species name.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species authority</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000008 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000008">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000040</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000151</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(SUBTAXA)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subspecies</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000008</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subtaxa can be used to store any additional taxonomic identifier plus authority1. Following abbreviations are allowed: ssp. (for subspecies); var. (for variety); convar. (for convariety); f. (for form).</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subtaxa</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000009 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000009">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000158</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(SUBTAUTHOR)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000009</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide the subtaxa authority at the most detailed taxonomic level.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subtaxa authority</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000010 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000010">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000153</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(CROPNAME)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000010</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of the crop in colloquial language, preferably English (i.e. &apos;malting barley, &apos;cauliflower&apos;, or &apos;white cabbage&apos;)</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">common crop name</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000011 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000011">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000045</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ACCENAME)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000011</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Either a registered or other formal designation given to the accession. First letter uppercase. Multiple names separated with semicolon.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accession name</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000012 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000012">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000057</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ACQDATE)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000012</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date on which the accession entered the collection where YYYY is the year, MM is the month and DD is the day. Missing data (MM or DD) should be indicated with hyphens. Leading zeros are required. [DDMMYYYY].</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquisition date</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000013 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000013">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000010</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000173</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ORIGCTY)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000013</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of the country in which the sample was originally collected or derived. Use the ISO 3166 extended codes, (i.e. current and old 3 letter ISO 3166 country codes).</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">country of origin</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000014 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000014">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000028</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(COLLSITE)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000014</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location information below the country level that describes where the accession was collected starting with the most detailed information. Might include the distance in kilometers and direction from the nearest town, village or map grid reference point, (e.g. CURITIBA 7S, PARANA means 7 km south of Curitiba in the state of Parana).</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">location of collecting site</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000015 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000015">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000008</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(LATITUDE)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000015</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Degrees and minutes followed by N (North) or S (South) (e.g. 1030S). Missing data (minutes) should be indicated with hyphen (e.g. 10 S).</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latitude of collecting site</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000016 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000016">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000026</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(LONGITUDE)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000016</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Degrees and minutes followed by E (East) or W (West) (e.g. 07625W). Missing data (minutes) should be indicated with hyphen (e.g. 076 W).</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">longitude of collecting site</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000017 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000017">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000004</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ELEVATION)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000017</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevation of collecting site expressed in meters above sea level. Negative values allowed. Format: [m asl].</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elevation of collecting site</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000018 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000018">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000030</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(COLLDATE)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000018</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collecting date of the sample where YYYY is the year, MM is the month and DD is the day. Missing data (MM or DD) should be indicated with hyphens. Leading zeros are required. Format: [DDMMYYYY].</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collecting date of sample</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000019 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000019">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000155</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(BREDCODE)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000019</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Institute code of the institute that has bred the material. If the holding institute has bred the material, the breeding institute code (BREDCODE) should be the same as the holding institute code (INSTCODE). Follows INSTCODE standard.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breeding institute code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000020 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000020">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000022</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000138</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(SAMPSTAT)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000020</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The coding scheme proposed can be used at 3 different levels of detail: either by using the general codes (in boldface) such as 100, 200, 300, 400 or by using the more specific codes such as 110, 120 etc.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological status of accession</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000021 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000021">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000152</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ANCEST)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000021</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information about either pedigree or other description of ancestral information (i.e. parent variety in case of mutant or selection). For example a pedigree &apos;Hanna/7*Atlas//Turk/8*Atlas&apos; or a description &apos;mutation found in Hanna&apos;, &apos;selection from Irene&apos; or &apos;cross involving amongst others Hanna and Irene&apos;.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ancestral data</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000022 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000022">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000005</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(COLLSRC)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000022</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The coding scheme proposed can be used at 2 different levels of detail: Either by using the global codes such as 1, 2, 3, 4 or by using the more detailed coding such as 1.1, 1.2, 1.3 etc.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collecting or acquisition source</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000023 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000023">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000156</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DONORCODE)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000023</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Code for the donor institute. Follows INSTCODE standard.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">donor institute code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000024 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000024">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000089"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000059</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DONORNUMB)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000024</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number assigned to an accession by the donor. Follows ACCENUMB standard.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">donor accession number</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000025 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000025">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000061</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OTHERNUMB)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000025</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other identification (numbers) associated with the accession (OTHERNUMB).
-Any other identification (numbers) known to exist in other collections for this accession. Use the following system: INSTCODE:ACCENUMB;INSTCODE:ACCENUMB; INSTCODE and ACCENUMB follow the standard described above and are separated by a colon. Pairs of INSTCODE and ACCENUMB are separated by a semicolon without space. When the institute is not known, the number should be preceded by a colon.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other identification numbers associated with the accession</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000026 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000026">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000126</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DUPLSITE)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000026</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Code of the institute where a safety duplicate of the accession is maintained. Follows INSTCODE standard.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">location of safety duplicates</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000027 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000027">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000137</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(STORAGE)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000027</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If germplasm is maintained under different types of storage, multiple choices are allowed, separated by a semicolon (e.g. 20;30). (Refer to FAO/IPGRI Genebank Standards 1994 for details on storage type.).</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type of germplasm storage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000028 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000028">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000051</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(REMARKS)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000028</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The remarks field is used to add notes or to elaborate on descriptors with value 99 or 999 (=Other). Prefix remarks with the field name they refer to and a colon (e.g. COLLSRC:riverside). Separate remarks referring to different fields are separated by semicolons without space.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">remarks</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000090</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000029</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100 wild</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000030 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000030">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000195</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000030</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110 natural</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000031 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000031">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000029"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000196</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000031</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">120 semi-natural or wild</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000032 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000032">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000091</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000032</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200 weedy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000033 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000033">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000092</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primitive cultivar</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000033</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">300 traditional cultivar or landrace</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000159</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000034</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400 breeding or research material</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000093</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000035</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">410 breeder&apos;s line</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000036 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000036">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000164</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000036</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">411 synthetic population</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000037 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000037">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000161</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000037</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">412 hybrid</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000038 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000038">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000160</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000038</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">413 founder stock or base population</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000039 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000039">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000162</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000039</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">414 inbred line (parent of hybrid cultivar)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000040 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000040">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000035"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000163</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000040</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">415 segregating population</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000041 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000041">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000034"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000194</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000041</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">420 mutant or genetic stock</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000042 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000042">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000094</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000042</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500 advanced or improved cultivar</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000043 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000043">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000101</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000043</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elaborate in REMARKS field.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">999 other biological status of accession</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000066</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000044</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 wild habitat</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000045 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000045">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000211</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000045</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 forest or woodland</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000046 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000046">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000213</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000046</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 shrubland</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000047 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000047">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000212</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000047</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 grassland</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000048 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000048">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000210</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000048</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14 desert or tundra</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000049 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000049">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000044"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000209</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000049</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 aquatic habitat</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000067</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000050</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 farm or cultivated habitat</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000051 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000051">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000202</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000051</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21 field</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000052 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000052">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000203</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000052</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22 orchard</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000053 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000053">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000199</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000053</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 backyard, kitchen, or home garden (urban, peri-urban or rural)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000054 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000054">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000200</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000054</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 fallow land</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000055 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000055">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000205</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000055</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 pasture</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000056 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000056">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000201</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000056</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 farm store</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000057 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000057">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000206</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000057</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27 threshing floor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000058 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000058">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000050"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000204</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000058</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28 park</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000059 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000059">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000068</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000059</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 market or shop</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000060 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000060">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000069</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000060</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 institute, experimental station, research organization, genebank</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000061 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000061">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000197</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000061</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50 seed company</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000198</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000062</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60 weedy, disturbed or ruderal habitat</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000063 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000063">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000208</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000063</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61 roadside</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000064 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000064">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000062"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000207</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000064</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62 field margin</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000065</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The coded values for some descriptors.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MultiCropPassportDescriptorCode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000146</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000066</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 seed collection</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000067 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000067">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000219</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000067</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11short term</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000068 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000068">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000218</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000068</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 medium term</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000069 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000069">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000066"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000217</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000069</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 long term</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000070 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000070">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000144</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000070</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 field collection</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000071 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000071">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000145</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000071</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has slow growth.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 in vitro collection</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000072 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000072">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000216</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000072</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 cryopreserved collection</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000073 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000073">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000147</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000073</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elaborate in REMARKS field.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99 other type of germplasm storage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000000"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000074</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The list of multi-crop passport descriptors is developed jointly by Bioversity (formerly IPGRI) and FAO to provide international standards to facilitate germplasm passport information exchange. These descriptors aim to be compatible with Bioversity crop descriptor lists and with the descriptors used for the FAO World Information and Early Warning System (WIEWS) on plant genetic resources (PGR). For each multi-crop passport descriptor, a brief explanation of content, coding scheme and suggested fieldname (in parentheses) is provided to assist in the computerized exchange of this type of data. It is recognized that networks or groups of users may want to further expand this GCP.mcpd List to meet their specific needs. As long as these additions allow for an easy conversion to the format proposed in the multi-crop passport descriptors, basic passport data can be exchanged worldwide in a consistent manner. AUTHORS: Adriana Alercia, Stefano Diulgheroff, Thomas Metz YEAR:2001</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport descriptor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000075">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000020"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000089</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000071</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000075</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BiologicalStatusOfAccessionCode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000022"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000065</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000136</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000076</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CollectingOrAcquisitionSourceCode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000077 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000077">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000076"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000102</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000077</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elaborate in REMARKS field.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99 other collecting or acquisition source</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000078">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000143</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000078</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TypeOfGermplasmStorageCode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000079</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">germplasm identifier descriptor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000080 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000080">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000080</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">institute descriptor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000081">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000081</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxonomy descriptor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000082</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">origin descriptor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000084 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000084">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000215</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000084</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InstituteCode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000085 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000085">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000065"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000001"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000013"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000214</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000085</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CountryOfOriginCode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000086">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000074"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000086</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date descriptor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000087">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000082"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000087</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">location descriptor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000088">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000080"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000154</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCPDomainModel:CO_000:0000224</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(INSTCODE)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000088</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Code of the institute where the accession is maintained. The codes consist of the 3-letter ISO 3166 country code of the country where the institute is located plus number or an acronym as specified in the Institute database that will be made available by FAO. Preliminary codes (i.e. codes not yet incorporated in the FAO Institute database) start with an asterisk followed by a 3-letter ISO 3166 country code and an acronym.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">institute code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000089 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000089">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020_0000079"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCP germplasm ontology:CO_010:0000058</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ACCENUMB)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicrop passport ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO_020:0000089</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This number serves as a unique identifier for accessions and is assigned when an accession is entered into the collection. Once assigned this number should never be reassigned to another accession in the collection. Even if an accession is lost, its assigned number should never be reused. Letters should be used before the number to identify the genebank or national system (e.g. IDG indicates an accession that comes from the genebank at Bari, Italy; CGN indicates an accession from the genebank at Wageningen, The Netherlands; PI indicates an accession within the USA system).</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accession number</rdfs:label>
-    </owl:Class>
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">collecting number</rdfs:label>
+    <skos:prefLabel xml:lang="en">collecting number</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(COLLNUMB) EXACT []</skos:altLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000079">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">germplasm identifier descriptor</rdfs:label>
+        <skos:prefLabel xml:lang="en">germplasm identifier descriptor</skos:prefLabel>
+        <skos:broaderTransitive>
+          <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000074">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdfs:label xml:lang="en">multicrop passport descriptor</rdfs:label>
+            <skos:prefLabel xml:lang="en">multicrop passport descriptor</skos:prefLabel>
+            <skos:broaderTransitive>
+              <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000000">
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                <rdfs:label xml:lang="en">multicrop passport ontology</rdfs:label>
+                <skos:prefLabel xml:lang="en">multicrop passport ontology</skos:prefLabel>
+              </skos:Concept>
+            </skos:broaderTransitive>
+            <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000000"/>
+          </skos:Concept>
+        </skos:broaderTransitive>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000079"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">genus</rdfs:label>
+    <skos:prefLabel xml:lang="en">genus</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(GENUS) EXACT []</skos:altLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000081">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">taxonomy descriptor</rdfs:label>
+        <skos:prefLabel xml:lang="en">taxonomy descriptor</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000081"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">species</rdfs:label>
+    <skos:prefLabel xml:lang="en">species</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(SPECIES) EXACT []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000081"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000081"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000007">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">species authority</rdfs:label>
+    <skos:prefLabel xml:lang="en">species authority</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(SPAUTHOR) EXACT []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000081"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000081"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000008">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">subtaxa</rdfs:label>
+    <skos:prefLabel xml:lang="en">subtaxa</skos:prefLabel>
+    <skos:altLabel xml:lang="en">[(SUBTAXA) EXACT []</skos:altLabel>
+    <skos:altLabel xml:lang="en">Subspecies RELATED []]</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000081"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000081"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000009">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">subtaxa authority</rdfs:label>
+    <skos:prefLabel xml:lang="en">subtaxa authority</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(SUBTAUTHOR) EXACT []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000081"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000081"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000010">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">common crop name</rdfs:label>
+    <skos:prefLabel xml:lang="en">common crop name</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(CROPNAME) EXACT []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000081"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000081"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000011">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">accession name</rdfs:label>
+    <skos:prefLabel xml:lang="en">accession name</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(ACCENAME) EXACT []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000079"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000079"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000012">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">acquisition date</rdfs:label>
+    <skos:prefLabel xml:lang="en">acquisition date</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(ACQDATE) EXACT []</skos:altLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000086">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">date descriptor</rdfs:label>
+        <skos:prefLabel xml:lang="en">date descriptor</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000086"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000014">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">location of collecting site</rdfs:label>
+    <skos:prefLabel xml:lang="en">location of collecting site</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(COLLSITE) EXACT []</skos:altLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000087">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">location descriptor</rdfs:label>
+        <skos:prefLabel xml:lang="en">location descriptor</skos:prefLabel>
+        <skos:broaderTransitive>
+          <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000082">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdfs:label xml:lang="en">origin descriptor</rdfs:label>
+            <skos:prefLabel xml:lang="en">origin descriptor</skos:prefLabel>
+            <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+            <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+          </skos:Concept>
+        </skos:broaderTransitive>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000082"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000015">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">latitude of collecting site (degree, min, sec)</rdfs:label>
+    <skos:prefLabel xml:lang="en">latitude of collecting site (degree, min, sec)</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(LATITUDE) EXACT []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000016">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">longitude of collecting site (degree, min, sec)</rdfs:label>
+    <skos:prefLabel xml:lang="en">longitude of collecting site (degree, min, sec)</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(LONGITUDE) EXACT []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000017">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">elevation of collecting site</rdfs:label>
+    <skos:prefLabel xml:lang="en">elevation of collecting site</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(ELEVATION) EXACT []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000018">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">collecting date of sample</rdfs:label>
+    <skos:prefLabel xml:lang="en">collecting date of sample</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(COLLDATE) EXACT []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000086"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000086"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000021">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">ancestral data</rdfs:label>
+    <skos:prefLabel xml:lang="en">ancestral data</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(ANCEST) EXACT []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000082"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000082"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000024">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">donor accession number</rdfs:label>
+    <skos:prefLabel xml:lang="en">donor accession number</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(DONORNUMB) EXACT []</skos:altLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000089">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">accession number</rdfs:label>
+        <skos:prefLabel xml:lang="en">accession number</skos:prefLabel>
+        <skos:altLabel xml:lang="en">(ACCENUMB) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000079"/>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000079"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000089"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000025">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">other identification numbers associated with the accession</rdfs:label>
+    <skos:prefLabel xml:lang="en">other identification numbers associated with the accession</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(OTHERNUMB) EXACT []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000079"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000079"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000028">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">remarks</rdfs:label>
+    <skos:prefLabel xml:lang="en">remarks</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(REMARKS) EXACT []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000030">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">110 natural</rdfs:label>
+    <skos:prefLabel xml:lang="en">110 natural</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000029">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">100 wild</rdfs:label>
+        <skos:prefLabel xml:lang="en">100 wild</skos:prefLabel>
+        <skos:broaderTransitive>
+          <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000075">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdfs:label xml:lang="en">BiologicalStatusOfAccessionCode</rdfs:label>
+            <skos:prefLabel xml:lang="en">BiologicalStatusOfAccessionCode</skos:prefLabel>
+            <skos:broader>
+              <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000065">
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                <rdfs:label xml:lang="en">MultiCropPassportDescriptorCode</rdfs:label>
+                <skos:prefLabel xml:lang="en">MultiCropPassportDescriptorCode</skos:prefLabel>
+                <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000000"/>
+                <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000000"/>
+              </skos:Concept>
+            </skos:broader>
+            <skos:broader>
+              <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000020">
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                <rdfs:label xml:lang="en">biological status of accession</rdfs:label>
+                <skos:prefLabel xml:lang="en">biological status of accession</skos:prefLabel>
+                <skos:altLabel xml:lang="en">(SAMPSTAT) EXACT []</skos:altLabel>
+                <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+                <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+              </skos:Concept>
+            </skos:broader>
+          </skos:Concept>
+        </skos:broaderTransitive>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000075"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000029"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000031">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">120 semi-natural or wild</rdfs:label>
+    <skos:prefLabel xml:lang="en">120 semi-natural or wild</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000029"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000029"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000032">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">200 weedy</rdfs:label>
+    <skos:prefLabel xml:lang="en">200 weedy</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000075"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000075"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000033">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">300 traditional cultivar or landrace</rdfs:label>
+    <skos:prefLabel xml:lang="en">300 traditional cultivar or landrace</skos:prefLabel>
+    <skos:altLabel xml:lang="en">primitive cultivar EXACT []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000075"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000075"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000036">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">411 synthetic population</rdfs:label>
+    <skos:prefLabel xml:lang="en">411 synthetic population</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000035">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">410 breeder's line</rdfs:label>
+        <skos:prefLabel xml:lang="en">410 breeder's line</skos:prefLabel>
+        <skos:broaderTransitive>
+          <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000034">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdfs:label xml:lang="en">400 breeding or research material</rdfs:label>
+            <skos:prefLabel xml:lang="en">400 breeding or research material</skos:prefLabel>
+            <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000075"/>
+            <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000075"/>
+          </skos:Concept>
+        </skos:broaderTransitive>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000034"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000035"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000037">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">412 hybrid</rdfs:label>
+    <skos:prefLabel xml:lang="en">412 hybrid</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000035"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000035"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000038">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">413 founder stock or base population</rdfs:label>
+    <skos:prefLabel xml:lang="en">413 founder stock or base population</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000035"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000035"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000039">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">414 inbred line (parent of hybrid cultivar)</rdfs:label>
+    <skos:prefLabel xml:lang="en">414 inbred line (parent of hybrid cultivar)</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000035"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000035"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000040">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">415 segregating population</rdfs:label>
+    <skos:prefLabel xml:lang="en">415 segregating population</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000035"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000035"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000042">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">500 advanced or improved cultivar</rdfs:label>
+    <skos:prefLabel xml:lang="en">500 advanced or improved cultivar</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000075"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000075"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000043">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">999 other biological status of accession</rdfs:label>
+    <skos:prefLabel xml:lang="en">999 other biological status of accession</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000075"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000075"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000045">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">11 forest or woodland</rdfs:label>
+    <skos:prefLabel xml:lang="en">11 forest or woodland</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000044">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">10 wild habitat</rdfs:label>
+        <skos:prefLabel xml:lang="en">10 wild habitat</skos:prefLabel>
+        <skos:broaderTransitive>
+          <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000076">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdfs:label xml:lang="en">CollectingOrAcquisitionSourceCode</rdfs:label>
+            <skos:prefLabel xml:lang="en">CollectingOrAcquisitionSourceCode</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.cropontology.org/rdf/CO_020:0000065"/>
+            <skos:broader>
+              <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000022">
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                <rdfs:label xml:lang="en">collecting or acquisition source</rdfs:label>
+                <skos:prefLabel xml:lang="en">collecting or acquisition source</skos:prefLabel>
+                <skos:altLabel xml:lang="en">(COLLSRC) EXACT []</skos:altLabel>
+                <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+                <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+              </skos:Concept>
+            </skos:broader>
+          </skos:Concept>
+        </skos:broaderTransitive>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000076"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000044"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000046">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">12 shrubland</rdfs:label>
+    <skos:prefLabel xml:lang="en">12 shrubland</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000044"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000044"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000047">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">13 grassland</rdfs:label>
+    <skos:prefLabel xml:lang="en">13 grassland</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000044"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000044"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000048">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">14 desert or tundra</rdfs:label>
+    <skos:prefLabel xml:lang="en">14 desert or tundra</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000044"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000044"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000049">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">15 aquatic habitat</rdfs:label>
+    <skos:prefLabel xml:lang="en">15 aquatic habitat</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000044"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000044"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000051">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">21 field</rdfs:label>
+    <skos:prefLabel xml:lang="en">21 field</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000050">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">20 farm or cultivated habitat</rdfs:label>
+        <skos:prefLabel xml:lang="en">20 farm or cultivated habitat</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000076"/>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000076"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000052">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">22 orchard</rdfs:label>
+    <skos:prefLabel xml:lang="en">22 orchard</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000053">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">23 backyard, kitchen, or home garden (urban, peri-urban or rural)</rdfs:label>
+    <skos:prefLabel xml:lang="en">23 backyard, kitchen, or home garden (urban, peri-urban or rural)</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000054">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">24 fallow land</rdfs:label>
+    <skos:prefLabel xml:lang="en">24 fallow land</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000055">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">25 pasture</rdfs:label>
+    <skos:prefLabel xml:lang="en">25 pasture</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000056">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">26 farm store</rdfs:label>
+    <skos:prefLabel xml:lang="en">26 farm store</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000057">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">27 threshing floor</rdfs:label>
+    <skos:prefLabel xml:lang="en">27 threshing floor</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000058">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">28 park</rdfs:label>
+    <skos:prefLabel xml:lang="en">28 park</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000050"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000059">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">30 market or shop</rdfs:label>
+    <skos:prefLabel xml:lang="en">30 market or shop</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000076"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000076"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000060">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">40 institute, experimental station, research organization, genebank</rdfs:label>
+    <skos:prefLabel xml:lang="en">40 institute, experimental station, research organization, genebank</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000076"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000076"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000061">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">50 seed company</rdfs:label>
+    <skos:prefLabel xml:lang="en">50 seed company</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000076"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000076"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000063">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">61 roadside</rdfs:label>
+    <skos:prefLabel xml:lang="en">61 roadside</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000062">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">60 weedy, disturbed or ruderal habitat</rdfs:label>
+        <skos:prefLabel xml:lang="en">60 weedy, disturbed or ruderal habitat</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000076"/>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000076"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000062"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000064">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">62 field margin</rdfs:label>
+    <skos:prefLabel xml:lang="en">62 field margin</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000062"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000062"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000067">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">11short term</rdfs:label>
+    <skos:prefLabel xml:lang="en">11short term</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000066">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">10 seed collection</rdfs:label>
+        <skos:prefLabel xml:lang="en">10 seed collection</skos:prefLabel>
+        <skos:broaderTransitive>
+          <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000078">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdfs:label xml:lang="en">TypeOfGermplasmStorageCode</rdfs:label>
+            <skos:prefLabel xml:lang="en">TypeOfGermplasmStorageCode</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.cropontology.org/rdf/CO_020:0000065"/>
+            <skos:broader>
+              <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000027">
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                <rdfs:label xml:lang="en">type of germplasm storage</rdfs:label>
+                <skos:prefLabel xml:lang="en">type of germplasm storage</skos:prefLabel>
+                <skos:altLabel xml:lang="en">(STORAGE) EXACT []</skos:altLabel>
+                <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+                <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+              </skos:Concept>
+            </skos:broader>
+          </skos:Concept>
+        </skos:broaderTransitive>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000078"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000066"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000068">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">12 medium term</rdfs:label>
+    <skos:prefLabel xml:lang="en">12 medium term</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000066"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000066"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000069">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">13 long term</rdfs:label>
+    <skos:prefLabel xml:lang="en">13 long term</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000066"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000066"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000070">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">20 field collection</rdfs:label>
+    <skos:prefLabel xml:lang="en">20 field collection</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000078"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000078"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000071">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">30 in vitro collection</rdfs:label>
+    <skos:prefLabel xml:lang="en">30 in vitro collection</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000078"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000078"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000072">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">40 cryopreserved collection</rdfs:label>
+    <skos:prefLabel xml:lang="en">40 cryopreserved collection</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000078"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000078"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000073">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">99 other type of germplasm storage</rdfs:label>
+    <skos:prefLabel xml:lang="en">99 other type of germplasm storage</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000078"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000078"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000077">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">99 other collecting or acquisition source</rdfs:label>
+    <skos:prefLabel xml:lang="en">99 other collecting or acquisition source</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000076"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000076"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000084">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">InstituteCode</rdfs:label>
+    <skos:prefLabel xml:lang="en">InstituteCode</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.cropontology.org/rdf/CO_020:0000065"/>
+    <skos:broader>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000088">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">institute code</rdfs:label>
+        <skos:prefLabel xml:lang="en">institute code</skos:prefLabel>
+        <skos:altLabel xml:lang="en">(INSTCODE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive>
+          <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000080">
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdfs:label xml:lang="en">institute descriptor</rdfs:label>
+            <skos:prefLabel xml:lang="en">institute descriptor</skos:prefLabel>
+            <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+            <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+          </skos:Concept>
+        </skos:broaderTransitive>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000080"/>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000085">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">CountryOfOriginCode</rdfs:label>
+    <skos:prefLabel xml:lang="en">CountryOfOriginCode</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.cropontology.org/rdf/CO_020:0000065"/>
+    <skos:broader>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000013">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">country of origin</rdfs:label>
+        <skos:prefLabel xml:lang="en">country of origin</skos:prefLabel>
+        <skos:altLabel xml:lang="en">(ORIGCTY) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000090">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">collecting institute address</rdfs:label>
+    <skos:prefLabel xml:lang="en">collecting institute address</skos:prefLabel>
+    <skos:altLabel xml:lang="en">COLLINSTADDRESS RELATED []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000088"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000088"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000091">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">collecting mission identifier</rdfs:label>
+    <skos:prefLabel xml:lang="en">collecting mission identifier</skos:prefLabel>
+    <skos:altLabel xml:lang="en">COLLMISSID RELATED []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000088"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000088"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000092">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">latitude of collecting site (decimal degree)</rdfs:label>
+    <skos:prefLabel xml:lang="en">latitude of collecting site (decimal degree)</skos:prefLabel>
+    <skos:altLabel xml:lang="en">DECLATITUDE RELATED []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000093">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">longitude of collecting site (decimal degree)</rdfs:label>
+    <skos:prefLabel xml:lang="en">longitude of collecting site (decimal degree)</skos:prefLabel>
+    <skos:altLabel xml:lang="en">DECLONGITUDE RELATED []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000094">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">coordinate uncertainty</rdfs:label>
+    <skos:prefLabel xml:lang="en">coordinate uncertainty</skos:prefLabel>
+    <skos:altLabel xml:lang="en">COORDUNCERT RELATED []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000095">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">coordinate datum</rdfs:label>
+    <skos:prefLabel xml:lang="en">coordinate datum</skos:prefLabel>
+    <skos:altLabel xml:lang="en">COORDDATUM RELATED []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000096">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">georeferencing method</rdfs:label>
+    <skos:prefLabel xml:lang="en">georeferencing method</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GEOREFMETH RELATED []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000087"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000097">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Breeding institute name</rdfs:label>
+    <skos:prefLabel xml:lang="en">Breeding institute name</skos:prefLabel>
+    <skos:altLabel xml:lang="en">BREDNAME RELATED []</skos:altLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000019">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">breeding institute code</rdfs:label>
+        <skos:prefLabel xml:lang="en">breeding institute code</skos:prefLabel>
+        <skos:altLabel xml:lang="en">(BREDCODE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000088"/>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000088"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000019"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000098">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">130 semi-natural or sown</rdfs:label>
+    <skos:prefLabel xml:lang="en">130 semi-natural or sown</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000029"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000029"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000099">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">416 clonal selection</rdfs:label>
+    <skos:prefLabel xml:lang="en">416 clonal selection</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000035"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000035"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000100">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">421 mutant</rdfs:label>
+    <skos:prefLabel xml:lang="en">421 mutant</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000041">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">420 genetic stock</rdfs:label>
+        <skos:prefLabel xml:lang="en">420 genetic stock</skos:prefLabel>
+        <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000034"/>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000034"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000041"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000101">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">422 cytogenic stocks</rdfs:label>
+    <skos:prefLabel xml:lang="en">422 cytogenic stocks</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000041"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000041"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000102">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">423 Other genetic stocks</rdfs:label>
+    <skos:prefLabel xml:lang="en">423 Other genetic stocks</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000041"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000041"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000103">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">600 GMO</rdfs:label>
+    <skos:prefLabel xml:lang="en">600 GMO</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000075"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000075"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000104">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">donor institute name</rdfs:label>
+    <skos:prefLabel xml:lang="en">donor institute name</skos:prefLabel>
+    <skos:altLabel xml:lang="en">DONORNAME RELATED []</skos:altLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000023">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">donor institute code</rdfs:label>
+        <skos:prefLabel xml:lang="en">donor institute code</skos:prefLabel>
+        <skos:altLabel xml:lang="en">(DONORCODE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000088"/>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000088"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000023"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000105">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Institute maintaining safety duplicates</rdfs:label>
+    <skos:prefLabel xml:lang="en">Institute maintaining safety duplicates</skos:prefLabel>
+    <skos:altLabel xml:lang="en">DUPLINSTNAME RELATED []</skos:altLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000026">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">location of safety duplicates</rdfs:label>
+        <skos:prefLabel xml:lang="en">location of safety duplicates</skos:prefLabel>
+        <skos:altLabel xml:lang="en">(DUPLSITE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000088"/>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000088"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000026"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000106">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">50 DNA collection</rdfs:label>
+    <skos:prefLabel xml:lang="en">50 DNA collection</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000078"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000078"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000108">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">0 No</rdfs:label>
+    <skos:prefLabel xml:lang="en">0 No</skos:prefLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000107">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">MLS status of the accession</rdfs:label>
+        <skos:prefLabel xml:lang="en">MLS status of the accession</skos:prefLabel>
+        <skos:altLabel xml:lang="en">MLSSTAT RELATED []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000107"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000109">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">1 Yes</rdfs:label>
+    <skos:prefLabel xml:lang="en">1 Yes</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000107"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000107"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000110">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">99 Other</rdfs:label>
+    <skos:prefLabel xml:lang="en">99 Other</skos:prefLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000107"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000107"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000111">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">collecting institute name</rdfs:label>
+    <skos:prefLabel xml:lang="en">collecting institute name</skos:prefLabel>
+    <skos:altLabel xml:lang="en">(COLLNAME) EXACT []</skos:altLabel>
+    <skos:broaderTransitive>
+      <skos:Concept rdf:about="http://www.cropontology.org/rdf/CO_020:0000004">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label xml:lang="en">collecting institute code</rdfs:label>
+        <skos:prefLabel xml:lang="en">collecting institute code</skos:prefLabel>
+        <skos:altLabel xml:lang="en">(COLLCODE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000088"/>
+        <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000088"/>
+      </skos:Concept>
+    </skos:broaderTransitive>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000004"/>
+  </skos:Concept>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/Code">
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/Computation">
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/Method"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/Method"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/Counting">
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/Method"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/Method"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/Duration">
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/Estimation">
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/Method"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/Method"/>
+  </rdf:Description>
+  <skos:Concept rdf:about="http://www.cropontology.org/rdf/ID:0000000">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">persistent unique identifier</rdfs:label>
+    <skos:prefLabel xml:lang="en">persistent unique identifier</skos:prefLabel>
+    <skos:altLabel xml:lang="en">PUID RELATED []</skos:altLabel>
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/CO_020:0000074"/>
+  </skos:Concept>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/Measurement">
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/Method"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/Method"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/Nominal">
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/Numerical">
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/Ordinal">
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/Text">
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/Time">
+    <skos:broaderTransitive rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+    <rdfs:subClassOf rdf:resource="http://www.cropontology.org/rdf/Scale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/acronym">
+    <rdfs:subProperty rdf:resource="http://www.w3.org/2004/02/skos/core#altLabel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/method_of">
+    <rdfs:subProperty rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <rdfs:subProperty rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/scale_of">
+    <rdfs:subProperty rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <rdfs:subProperty rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cropontology.org/rdf/variable_of">
+    <rdfs:subProperty rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <rdfs:subProperty rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
 </rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
