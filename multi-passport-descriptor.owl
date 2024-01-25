@@ -7,9 +7,18 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <Ontology/>
-    
+    <owl:Ontology>
+        <owl:versionIRI rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from FAO/Bioversity Multi-Crop Passport Descriptors, 2004\ncoverage: Multi-Crop Passport Descriptors\ncreator: Jeffrey Detras, Tom Hazekamp and Richard Bruskiewich\npublisher: Bioversity International and IRRI under the Generation Challenge Program</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multicrop Passport Ontology</dc:title>
+        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mark Wilkinson</oboInOwl:saved-by>
+    </owl:Ontology>
+     
 
 
     <!-- 
