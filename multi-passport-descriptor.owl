@@ -25,25 +25,25 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#broader -->
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#broaderTransitive -->
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
     
 
 
@@ -60,986 +60,986 @@
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Code -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Code">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Code">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
         <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Computation -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Computation">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Computation">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Method"/>
         <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Method"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Counting -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Counting">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Counting">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Method"/>
         <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Method"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Duration -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Duration">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Duration">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
         <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Estimation -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Estimation">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Estimation">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Method"/>
         <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Method"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Measurement -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Measurement">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Measurement">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Method"/>
         <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Method"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Method -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Method"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Method"/>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Nominal -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Nominal">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Nominal">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
         <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Numerical -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Numerical">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Numerical">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
         <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Ordinal -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Ordinal">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Ordinal">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
         <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Text -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Text">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Text">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
         <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Time -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Time">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Time">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
         <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Scale"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000"/>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000003 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000003">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000003">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000005 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000005">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000005">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000006 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000006">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000006">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000007 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000007">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000007">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000008 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000008">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000008">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000009 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000009">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000009">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000010 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000010">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000010">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000011 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000011">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000011">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000012 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000012">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000012">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000013 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000013">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000013">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000014 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000014">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000014">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000015 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000015">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000015">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000016 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000016">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000016">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000017 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000017">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000017">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000018 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000018">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000018">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000020 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000020">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000020">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000021 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000021">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000021">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000022 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000022">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000022">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000024 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000024">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000024">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000025 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000025">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000025">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000027 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000027">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000027">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000028 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000028">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000028">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000030 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000030">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000030">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000031 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000031">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000031">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000032 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000032">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000032">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000033 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000033">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000033">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000036 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000036">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000036">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000037 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000037">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000037">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000038 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000038">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000038">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000039 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000039">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000039">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000040 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000040">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000040">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000042 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000042">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000042">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000043 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000043">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000043">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000045 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000045">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000045">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000046 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000046">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000046">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000047 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000047">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000047">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000048 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000048">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000048">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000049 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000049">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000049">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000051 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000051">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000051">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000052 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000052">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000052">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000053 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000053">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000053">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000054 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000054">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000054">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000055 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000055">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000055">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000056 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000056">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000056">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000057 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000057">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000057">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000058 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000058">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000058">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000059 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000059">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000059">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000060 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000060">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000060">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000061 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000061">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000061">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000063 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000063">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000063">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000064 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000064">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000064">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000067 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000067">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000067">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000068 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000068">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000068">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000069 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000069">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000069">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000070 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000070">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000070">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000071 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000071">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000071">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000072 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000072">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000072">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000073 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000073">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000073">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000077 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000077">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000077">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000084 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000084"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000084"/>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000085 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000085"/>
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000085"/>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000090 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000090">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000090">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000091 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000091">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000091">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000092 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000092">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000092">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000093 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000093">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000093">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000094 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000094">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000094">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000095 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000095">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000095">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000096 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000096">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000096">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000097 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000097">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000097">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000098 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000098">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000098">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000099 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000099">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000099">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000100 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000100">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000100">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000101 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000101">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000101">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000102 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000102">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000102">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000103 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000103">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000103">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000104 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000104">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000104">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000105 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000105">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000105">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000106 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000106">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000106">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000108 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000108">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000108">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000109 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000109">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000109">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000110 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000110">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000110">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000111 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000111">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000111">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#ID:0000000 -->
 
-    <Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#ID:0000000">
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#ID:0000000">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
-    </Class>
+    </owl:Class>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Concept -->
 
-    <Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
     
 
 
@@ -1056,881 +1056,881 @@
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000003 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000003">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000003">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000005 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000005">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000005">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000006 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000006">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000006">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000007 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000007">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000007">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000008 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000008">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000008">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000009 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000009">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000009">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000010 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000010">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000010">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000011 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000011">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000011">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000012 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000012">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000012">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000013 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000013">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000013">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000014 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000014">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000014">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000015 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000015">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000015">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000016 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000016">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000016">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000017 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000017">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000017">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000018 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000018">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000018">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000020 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000020">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000020">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000021 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000021">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000021">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000022 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000022">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000022">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000024 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000024">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000024">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000025 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000025">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000025">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000027 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000027">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000027">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000028 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000028">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000028">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000030 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000030">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000030">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000031 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000031">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000031">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000032 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000032">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000032">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000033 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000033">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000033">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000036 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000036">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000036">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000037 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000037">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000037">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000038 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000038">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000038">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000039 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000039">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000039">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000040 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000040">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000040">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000042 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000042">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000042">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000043 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000043">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000043">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000045 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000045">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000045">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000046 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000046">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000046">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000047 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000047">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000047">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000048 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000048">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000048">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000049 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000049">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000049">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000051 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000051">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000051">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000052 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000052">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000052">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000053 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000053">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000053">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000054 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000054">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000054">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000055 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000055">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000055">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000056 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000056">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000056">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000057 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000057">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000057">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000058 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000058">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000058">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000059 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000059">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000059">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000060 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000060">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000060">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000061 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000061">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000061">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000063 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000063">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000063">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000064 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000064">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000064">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000067 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000067">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000067">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000068 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000068">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000068">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000069 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000069">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000069">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000070 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000070">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000070">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000071 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000071">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000071">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000072 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000072">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000072">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000073 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000073">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000073">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000077 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000077">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000077">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000084 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000084">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000084">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000085 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000085">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000085">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000090 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000090">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000090">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000091 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000091">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000091">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000092 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000092">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000092">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000093 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000093">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000093">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000094 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000094">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000094">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000095 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000095">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000095">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000096 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000096">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000096">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000097 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000097">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000097">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000098 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000098">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000098">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000099 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000099">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000099">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000100 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000100">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000100">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000101 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000101">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000101">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000102 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000102">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000102">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000103 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000103">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000103">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000104 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000104">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000104">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000105 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000105">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000105">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000106 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000106">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000106">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000108 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000108">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000108">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000109 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000109">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000109">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000110 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000110">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000110">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000111 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000111">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000111">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#ID:0000000 -->
 
-    <NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#ID:0000000">
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#ID:0000000">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
