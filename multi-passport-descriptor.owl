@@ -12,10 +12,10 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology>
         <owl:versionIRI rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl"/>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from FAO/Bioversity Multi-Crop Passport Descriptors, 2004\ncoverage: Multi-Crop Passport Descriptors\ncreator: Jeffrey Detras, Tom Hazekamp and Richard Bruskiewich\npublisher: Bioversity International and IRRI under the Generation Challenge Program</dc:description>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from FAO/Bioversity Multi-Crop Passport Descriptors, 2004,\nBrought into-compliance with the Alercia et al (2015) https://hdl.handle.net/10568/69166 FAO descriptors.\nFurther extended with Spanish translations.\ncoverage: Multi-Crop Passport Descriptors\nOriginal Creators: Jeffrey Detras, Tom Hazekamp and Richard Bruskiewich\npublisher: Bioversity International and IRRI under the Generation Challenge Program\bn Current Version Curators: Mark D Wilkinson, Alberto Camará, Santiago Moreno-Vázquez</dc:description>
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multicrop Passport Ontology</dc:title>
         <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-1.0</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mark Wilkinson</oboInOwl:saved-by>
     </owl:Ontology>
      
