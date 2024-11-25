@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#"
      xml:base="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -9,15 +8,17 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology>
-        <dc:description>Adapted from FAO/Bioversity Multi-Crop Passport Descriptors, 2004,\nBrought into-compliance with the Alercia et al (2015) https://hdl.handle.net/10568/69166 FAO descriptors.\nFurther extended with Spanish translations.\ncoverage: Multi-Crop Passport Descriptors\nOriginal Creators: Jeffrey Detras, Tom Hazekamp and Richard Bruskiewich\npublisher: Bioversity International and IRRI under the Generation Challenge Program\bn Current Version Curators: Mark D Wilkinson, Alberto Camará, Santiago Moreno-Vázquez</dc:description>
-        <dc:title>Multicrop Passport Ontology</dc:title>
+        <owl:versionIRI rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from FAO/Bioversity Multi-Crop Passport Descriptors, 2004,\nBrought into-compliance with the Alercia et al (2015) https://hdl.handle.net/10568/69166 FAO descriptors.\nFurther extended with Spanish translations.\ncoverage: Multi-Crop Passport Descriptors\nOriginal Creators: Jeffrey Detras, Tom Hazekamp and Richard Bruskiewich\npublisher: Bioversity International and IRRI under the Generation Challenge Program\bn Current Version Curators: Mark D Wilkinson, Alberto Camará, Santiago Moreno-Vázquez</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multicrop Passport Ontology</dc:title>
         <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <oboInOwl:hasOBOFormatVersion>2024-1.0</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:saved-by>Mark Wilkinson</oboInOwl:saved-by>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-1.0</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mark Wilkinson</oboInOwl:saved-by>
     </owl:Ontology>
-    
+     
 
 
     <!-- 
@@ -28,36 +29,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/description -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/title -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
     
 
 
@@ -88,48 +59,11 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000115 -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000115">
-        <rdfs:label xml:lang="en">acquisition time</rdfs:label>
-        <skos:prefLabel xml:lang="en">acquisition time</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">día de adquisición</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000116 -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000116">
-        <rdfs:label xml:lang="en">collection time</rdfs:label>
-        <rdfs:label xml:lang="es">día de recolección</rdfs:label>
-        <skos:prefLabel xml:lang="en">collection time</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
-
-    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
     
 
 
@@ -1104,41 +1038,17 @@
     
 
 
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000112 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000112">
-        <rdfs:label xml:lang="es">categoría de peligro de extinción</rdfs:label>
-        <rdfs:label xml:lang="en">endangerment category</rdfs:label>
-        <skos:prefLabel xml:lang="en">endangerment category</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000113 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000113">
-        <rdfs:label xml:lang="en">national catalogue code</rdfs:label>
-        <skos:prefLabel xml:lang="es">código del catálogo nacional</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">national catalogue code</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000117 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000117">
-        <rdfs:label xml:lang="en">determination status</rdfs:label>
-        <rdfs:label xml:lang="es">estado de determinación</rdfs:label>
-        <skos:prefLabel>determination status</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#ID:0000000 -->
 
     <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#ID:0000000">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
     
 
 
@@ -2642,5 +2552,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
