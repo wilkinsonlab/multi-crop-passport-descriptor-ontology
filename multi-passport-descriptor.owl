@@ -11,10 +11,10 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology>
-        <dc:description>Adapted from FAO/Bioversity Multi-Crop Passport Descriptors, 2004,\nBrought into-compliance with the Alercia et al (2015) https://hdl.handle.net/10568/69166 FAO descriptors.\nFurther extended with Spanish translations.\ncoverage: Multi-Crop Passport Descriptors\nOriginal Creators: Jeffrey Detras, Tom Hazekamp and Richard Bruskiewich\npublisher: Bioversity International and IRRI under the Generation Challenge Program\bn Current Version Curators: Mark D Wilkinson, Alberto Camará, Santiago Moreno-Vázquez</dc:description>
+        <dc:description>Adapted from FAO/Bioversity Multi-Crop Passport Descriptors, 2004\ncoverage: Multi-Crop Passport Descriptors\ncreator: Jeffrey Detras, Tom Hazekamp and Richard Bruskiewich\npublisher: Bioversity International and IRRI under the Generation Challenge Program</dc:description>
         <dc:title>Multicrop Passport Ontology</dc:title>
         <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <oboInOwl:hasOBOFormatVersion>2024-1.0</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:hasOBOFormatVersion>1.0</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by>Mark Wilkinson</oboInOwl:saved-by>
     </owl:Ontology>
     
@@ -88,42 +88,1524 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000115 -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000115">
-        <rdfs:label xml:lang="en">acquisition time</rdfs:label>
-        <skos:prefLabel xml:lang="en">acquisition time</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">día de adquisición</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000116 -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000116">
-        <rdfs:label xml:lang="en">collection time</rdfs:label>
-        <rdfs:label xml:lang="es">día de recolección</rdfs:label>
-        <skos:prefLabel xml:lang="en">collection time</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ACQDate -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ACQDate">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dates"/>
+        <rdfs:comment xml:lang="en">Date on which the accession entered the collection where YYYY is the year, MM is the month
+and DD is the day. Missing data (MM or DD) should be indicated with hyphens or ‘00’ [double
+zero]</rdfs:comment>
+        <rdfs:label xml:lang="en">acq date</rdfs:label>
+        <rdfs:label xml:lang="es">fecha entrada accesión</rdfs:label>
+        <skos:prefLabel xml:lang="en">acq date</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">fecha entrada accesión</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AcceDOI -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#AcceDOI">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AccessionCodes"/>
+        <rdfs:comment xml:lang="en">Ex situ  DOI</rdfs:comment>
+        <rdfs:label xml:lang="es">Ex situ DOI</rdfs:label>
+        <rdfs:label xml:lang="en">acce DOI</rdfs:label>
+        <skos:prefLabel xml:lang="es">Ex situ DOI</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">acce DOI</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AcceNumb -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#AcceNumb">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AccessionCodes"/>
+        <dc:description xml:lang="en">This is the unique identifier for accessions within a genebank, and is assigned when a sample is
+entered into the genebank collection</dc:description>
+        <rdfs:label xml:lang="en">acce numb</rdfs:label>
+        <rdfs:label xml:lang="es">número accesión BGV-UPM</rdfs:label>
+        <skos:prefLabel xml:lang="en">acce numb</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">número accesión BGV-UPM</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AccessionCodes -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#AccessionCodes"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AccessionD -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#AccessionD">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DonationsToTheBGVUPM"/>
+        <rdfs:comment xml:lang="en">Donor accession number.  If the collection was donated to your organisation from a different organisation, please input their accession reference number here</rdfs:comment>
+        <rdfs:label xml:lang="en">accession d</rdfs:label>
+        <rdfs:label xml:lang="es">número accesión banco donador duplicado</rdfs:label>
+        <skos:prefLabel xml:lang="en">accession d</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">número accesión banco donador duplicado</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Aspect -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Aspect">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">Cardinality (collapp).
+Degrees from 0 to 359</rdfs:comment>
+        <rdfs:label xml:lang="en">aspect</rdfs:label>
+        <rdfs:label xml:lang="es">orientación detectada in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">aspect</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">orientación detectada in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CEAAUT -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CEAAUT">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#InSituConservationStatusOrConservationActions"/>
+        <rdfs:comment xml:lang="en">Acording to the Catalog of Threatened Species of the autonomous region where this accession was collected.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Derived field! Autonomic accessions specific!</rdfs:comment>
+        <rdfs:label xml:lang="en">CEA AUT</rdfs:label>
+        <rdfs:label xml:lang="es">Catálogo autonómico de especies amenazadas</rdfs:label>
+        <skos:prefLabel xml:lang="en">CEA AUT</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Catálogo autonómico de especies amenazadas</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CEAESP -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CEAESP">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#InSituConservationStatusOrConservationActions"/>
+        <rdfs:comment xml:lang="en">Derived field! Spain accessions specific!</rdfs:comment>
+        <rdfs:comment xml:lang="en">The &quot;Catálogo Español de Especies Amenazadas&quot; is part of the LESRPE, which includes, the taxa or populations of threatened biodiversity
+
+The updated catálogo can de downloaded here:
+https://www.miteco.gob.es/es/biodiversidad/temas/conservacion-de-especies/especies-proteccion-especial/ce-proteccion-listado-situacion.html</rdfs:comment>
+        <rdfs:label xml:lang="en">CEA ESP</rdfs:label>
+        <rdfs:label xml:lang="es">Catálogo Español de Especies Amenazadas</rdfs:label>
+        <skos:prefLabel xml:lang="en">CEA ESP</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Catálogo Español de Especies Amenazadas</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CONSACTION -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CONSACTION">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#InSituConservationStatusOrConservationActions"/>
+        <rdfs:comment xml:lang="en">Derived field!</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indication whether conservation actions related to the population are in place. Use the IUCN classification scheme for conservation actions in place (available from
+https://nc.iucnredlist.org/redlist/content/attachment_files/dec_2012_guidance_conservation_actions_in_place_classification_scheme.pdf</rdfs:comment>
+        <rdfs:label xml:lang="es">Acciones conservación población</rdfs:label>
+        <rdfs:label xml:lang="en">CONSACTION</rdfs:label>
+        <skos:prefLabel xml:lang="es">Acciones conservación población</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">CONSACTION</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CWR -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CWR">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#InSituConservationStatusOrConservationActions"/>
+        <rdfs:comment xml:lang="en">Derived field! 
+The official list is in:
+https://www.mapa.gob.es/es/agricultura/temas/medios-de-produccion/mapa_estrategiadeconservacion_04_tcm30-636650.pdf</rdfs:comment>
+        <rdfs:label xml:lang="en">CWR</rdfs:label>
+        <rdfs:label xml:lang="es">Parientes silvestres de los cultivos</rdfs:label>
+        <skos:prefLabel xml:lang="en">CWR</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Parientes silvestres de los cultivos</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CollCode -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CollCode">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#GermplasmBankCodes"/>
+        <dc:description xml:lang="en">Collecting institute code. FAO WIEWS code of the institute collecting the sample. If the holding institute has collected the material, the collecting institute code (COLLCODE) should be the same as the holding institute code (INSTCODE). Follows INSTCODE standard. Multiple values are separated by a semicolon without space.</dc:description>
+        <rdfs:label xml:lang="en">coll code</rdfs:label>
+        <rdfs:label xml:lang="es">código centro recolector</rdfs:label>
+        <skos:prefLabel xml:lang="en">coll code</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">código centro recolector</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CollDD -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CollDD">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dates"/>
+        <rdfs:comment xml:lang="en">Collection date (dd)
+derived field</rdfs:comment>
+        <rdfs:label xml:lang="en">coll dd</rdfs:label>
+        <rdfs:label xml:lang="es">día recolección</rdfs:label>
+        <skos:prefLabel xml:lang="en">coll dd</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">día recolección</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CollDate -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CollDate">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dates"/>
+        <rdfs:comment xml:lang="en">Collecting date of the sample, where YYYY is the year, MM is the month and DD is the day. Missing data (MM or DD) should be indicated with hyphens or ‘00’ [double zero].</rdfs:comment>
+        <rdfs:label xml:lang="en">coll date</rdfs:label>
+        <rdfs:label xml:lang="es">fecha recolección accesión</rdfs:label>
+        <skos:prefLabel xml:lang="en">coll date</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">fecha recolección accesión</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CollMM -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CollMM">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dates"/>
+        <rdfs:comment xml:lang="en">Collection month
+derived field
+spain accessions specific!</rdfs:comment>
+        <rdfs:label xml:lang="en">coll mm</rdfs:label>
+        <rdfs:label xml:lang="es">mes recolección</rdfs:label>
+        <skos:prefLabel xml:lang="en">coll mm</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">mes recolección</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CollMissID -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CollMissID">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#MotivesAndPermits"/>
+        <rdfs:comment xml:lang="en">Identifier of the collecting mission used by the Collecting Institute (4 or 4.1) (e.g. ‘CIATFOR-052’, ‘CN426’).
+This is diffeent to the collection permit identifier.</rdfs:comment>
+        <rdfs:label xml:lang="en">coll miss ID</rdfs:label>
+        <rdfs:label xml:lang="es">identificador expedición recolección</rdfs:label>
+        <skos:prefLabel xml:lang="en">coll miss ID</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">identificador expedición recolección</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CollSite -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CollSite">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <dc:description xml:lang="en">Location information below the country level that describes where the accession was collected, preferable in English. This might include the distance in kilometres and direction from the nearest town, village or map grid reference point, (e.g. 7 km south of Curitiba in the state of Parana).</dc:description>
+        <rdfs:label xml:lang="en">coll site</rdfs:label>
+        <rdfs:label xml:lang="es">localidad recolección</rdfs:label>
+        <skos:prefLabel xml:lang="en">coll site</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">localidad recolección</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CollYY -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CollYY">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dates"/>
+        <rdfs:comment xml:lang="en">Collection year
+derived field</rdfs:comment>
+        <rdfs:label xml:lang="es">año recolección</rdfs:label>
+        <rdfs:label xml:lang="en">coll yy</rdfs:label>
+        <skos:prefLabel xml:lang="es">año recolección</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">coll yy</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CommoName -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CommoName">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CommonName"/>
+        <rdfs:comment xml:lang="en">COMMONAME is not necessarily related to geography and is a derived field (it derives from the Scientific name).
+COMMONAME is useful to direct requesters to one or several scientific names when they are searching using English local names. For instance using &quot;salad rocket&quot; we shoud direct to Eruca vesicaria, Diplotaxis tenuifolia, etc.
+Is there a common name internationaly recognized repository?</rdfs:comment>
+        <rdfs:label xml:lang="en">commo name</rdfs:label>
+        <rdfs:label xml:lang="es">nombre comun</rdfs:label>
+        <skos:prefLabel xml:lang="en">commo name</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">nombre comun</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CommonName -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CommonName"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CoordDatum -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CoordDatum">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <dc:description xml:lang="en">The geodetic datum or spatial reference system in which the coordinates given in decimal latitude and decimal longitude are based.</dc:description>
+        <rdfs:comment xml:lang="en">Options: WGS84, ETRS89, NAD83, etc</rdfs:comment>
+        <rdfs:label xml:lang="es">DATUM cartográfico</rdfs:label>
+        <rdfs:label xml:lang="en">coord DATUM</rdfs:label>
+        <skos:prefLabel xml:lang="es">DATUM cartográfico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">coord DATUM</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CoordUncert -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CoordUncert">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <dc:description xml:lang="en">Uncertainty associated with the coordinates in metres (this information caomes from the gps navigator device). Leave the value empty if the uncertainty is unknow</dc:description>
+        <rdfs:label xml:lang="en">coord uncert</rdfs:label>
+        <rdfs:label xml:lang="es">grado incertidumbre coordenadas</rdfs:label>
+        <skos:prefLabel xml:lang="en">coord uncert</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">grado incertidumbre coordenadas</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Country -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Country">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <dc:description xml:lang="en">Original name for the country of collection</dc:description>
+        <rdfs:label xml:lang="en">country</rdfs:label>
+        <rdfs:label xml:lang="es">país</rdfs:label>
+        <skos:prefLabel xml:lang="en">country</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">país</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultivated -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultivated">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Population(described_in_situ)"/>
+        <rdfs:comment xml:lang="en">Seeds collected from cultivated plants (T = True / F = False). If seeds are collected from living collections with wild origins please record this as cultivated</rdfs:comment>
+        <rdfs:label xml:lang="es">cultivada</rdfs:label>
+        <rdfs:label xml:lang="en">cultivated</rdfs:label>
+        <skos:prefLabel xml:lang="es">cultivada</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">cultivated</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DNASAMPLE -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DNASAMPLE">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+        <rdfs:comment xml:lang="en">Has a DNA sample been taken as part of this collection?</rdfs:comment>
+        <rdfs:label xml:lang="en">DNA sample</rdfs:label>
+        <rdfs:label xml:lang="es">muestra ADN</rdfs:label>
+        <skos:prefLabel xml:lang="en">DNA sample</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">muestra ADN</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Dates -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dates"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DecLatitude -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DecLatitude">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <dc:description xml:lang="en">Latitude of the collecting site expressed in decimal degrees. Positive values are North of the Equator; negative values are South of the Equator (e.g. -44.6975).
+Caution! Sometimes BANSEM2 uses projected coordinates</dc:description>
+        <rdfs:label xml:lang="en">dec latitude</rdfs:label>
+        <rdfs:label xml:lang="es">latitud decimal</rdfs:label>
+        <skos:prefLabel xml:lang="en">dec latitude</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">latitud decimal</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DecLongtitude -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DecLongtitude">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <dc:description xml:lang="en">Longitude of the collecting site expressed in decimal degrees. Positive values are East of the Greenwich Meridian; negative values are West of the Greenwich Meridian (e.g. +120.9123).</dc:description>
+        <rdfs:label xml:lang="en">dec longitude</rdfs:label>
+        <rdfs:label xml:lang="es">longitud decimal</rdfs:label>
+        <skos:prefLabel xml:lang="en">dec longtitude</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">longitud decimal</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DetBy -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DetBy">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <rdfs:comment xml:lang="en">This field is used to store the name of the botanist who named the specimen. The recommended format is &quot;surname, initials&quot;.</rdfs:comment>
+        <rdfs:label xml:lang="en">det by</rdfs:label>
+        <rdfs:label xml:lang="es">determinado por</rdfs:label>
+        <skos:prefLabel xml:lang="en">det by</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">determinado por</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DetByUp -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DetByUp">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online)"/>
+        <rdfs:comment xml:lang="en">This field is used to store the name of the botanist who named the specimen. The recommended format is &quot;surname, initials&quot;.</rdfs:comment>
+        <rdfs:label xml:lang="en">det by up</rdfs:label>
+        <rdfs:label xml:lang="es">determinado por actualizado</rdfs:label>
+        <skos:prefLabel xml:lang="en">det by up</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">determinado por actualizado</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DetDate -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DetDate">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <rdfs:comment xml:lang="en">Determination date</rdfs:comment>
+        <rdfs:label xml:lang="en">det date</rdfs:label>
+        <rdfs:label xml:lang="es">fecha determinación</rdfs:label>
+        <skos:prefLabel xml:lang="en">det date</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">fecha determinación</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DetDateUp -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DetDateUp">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online)"/>
+        <rdfs:comment xml:lang="en">Determination date</rdfs:comment>
+        <rdfs:label xml:lang="en">det date up</rdfs:label>
+        <rdfs:label xml:lang="es">fecha determinación actualizada</rdfs:label>
+        <skos:prefLabel xml:lang="en">det date up</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">fecha determinación actualizada</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DetNotes -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DetNotes">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <rdfs:comment xml:lang="en">Determination notes</rdfs:comment>
+        <rdfs:label xml:lang="es">comentarios determinación</rdfs:label>
+        <rdfs:label xml:lang="en">det notes</rdfs:label>
+        <skos:prefLabel xml:lang="es">comentarios determinación</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">det notes</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DetNotesUp -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DetNotesUp">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online)"/>
+        <rdfs:comment xml:lang="en">Determination notes</rdfs:comment>
+        <rdfs:label xml:lang="es">comentarios determinación actualizados</rdfs:label>
+        <rdfs:label xml:lang="en">det notes up</rdfs:label>
+        <skos:prefLabel xml:lang="en">det notes up</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DetStatus -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DetStatus">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <rdfs:comment xml:lang="en">Determination status</rdfs:comment>
+        <rdfs:label xml:lang="en">det status</rdfs:label>
+        <rdfs:label xml:lang="es">estatus determinación</rdfs:label>
+        <skos:prefLabel xml:lang="en">det status</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">estatus determinación</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DetStatusUp -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DetStatusUp">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online)"/>
+        <rdfs:comment xml:lang="en">Determination status</rdfs:comment>
+        <rdfs:label xml:lang="en">det status up</rdfs:label>
+        <rdfs:label xml:lang="es">estatus determinación actualizado</rdfs:label>
+        <skos:prefLabel xml:lang="en">det status up</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">estatus determinación actualizado</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DistPolicy -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DistPolicy">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DonationsToTheBGVUPM"/>
+        <rdfs:label xml:lang="en">dist policy</rdfs:label>
+        <rdfs:label xml:lang="es">política distribución donación</rdfs:label>
+        <skos:prefLabel xml:lang="en">dist policy</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">política distribución donación</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DonationsToTheBGVUPM -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DonationsToTheBGVUPM"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DonorCode -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DonorCode">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DonationsToTheBGVUPM"/>
+        <rdfs:label xml:lang="es">código banco donador duplicado</rdfs:label>
+        <rdfs:label xml:lang="en">donor code</rdfs:label>
+        <skos:prefLabel xml:lang="es">código banco donador duplicado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">donor code</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DonorDate -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DonorDate">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DonationsToTheBGVUPM"/>
+        <rdfs:comment xml:lang="en">Record the date that the accession was donated.</rdfs:comment>
+        <rdfs:label xml:lang="en">donor date</rdfs:label>
+        <rdfs:label xml:lang="es">fecha donación duplicada</rdfs:label>
+        <skos:prefLabel xml:lang="en">donor date</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">fecha donación duplicada</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DonorOrg -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DonorOrg">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DonationsToTheBGVUPM"/>
+        <rdfs:comment xml:lang="en">The name of the organisation donating the seeds or seed data</rdfs:comment>
+        <rdfs:label xml:lang="en">donor org</rdfs:label>
+        <rdfs:label xml:lang="es">nombre banco donador duplicado</rdfs:label>
+        <skos:prefLabel xml:lang="en">donor org</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">nombre banco donador duplicado</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DupaltNum -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DupaltNum">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DuplicatesOfBGVUPMAccessions"/>
+        <rdfs:comment xml:lang="en">Accession number of the safety duplicate at the receiving bank</rdfs:comment>
+        <rdfs:label xml:lang="en">dupalt num</rdfs:label>
+        <rdfs:label xml:lang="es">número accesión banco receptor duplicado</rdfs:label>
+        <skos:prefLabel xml:lang="en">dupalt num</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">número accesión banco receptor duplicado</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DuplName -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DuplName">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DuplicatesOfBGVUPMAccessions"/>
+        <rdfs:comment xml:lang="en">DUPLNAME. Name of the institute where a safety duplicate of the accession is maintained. Multiple values are separated by a semicolon without space.</rdfs:comment>
+        <rdfs:label xml:lang="en">dupl name</rdfs:label>
+        <rdfs:label xml:lang="es">nombre banco receptor duplicado</rdfs:label>
+        <skos:prefLabel xml:lang="en">dupl name</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">nombre banco receptor duplicado</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DuplSIte -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DuplSIte">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DuplicatesOfBGVUPMAccessions"/>
+        <rdfs:comment xml:lang="en">DUPLSITE. FAO WIEWS code of the institute(s) where a safety duplicate of the accession is maintained. Multiple values are separated by a semicolon without space. Follows INSTCODE standard.</rdfs:comment>
+        <rdfs:label xml:lang="es">código banco receptor duplicado</rdfs:label>
+        <rdfs:label xml:lang="en">dupl site</rdfs:label>
+        <skos:prefLabel xml:lang="es">código banco receptor duplicado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">dupl site</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DuplicatesOfBGVUPMAccessions -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DuplicatesOfBGVUPMAccessions"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Elevation -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Elevation">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <dc:description xml:lang="en">Elevation of collecting site expressed in metres above sea level.</dc:description>
+        <rdfs:comment xml:lang="en">Elevation can be obtained from an altimeter o alternatively deduced from coordinate</rdfs:comment>
+        <rdfs:label xml:lang="es">altitud</rdfs:label>
+        <rdfs:label xml:lang="en">elevation</rdfs:label>
+        <skos:prefLabel xml:lang="es">altitud</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">elevation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Enviroment -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#FOTORUTA -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#FOTORUTA">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Photographs"/>
+        <rdfs:label xml:lang="en">FOTORUTA</rdfs:label>
+        <skos:prefLabel xml:lang="en">FOTORUTA</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Family -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Family">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <dc:description xml:lang="en">Family originally asigned</dc:description>
+        <rdfs:label xml:lang="es">familia</rdfs:label>
+        <rdfs:label xml:lang="en">family</rdfs:label>
+        <skos:prefLabel xml:lang="es">familia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">family</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#FamilyUp -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#FamilyUp">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online)"/>
+        <rdfs:comment xml:lang="en">Derived field!</rdfs:comment>
+        <rdfs:label xml:lang="es">familia actualizada</rdfs:label>
+        <rdfs:label xml:lang="en">family up</rdfs:label>
+        <skos:prefLabel xml:lang="es">familia actualizada</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">family up</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Genus -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Genus">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <dc:description xml:lang="en">Genus originally asigne</dc:description>
+        <rdfs:label xml:lang="en">genus</rdfs:label>
+        <rdfs:label xml:lang="es">género</rdfs:label>
+        <skos:prefLabel xml:lang="en">genus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">género</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#GenusUp -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#GenusUp">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online)"/>
+        <rdfs:comment xml:lang="en">Genus update. When  it  comes out from Lista Patron or World Flora Online a genus different  than the originally asigned in BANSEM</rdfs:comment>
+        <rdfs:label xml:lang="en">genus up</rdfs:label>
+        <rdfs:label xml:lang="es">género actualizado</rdfs:label>
+        <skos:prefLabel xml:lang="en">genus up</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">género actualizado</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Geology -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Geology">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">Observed geology: either outcropping or parent bedrock, e.g. Basalt; Granite; Limestone; Sandstone; Chalk; et</rdfs:comment>
+        <rdfs:label xml:lang="en">geology</rdfs:label>
+        <rdfs:label xml:lang="es">litología detectada in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">geology</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">litología detectada in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#GeorefMeth -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#GeorefMeth">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <rdfs:comment xml:lang="en">The georeferencing method used.
+Leave the value empty if georeferencing method is not known.</rdfs:comment>
+        <rdfs:label xml:lang="en">georef meth</rdfs:label>
+        <rdfs:label xml:lang="es">método georreferenciación</rdfs:label>
+        <skos:prefLabel xml:lang="en">georef meth</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">método georreferenciación</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#GermplasmBankCodes -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#GermplasmBankCodes"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Habitattxt -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Habitattxt">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">Habitat description.
+Memo (unlimited)
+Example: Deciduous woodland.</rdfs:comment>
+        <rdfs:label xml:lang="en">habitattxt</rdfs:label>
+        <rdfs:label xml:lang="es">hábitat detectado in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">habitattxt</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">hábitat detectado in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Healthcon -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Healthcon">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">Free text field.
+Estado fitosanitario (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="es">estado fitosanitario detectado in situ</rdfs:label>
+        <rdfs:label xml:lang="en">health con</rdfs:label>
+        <skos:prefLabel xml:lang="es">estado fitosanitario detectado in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">health con</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#IDIMAGE -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#IDIMAGE">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Photographs"/>
+        <rdfs:label xml:lang="en">IDIMAGE</rdfs:label>
+        <skos:prefLabel xml:lang="en">IDIMAGE</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#IDNUBE -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#IDNUBE">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Photographs"/>
+        <rdfs:label xml:lang="en">IDNUBE</rdfs:label>
+        <skos:prefLabel xml:lang="en">IDNUBE</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#IMAGES -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#IMAGES">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Photographs"/>
+        <rdfs:comment xml:lang="en">In collapp for each accession they consider:
+* idImagen Identificador de imagen
+* idNube Identificador de la imagen asignado por la API
+* fotoRuta URL en la que se almacena la imagen
+* nombreBanco El nombre de la imagen en el banco</rdfs:comment>
+        <rdfs:label xml:lang="en">IMAGES</rdfs:label>
+        <skos:prefLabel xml:lang="en">IMAGES</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#IUCNRL -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#IUCNRL">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#InSituConservationStatusOrConservationActions"/>
+        <rdfs:comment xml:lang="en">Derived field!</rdfs:comment>
+        <rdfs:comment xml:lang="en">IUCN Red List of threatened Species
+
+Updated list here:
+https://www.iucnredlist.org/</rdfs:comment>
+        <rdfs:label xml:lang="es">IUCN lista roja</rdfs:label>
+        <rdfs:label xml:lang="en">IUCNRL</rdfs:label>
+        <skos:prefLabel xml:lang="es">IUCN lista roja</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">IUCNRL</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#InSituConservationStatusOrConservationActions -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#InSituConservationStatusOrConservationActions"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#InstName -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#InstName">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#GermplasmBankCodes"/>
+        <dc:description xml:lang="en">Name of the institute, legal entity, herbarium, or individual where collected population
+samples are held (e.g., local or national genebank, herbarium or landowner). If the
+Managing institute holds the material, the holding institute name should be the
+same as the Managing inst</dc:description>
+        <rdfs:label xml:lang="en">inst name</rdfs:label>
+        <rdfs:label xml:lang="es">nombre centro conservador</rdfs:label>
+        <skos:prefLabel xml:lang="en">inst name</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">nombre centro conservador</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#IslandName -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#IslandName">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <rdfs:comment xml:lang="en">Derived field!</rdfs:comment>
+        <rdfs:label xml:lang="es">isla</rdfs:label>
+        <rdfs:label xml:lang="en">island name</rdfs:label>
+        <skos:prefLabel xml:lang="es">isla</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">island name</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#LESRPE -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#LESRPE">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#InSituConservationStatusOrConservationActions"/>
+        <rdfs:comment xml:lang="en">Derived field! Spain accessions specific!</rdfs:comment>
+        <rdfs:comment xml:lang="en">Law 42/2007, of December 13, 2007, on Natural Heritage and Biodiversity establishes the need to guarantee the conservation of wild native species (Article 54). Article 56 creates the &quot;Listado de Especies Silvestres en Régimen de Protección Especial (LESRPE)&quot;, which includes species, subspecies and populations deserving special attention and protection, as well as those listed as protected in international directives and conventions ratified by Spain.
+
+The updated LESRPE is available here:
+https://www.miteco.gob.es/es/biodiversidad/temas/conservacion-de-especies/especies-proteccion-especial/ce-proteccion-listado-situacion.html
+BGV-UPM accessions having YES in this field shoud be submited to the Banco en Red (Ministerio de Transición Ecológica y Reto Demográfico)</rdfs:comment>
+        <rdfs:label xml:lang="en">LESRPE</rdfs:label>
+        <rdfs:label xml:lang="es">Listado de Especies Silvestres en Régimen de Protección Especial y Catálogo Español de Especies Amenazadas</rdfs:label>
+        <skos:prefLabel xml:lang="en">LESRPE</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Listado de Especies Silvestres en Régimen de Protección Especial y Catálogo Español de Especies Amenazadas</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Landuse -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Landuse">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">The major landuse category(ies) of the immediate collection point. 
+Memo (unlimited)</rdfs:comment>
+        <rdfs:label xml:lang="en">landuse</rdfs:label>
+        <rdfs:label xml:lang="es">uso suelo detectado in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">landuse</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">uso suelo detectado in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Language -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Language">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CommonName"/>
+        <rdfs:comment xml:lang="en">Language of vernacular name</rdfs:comment>
+        <rdfs:label xml:lang="es">idioma nombre vernáculo</rdfs:label>
+        <rdfs:label xml:lang="en">language</rdfs:label>
+        <skos:prefLabel xml:lang="es">idioma nombre vernáculo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">language</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#LeafLitter -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#LeafLitter">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">Level of leaf litter on the ground
+valorHojarasca (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="es">hojarasca detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">leaf litter</rdfs:label>
+        <skos:prefLabel xml:lang="es">hojarasca detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">leaf litter</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#LegalAgreement -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#LegalAgreement">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#MotivesAndPermits"/>
+        <rdfs:comment xml:lang="en">Legal agreement under which the seed collection was accessioned</rdfs:comment>
+        <rdfs:label xml:lang="en">legal agreement</rdfs:label>
+        <rdfs:label xml:lang="es">marco legal entrada accesión</rdfs:label>
+        <skos:prefLabel xml:lang="en">legal agreement</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">marco legal entrada accesión</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Location -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MLSSTAT -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#MLSSTAT">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#InSituConservationStatusOrConservationActions"/>
+        <rdfs:comment xml:lang="en">Derived field!</rdfs:comment>
+        <rdfs:comment xml:lang="en">The status of the material with regards to the Multilateral System of Access and
+Benefit-sharing of the International Treaty, if available.</rdfs:comment>
+        <rdfs:label xml:lang="es">Estatus en Sistema Multilateral FAO</rdfs:label>
+        <rdfs:label xml:lang="en">MLSSTAT</rdfs:label>
+        <skos:prefLabel xml:lang="es">Estatus en Sistema Multilateral FAO</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">MLSSTAT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MajorAreaUp -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#MajorAreaUp">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <dc:description xml:lang="en">First geographical division under country, often State or Province.</dc:description>
+        <rdfs:comment xml:lang="en">Derived field</rdfs:comment>
+        <rdfs:label xml:lang="en">major area up</rdfs:label>
+        <rdfs:label xml:lang="es">primera división del país</rdfs:label>
+        <skos:prefLabel xml:lang="en">major area up</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">primera división del país</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MangInstName -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#MangInstName">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#GermplasmBankCodes"/>
+        <dc:description xml:lang="en">Name of the managing institute, legal entity, herbarium, or individual holding rights
+or responsible of the population (e.g., protected area authority, nature reserve
+manager, national park manager, private landowner,etc)</dc:description>
+        <rdfs:label xml:lang="en">mang inst name</rdfs:label>
+        <rdfs:label xml:lang="es">nombre centro gestor accesión</rdfs:label>
+        <skos:prefLabel xml:lang="en">mang inst name</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">nombre centro gestor accesión</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Microhabitat -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Microhabitat">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">Microhábitat (collapp)</rdfs:comment>
+        <rdfs:comment xml:lang="en">microhabitat</rdfs:comment>
+        <rdfs:label xml:lang="es">microhábitat detectado in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">microhabitat</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">microhábitat detectado in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#MotivesAndPermits -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#MotivesAndPermits"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#NC -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#NC">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#AccessionCodes"/>
+        <rdfs:comment xml:lang="en">Accession number at the National Catalogue (Inventario Nacional de Recursos Fitogenéticos)</rdfs:comment>
+        <rdfs:label xml:lang="en">NC</rdfs:label>
+        <rdfs:label xml:lang="es">número accesión Inventario Nacional</rdfs:label>
+        <skos:prefLabel xml:lang="en">NC</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">número accesión Inventario Nacional</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#NOMBREIMAGEN -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#NOMBREIMAGEN">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Photographs"/>
+        <rdfs:label xml:lang="en">NOMBREIMAGEN</rdfs:label>
+        <skos:prefLabel xml:lang="en">NOMBREIMAGEN</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OrganicMatter -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OrganicMatter">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">Level of organic matter in the soil
+valorMateriaOrganica (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="es">materia organica detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">organic matter</rdfs:label>
+        <skos:prefLabel xml:lang="es">materia organica detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">organic matter</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#PHOTOS -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#PHOTOS">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Photographs"/>
+        <rdfs:label xml:lang="en">PHOTOS</rdfs:label>
+        <skos:prefLabel xml:lang="en">PHOTOS</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Photographs -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Photographs"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#PlantSamp -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#PlantSamp">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+        <rdfs:comment xml:lang="en">Number of plants sampled.
+Text (10)</rdfs:comment>
+        <rdfs:label xml:lang="es">número individuos muestreados</rdfs:label>
+        <rdfs:label xml:lang="en">plant samp</rdfs:label>
+        <skos:prefLabel xml:lang="es">número individuos muestreados</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">plant samp</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#PopArea -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#PopArea">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Population(described_in_situ)"/>
+        <rdfs:comment xml:lang="en">Estimated area of total population, please specify units.
+IUCN standard
+Text (10)</rdfs:comment>
+        <rdfs:label xml:lang="en">pop area</rdfs:label>
+        <rdfs:label xml:lang="es">superficie población</rdfs:label>
+        <skos:prefLabel xml:lang="en">pop area</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">superficie población</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#PopSIze -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#PopSIze">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Population(described_in_situ)"/>
+        <rdfs:comment xml:lang="en">Estimated total population size.
+IUCN standard.</rdfs:comment>
+        <rdfs:label xml:lang="en">pop size</rdfs:label>
+        <rdfs:label xml:lang="es">tamaño población</rdfs:label>
+        <skos:prefLabel xml:lang="en">pop size</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">tamaño población</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#RESTR -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#RESTR">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#InSituConservationStatusOrConservationActions"/>
+        <rdfs:comment xml:lang="en">BRAHMS Online RESTRiction category.</rdfs:comment>
+        <rdfs:label xml:lang="en">RESTR</rdfs:label>
+        <rdfs:label xml:lang="es">Restricciónes publicación online</rdfs:label>
+        <skos:prefLabel xml:lang="en">RESTR</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Restricciónes publicación online</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Rank1 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Rank1">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <rdfs:comment xml:lang="en">rank of sub_taxa_1: ssp., subsp., var., forma., f.</rdfs:comment>
+        <rdfs:label xml:lang="en">rank 1</rdfs:label>
+        <rdfs:label xml:lang="es">tipo subtaxón 1</rdfs:label>
+        <skos:prefLabel xml:lang="en">rank 1</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">tipo subtaxón 1</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Rank2 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Rank2">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <rdfs:comment xml:lang="en">rank of sub_taxa_2: ssp., subsp., var., forma., f.</rdfs:comment>
+        <rdfs:label xml:lang="en">rank 2</rdfs:label>
+        <rdfs:label xml:lang="es">tipo subtaxón 2</rdfs:label>
+        <skos:prefLabel xml:lang="en">rank 2</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">tipo subtaxón 2</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ReactionHCL -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ReactionHCL">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <dc:description xml:lang="en">ReactionHCl (collapp).
+Indicates whether the surface soil horizon bubbles when a few drops of 10% HCl are poured on it.</dc:description>
+        <rdfs:label xml:lang="es">reacción HCL detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">reaction HCL</rdfs:label>
+        <skos:prefLabel xml:lang="es">reacción HCL detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">reaction HCL</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Remarks -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Remarks"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Rockiness -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Rockiness">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">valorRocosidad (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="en">rockiness</rdfs:label>
+        <rdfs:label xml:lang="es">rocosidad detectada in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">rockiness</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">rocosidad detectada in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SaltTypes -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SaltTypes">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:label xml:lang="en">salt types</rdfs:label>
+        <rdfs:label xml:lang="es">tipo de sales detectados in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">salt types</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">tipo de sales detectados in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Sample -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SampleArea -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SampleArea">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+        <rdfs:comment xml:lang="en">Sampled area</rdfs:comment>
+        <rdfs:label xml:lang="en">sample area</rdfs:label>
+        <rdfs:label xml:lang="es">superficie muestreada</rdfs:label>
+        <skos:prefLabel xml:lang="en">sample area</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">superficie muestreada</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Slope -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Slope">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">Slope values from 0 to 90</rdfs:comment>
+        <rdfs:label xml:lang="es">pendiente detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">slope</rdfs:label>
+        <skos:prefLabel xml:lang="es">pendiente detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">slope</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SpAuthor -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SpAuthor">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <dc:description xml:lang="en">Provide the authority for the species name.</dc:description>
+        <rdfs:label xml:lang="es">autor especie</rdfs:label>
+        <rdfs:label xml:lang="en">sp author</rdfs:label>
+        <skos:prefLabel xml:lang="es">autor especie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">sp author</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SpAuthorUp -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SpAuthorUp">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online)"/>
+        <rdfs:label xml:lang="es">autor especie actualizado</rdfs:label>
+        <rdfs:label xml:lang="en">sp author up</rdfs:label>
+        <skos:prefLabel xml:lang="es">autor especie actualizado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">sp author up</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Species -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Species">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <dc:description xml:lang="en">Specific epithet portion of the scientific name in lowercase letters. Only the following abbreviation is allowed: ‘sp.’</dc:description>
+        <rdfs:label xml:lang="es">especie</rdfs:label>
+        <rdfs:label xml:lang="en">species</rdfs:label>
+        <skos:prefLabel xml:lang="es">especie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">species</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SpeciesUp -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SpeciesUp">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online)"/>
+        <rdfs:comment xml:lang="en">Specific epitet update. When  it  comes out from Lista Patron or World Flora Online a specific epitet different  than the originally asigned in BANSEM.</rdfs:comment>
+        <rdfs:label xml:lang="es">especie actualizado</rdfs:label>
+        <rdfs:label xml:lang="en">species up</rdfs:label>
+        <skos:prefLabel xml:lang="es">especie actualizado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">species up</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Stoniness -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Stoniness">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">Stoniness on top of soil 
+valorPedregosidad (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="es">pedregosidad detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">stoniness</rdfs:label>
+        <skos:prefLabel xml:lang="es">pedregosidad detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">stoniness</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SubTaxa1 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SubTaxa1">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <rdfs:label xml:lang="en">sub taxa 1</rdfs:label>
+        <rdfs:label xml:lang="es">subtaxón 1</rdfs:label>
+        <skos:prefLabel xml:lang="en">sub taxa 1</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">subtaxón 1</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SubTaxa1Up -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SubTaxa1Up">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online)"/>
+        <rdfs:label xml:lang="en">sub taxa 1 up</rdfs:label>
+        <rdfs:label xml:lang="es">subtaxón 1 actualizado</rdfs:label>
+        <skos:prefLabel xml:lang="en">sub taxa 1 up</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">subtaxón 1 actualizado</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SubTaxa2 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SubTaxa2">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <rdfs:label xml:lang="en">sub taxa 2</rdfs:label>
+        <rdfs:label xml:lang="es">subtaxón 2</rdfs:label>
+        <skos:prefLabel xml:lang="en">sub taxa 2</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">subtaxón 2</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SubTaxa2Up -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SubTaxa2Up">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online)"/>
+        <rdfs:label xml:lang="en">sub taxa 2 up</rdfs:label>
+        <rdfs:label xml:lang="es">subtaxón 2 actualizado</rdfs:label>
+        <skos:prefLabel xml:lang="en">sub taxa 2 up</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">subtaxón 2 actualizado</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SubtAuthor1 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SubtAuthor1">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <rdfs:label xml:lang="es">autor subespecie 1</rdfs:label>
+        <rdfs:label xml:lang="en">subt author 1</rdfs:label>
+        <skos:prefLabel xml:lang="es">autor subespecie 1</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">subt author 1</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SubtAuthor1Up -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SubtAuthor1Up">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online)"/>
+        <rdfs:label xml:lang="es">autor subespecie 1 actualizado</rdfs:label>
+        <rdfs:label xml:lang="en">subt author 1 up</rdfs:label>
+        <skos:prefLabel xml:lang="es">autor subespecie 1 actualizado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">subt author 1 up</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SubtAuthor2 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SubtAuthor2">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OriginalTaxonomy"/>
+        <rdfs:label xml:lang="es">autor subespecie 2</rdfs:label>
+        <rdfs:label xml:lang="en">subt author 2</rdfs:label>
+        <skos:prefLabel xml:lang="es">autor subespecie 2</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">subt author 2</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SubtAuthor2Up -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SubtAuthor2Up">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online)"/>
+        <rdfs:label xml:lang="es">autor subespecie 2 actualizado</rdfs:label>
+        <rdfs:label xml:lang="en">subt author 2 up</rdfs:label>
+        <skos:prefLabel xml:lang="es">autor subespecie 2 actualizado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">subt author 2 up</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#TOTALWT -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#TOTALWT">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+        <rdfs:comment xml:lang="en">Total weight of seed collection - include units used</rdfs:comment>
+        <rdfs:label xml:lang="es">peso semilla limpia</rdfs:label>
+        <rdfs:label xml:lang="en">total WT</rdfs:label>
+        <skos:prefLabel xml:lang="es">peso semilla limpia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">total WT</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#TPSW -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#TPSW">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+        <rdfs:comment xml:lang="en">Thousand Seed Weight
+weight of 1000 seeds and is completed automatically from the weighted replicates.</rdfs:comment>
+        <rdfs:label xml:lang="en">TPSW</rdfs:label>
+        <rdfs:label xml:lang="es">peso mil semillas</rdfs:label>
+        <skos:prefLabel xml:lang="en">TPSW</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">peso mil semillas</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Texture -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Texture">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">Texture of the upper horizon
+valorTexture (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="es">textura detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">texture</rdfs:label>
+        <skos:prefLabel xml:lang="es">textura detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">texture</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Threat -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Threat">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">In situ revealed threats.
+Threat type, for example fire, overcollection, disturbance, grazing etc. Multiple threats can added and separated with a semi-colon;. IUCN field.
+See full list of threat types here https://www.iucnredlist.org/resources/threat-classifi</rdfs:comment>
+        <rdfs:label xml:lang="es">amenazas detectadas in situ</rdfs:label>
+        <rdfs:label xml:lang="en">threat</rdfs:label>
+        <skos:prefLabel xml:lang="es">amenazas detectadas in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">threat</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Topography -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Topography">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">NombreTopografía (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="es">topografía detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">topography</rdfs:label>
+        <skos:prefLabel xml:lang="es">topografía detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">topography</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#VegCover -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#VegCover">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">Plant cover.
+Percentage</rdfs:comment>
+        <rdfs:label xml:lang="es">cobertura vegetal detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">veg cover</rdfs:label>
+        <skos:prefLabel xml:lang="es">cobertura vegetal detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">veg cover</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Vernacular -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Vernacular">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CommonName"/>
+        <rdfs:comment xml:lang="en">Local plant name. Name at the collection site.</rdfs:comment>
+        <rdfs:label xml:lang="es">nombre vernáculo</rdfs:label>
+        <rdfs:label xml:lang="en">vernacular</rdfs:label>
+        <skos:prefLabel xml:lang="es">nombre vernáculo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">vernacular</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#assplantspecies -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#assplantspecies">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Enviroment"/>
+        <rdfs:comment xml:lang="en">Associated plant species: enter the scientific name. Up to 3 associated plant species can be entered.
+Especies vegetales asociadas (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="en">ass plant species</rdfs:label>
+        <rdfs:label xml:lang="es">especies vegetales asociadas</rdfs:label>
+        <skos:prefLabel xml:lang="en">ass plant species</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">especies vegetales asociadas</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#gully -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#gully">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Topography"/>
+        <rdfs:label xml:lang="en">gully</rdfs:label>
+        <rdfs:label xml:lang="es">hondonada</rdfs:label>
+        <skos:prefLabel xml:lang="en">gully</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">hondonada</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#high -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#high">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#LeafLitter"/>
+        <rdfs:label xml:lang="es">alta</rdfs:label>
+        <rdfs:label xml:lang="en">high</rdfs:label>
+        <skos:prefLabel xml:lang="es">alta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">high</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#low -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#low">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#LeafLitter"/>
+        <rdfs:label xml:lang="es">baja</rdfs:label>
+        <rdfs:label xml:lang="en">low</rdfs:label>
+        <skos:prefLabel xml:lang="es">baja</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">low</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#medium -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#medium">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#LeafLitter"/>
+        <rdfs:label xml:lang="es">media</rdfs:label>
+        <rdfs:label xml:lang="en">medium</rdfs:label>
+        <skos:prefLabel xml:lang="es">media</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">medium</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#plain -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#plain">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Topography"/>
+        <rdfs:label xml:lang="en">plain</rdfs:label>
+        <rdfs:label xml:lang="es">plana</rdfs:label>
+        <skos:prefLabel xml:lang="en">plain</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">plana</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ridge -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#ridge">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Topography"/>
+        <rdfs:label xml:lang="es">cresta</rdfs:label>
+        <rdfs:label xml:lang="en">ridge</rdfs:label>
+        <skos:prefLabel xml:lang="es">cresta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">ridge</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#undefined -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#undefined">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Topography"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Population(described_in_situ) -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Population(described_in_situ)"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online) -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#UpdatedTaxonomy(lista_patron/world_flora_online)"/>
     
 
 
@@ -174,6 +1656,1299 @@
     <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Estimation">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Method"/>
         <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Method"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000003 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000003">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#PopSIze"/>
+        <rdfs:label xml:lang="es">&lt;50 plantas</rdfs:label>
+        <rdfs:label xml:lang="en">&lt;50 plants</rdfs:label>
+        <skos:prefLabel xml:lang="es">&lt;50 plantas</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">&lt;50 plants</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000004 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000004">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#PopSIze"/>
+        <rdfs:label xml:lang="es">50-250 plantas</rdfs:label>
+        <rdfs:label xml:lang="en">50-250 plants</rdfs:label>
+        <skos:prefLabel xml:lang="es">50-250 plantas</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">50-250 plants</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000005 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000005">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#PopSIze"/>
+        <rdfs:label xml:lang="es">250-1000 plantas</rdfs:label>
+        <rdfs:label xml:lang="en">250-1000 plants</rdfs:label>
+        <skos:prefLabel xml:lang="es">250-1000 plantas</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">250-1000 plants</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000006 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000006">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#PopSIze"/>
+        <rdfs:label xml:lang="es">1000-2500 plantas</rdfs:label>
+        <rdfs:label xml:lang="en">1000-2500 plants</rdfs:label>
+        <skos:prefLabel xml:lang="es">1000-2500 plantas</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">1000-2500 plants</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000007 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000007">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#PopSIze"/>
+        <rdfs:label xml:lang="es">&gt;2500 plantas</rdfs:label>
+        <rdfs:label xml:lang="en">&gt;2500 plants</rdfs:label>
+        <skos:prefLabel xml:lang="es">&gt;2500 plantas</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">&gt;2500 plants</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000008 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000008">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DistPolicy"/>
+        <rdfs:label xml:lang="es">distribución permitida</rdfs:label>
+        <rdfs:label xml:lang="en">for distribution</rdfs:label>
+        <skos:prefLabel xml:lang="es">distribución permitida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">for distribution</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000009 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000009">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DistPolicy"/>
+        <rdfs:label xml:lang="es">distribución consultar</rdfs:label>
+        <rdfs:label xml:lang="en">management decision</rdfs:label>
+        <skos:prefLabel xml:lang="es">distribución consultar</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">management decision</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000010 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000010">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DistPolicy"/>
+        <rdfs:label xml:lang="es">distribución no permitida</rdfs:label>
+        <rdfs:label xml:lang="en">not for distribution</rdfs:label>
+        <skos:prefLabel xml:lang="es">distribución no permitida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">not for distribution</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000011 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000011">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DistPolicy"/>
+        <rdfs:label xml:lang="es">en cuarentena-distribución no permitida</rdfs:label>
+        <rdfs:label xml:lang="en">quarantined - not for distribution</rdfs:label>
+        <skos:prefLabel xml:lang="es">en cuarentena-distribución no permitida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">quarantined - not for distribution</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000012 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000012">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Threat"/>
+        <rdfs:label xml:lang="en">fire</rdfs:label>
+        <rdfs:label xml:lang="es">fuego</rdfs:label>
+        <skos:prefLabel xml:lang="en">fire</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">fuego</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000013 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000013">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Threat"/>
+        <rdfs:label xml:lang="en">overcollection</rdfs:label>
+        <rdfs:label xml:lang="es">sobrerecolección</rdfs:label>
+        <skos:prefLabel xml:lang="en">overcollection</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">sobrerecolección</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000014 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000014">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Threat"/>
+        <rdfs:label xml:lang="en">disturbance</rdfs:label>
+        <rdfs:label xml:lang="es">perturbación</rdfs:label>
+        <skos:prefLabel xml:lang="en">disturbance</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">perturbación</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000015 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000015">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Threat"/>
+        <rdfs:label xml:lang="en">grazing</rdfs:label>
+        <rdfs:label xml:lang="es">pastoreo</rdfs:label>
+        <skos:prefLabel xml:lang="en">grazing</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">pastoreo</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000016 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000016">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#VegCover"/>
+        <rdfs:label xml:lang="es">alta</rdfs:label>
+        <rdfs:label xml:lang="en">high</rdfs:label>
+        <skos:prefLabel xml:lang="es">alta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">high</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000017 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000017">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#VegCover"/>
+        <rdfs:label xml:lang="es">media</rdfs:label>
+        <rdfs:label xml:lang="en">medium</rdfs:label>
+        <skos:prefLabel xml:lang="es">media</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">medium</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000018 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000018">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#VegCover"/>
+        <rdfs:label xml:lang="es">baja</rdfs:label>
+        <rdfs:label xml:lang="en">low</rdfs:label>
+        <skos:prefLabel xml:lang="es">baja</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">low</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000019 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000019">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#VegCover"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000020 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000020">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#LeafLitter"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida e</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000021 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000021">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OrganicMatter"/>
+        <rdfs:label xml:lang="es">alta</rdfs:label>
+        <rdfs:label xml:lang="en">high</rdfs:label>
+        <skos:prefLabel xml:lang="es">alta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">high</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000022 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000022">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OrganicMatter"/>
+        <rdfs:label xml:lang="es">media</rdfs:label>
+        <rdfs:label xml:lang="en">medium</rdfs:label>
+        <skos:prefLabel xml:lang="es">media</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">medium</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000023 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000023">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OrganicMatter"/>
+        <rdfs:label xml:lang="es">baja</rdfs:label>
+        <rdfs:label xml:lang="en">low</rdfs:label>
+        <skos:prefLabel xml:lang="es">baja</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">low</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000024 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000024">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OrganicMatter"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000025 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000025">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Microhabitat"/>
+        <rdfs:label xml:lang="es">no definido</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definido</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000026 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000026">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Microhabitat"/>
+        <rdfs:label xml:lang="es">cuneta</rdfs:label>
+        <rdfs:label xml:lang="en">roadside</rdfs:label>
+        <skos:prefLabel xml:lang="en">cuneta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">roadside</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000027 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000027">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Microhabitat"/>
+        <rdfs:label xml:lang="es">borde curso de agua</rdfs:label>
+        <rdfs:label xml:lang="en">watercourse edge</rdfs:label>
+        <skos:prefLabel xml:lang="es">borde curso de agua</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">watercourse edge</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000028 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000028">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Microhabitat"/>
+        <rdfs:label xml:lang="es">repisa en roca</rdfs:label>
+        <rdfs:label xml:lang="en">rocky ledge</rdfs:label>
+        <skos:prefLabel xml:lang="es">repisa en roca</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">rocky ledge</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000029 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000029">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Microhabitat"/>
+        <rdfs:label xml:lang="es">grieta en roca</rdfs:label>
+        <rdfs:label xml:lang="en">rocky crevice</rdfs:label>
+        <skos:prefLabel xml:lang="es">grieta en roca</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">rocky crevice</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000030 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000030">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Microhabitat"/>
+        <rdfs:label xml:lang="es">pedregal</rdfs:label>
+        <rdfs:label xml:lang="en">pedregal (scree spot)</rdfs:label>
+        <skos:prefLabel xml:lang="es">pedregal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">pedregal (scree spot)</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000031 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000031">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Microhabitat"/>
+        <rdfs:label xml:lang="es">arenal</rdfs:label>
+        <rdfs:label xml:lang="en">arenal (sandy spot)</rdfs:label>
+        <skos:prefLabel xml:lang="es">arenal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">arenal (sandy spot)</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000032 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000032">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Stoniness"/>
+        <rdfs:label xml:lang="es">alta</rdfs:label>
+        <rdfs:label xml:lang="en">high</rdfs:label>
+        <skos:prefLabel xml:lang="es">alta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">high</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000033 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000033">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Stoniness"/>
+        <rdfs:label xml:lang="es">media</rdfs:label>
+        <rdfs:label xml:lang="en">medium</rdfs:label>
+        <skos:prefLabel xml:lang="es">media</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">medium</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000034 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000034">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Stoniness"/>
+        <rdfs:label xml:lang="es">baja</rdfs:label>
+        <rdfs:label xml:lang="en">low</rdfs:label>
+        <skos:prefLabel xml:lang="es">baja</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">low</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000035 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000035">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Stoniness"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000036 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000036">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Rockiness"/>
+        <rdfs:label xml:lang="es">alta</rdfs:label>
+        <rdfs:label xml:lang="en">high</rdfs:label>
+        <skos:prefLabel xml:lang="es">alta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">high</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000037 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000037">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Rockiness"/>
+        <rdfs:label xml:lang="es">media</rdfs:label>
+        <rdfs:label xml:lang="en">medium</rdfs:label>
+        <skos:prefLabel xml:lang="es">media</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">medium</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000038 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000038">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Rockiness"/>
+        <rdfs:label xml:lang="es">baja</rdfs:label>
+        <rdfs:label xml:lang="en">low</rdfs:label>
+        <skos:prefLabel xml:lang="es">baja</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">low</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000039 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000039">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Rockiness"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000040 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000040">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Texture"/>
+        <rdfs:label xml:lang="es">arenosa</rdfs:label>
+        <rdfs:label xml:lang="en">sandy</rdfs:label>
+        <skos:prefLabel xml:lang="es">arenosa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">sandy</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000041 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000041">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Texture"/>
+        <rdfs:label xml:lang="es">limosa</rdfs:label>
+        <rdfs:label xml:lang="en">loamy</rdfs:label>
+        <skos:prefLabel xml:lang="es">limosa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">loamy</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000042 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000042">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Texture"/>
+        <rdfs:label xml:lang="es">arcillosa</rdfs:label>
+        <rdfs:label xml:lang="en">clayey</rdfs:label>
+        <skos:prefLabel xml:lang="es">arcillosa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">clayey</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000043 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000043">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Texture"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000044 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000044">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SaltTypes"/>
+        <rdfs:label xml:lang="es">no definido</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definido</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000045 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000045">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SaltTypes"/>
+        <rdfs:label xml:lang="en">plaster</rdfs:label>
+        <rdfs:label xml:lang="es">yesosas</rdfs:label>
+        <skos:prefLabel xml:lang="en">plaster</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">yesosas</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000046 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000046">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SaltTypes"/>
+        <rdfs:label xml:lang="es">calcareas</rdfs:label>
+        <rdfs:label xml:lang="en">limestone</rdfs:label>
+        <skos:prefLabel xml:lang="es">calcareas</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">limestone</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000047 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000047">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SaltTypes"/>
+        <rdfs:label xml:lang="es">humedal salino</rdfs:label>
+        <rdfs:label xml:lang="en">marsh</rdfs:label>
+        <skos:prefLabel xml:lang="es">humedal salino</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">marsh</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000048 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000048">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SaltTypes"/>
+        <rdfs:label xml:lang="es">eflorecencias</rdfs:label>
+        <rdfs:label xml:lang="en">saline efflorescences</rdfs:label>
+        <skos:prefLabel xml:lang="es">eflorecencias</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">saline efflorescences</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000058 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000058">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CEAAUT"/>
+        <rdfs:label xml:lang="en">vulnerable</rdfs:label>
+        <skos:prefLabel xml:lang="en">vulnerable</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000059 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000059">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CEAAUT"/>
+        <rdfs:label xml:lang="en">in danger of exctiction</rdfs:label>
+        <skos:prefLabel xml:lang="en">in danger of exctiction</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000060 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000060">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CEAAUT"/>
+        <rdfs:label xml:lang="en">blank</rdfs:label>
+        <skos:prefLabel xml:lang="en">blank</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000061 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000061">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IUCNRL"/>
+        <rdfs:label xml:lang="es">no evaluado</rdfs:label>
+        <rdfs:label xml:lang="en">not evaluated</rdfs:label>
+        <skos:prefLabel xml:lang="es">no evaluado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">not evaluated</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000062 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000062">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IUCNRL"/>
+        <rdfs:label xml:lang="en">data deficient</rdfs:label>
+        <rdfs:label xml:lang="es">datos deficientes</rdfs:label>
+        <skos:prefLabel xml:lang="en">data deficient</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">datos deficientes</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000063 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000063">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IUCNRL"/>
+        <rdfs:label xml:lang="en">least concern</rdfs:label>
+        <rdfs:label xml:lang="es">menor preocupación</rdfs:label>
+        <skos:prefLabel xml:lang="en">least concern</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">menor preocupación</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000064 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000064">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IUCNRL"/>
+        <rdfs:label xml:lang="es">cerca de amenazada</rdfs:label>
+        <rdfs:label xml:lang="en">near threatened</rdfs:label>
+        <skos:prefLabel xml:lang="es">cerca de amenazada</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">near threatened</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000065 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000065">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IUCNRL"/>
+        <rdfs:label xml:lang="en">vulnerable</rdfs:label>
+        <rdfs:label xml:lang="es">vulnerable</rdfs:label>
+        <skos:prefLabel xml:lang="en">vulnerable</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">vulnerable</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000066 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000066">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IUCNRL"/>
+        <rdfs:label xml:lang="es">en peligro</rdfs:label>
+        <rdfs:label xml:lang="en">endangered</rdfs:label>
+        <skos:prefLabel xml:lang="es">en peligro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">endangered</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000067 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000067">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IUCNRL"/>
+        <rdfs:label xml:lang="en">critically endangered</rdfs:label>
+        <rdfs:label xml:lang="es">en peligro crítico</rdfs:label>
+        <skos:prefLabel xml:lang="en">critically endangered</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">en peligro crítico</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000068 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000068">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IUCNRL"/>
+        <rdfs:label xml:lang="en">extinct in the wild</rdfs:label>
+        <rdfs:label xml:lang="es">extinto en estado salvaje</rdfs:label>
+        <skos:prefLabel xml:lang="en">extinct in the wild</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">extinto en estado salvaje</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000069 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000069">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IUCNRL"/>
+        <rdfs:label xml:lang="en">extinct</rdfs:label>
+        <rdfs:label xml:lang="es">extinto</rdfs:label>
+        <skos:prefLabel xml:lang="en">extinct</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">extinto</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000070 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000070">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#LESRPE"/>
+        <rdfs:label xml:lang="es">sí</rdfs:label>
+        <rdfs:label xml:lang="en">yes</rdfs:label>
+        <skos:prefLabel xml:lang="es">sí</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">yes</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000071 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000071">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#LESRPE"/>
+        <rdfs:label xml:lang="en">no</rdfs:label>
+        <rdfs:label xml:lang="es">no</rdfs:label>
+        <skos:prefLabel xml:lang="en">no</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">no</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000072 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000072">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#GeorefMeth"/>
+        <rdfs:label xml:lang="en">GPS</rdfs:label>
+        <skos:prefLabel xml:lang="en">GPS</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000073 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000073">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#GeorefMeth"/>
+        <rdfs:label xml:lang="en">map</rdfs:label>
+        <skos:prefLabel xml:lang="en">map</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000074 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000074">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#GeorefMeth"/>
+        <rdfs:label xml:lang="en">GIS</rdfs:label>
+        <skos:prefLabel xml:lang="en">GIS</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000075 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000075">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#GeorefMeth"/>
+        <rdfs:label xml:lang="en">gazetteer</rdfs:label>
+        <skos:prefLabel xml:lang="en">gazetteer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000076 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000076">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#GeorefMeth"/>
+        <rdfs:label xml:lang="en">empty</rdfs:label>
+        <skos:prefLabel xml:lang="en">empty</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000079 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000079">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CoordDatum"/>
+        <rdfs:label xml:lang="en">WGS84</rdfs:label>
+        <skos:prefLabel xml:lang="en">WGS84</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000080 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000080">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CoordDatum"/>
+        <rdfs:label xml:lang="en">ETRS89</rdfs:label>
+        <skos:prefLabel xml:lang="en">ETRS89</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000081 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000081">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CoordDatum"/>
+        <rdfs:label xml:lang="en">NAD83</rdfs:label>
+        <skos:prefLabel xml:lang="en">NAD83</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000082 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000082">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <rdfs:comment xml:lang="en">Derived field!</rdfs:comment>
+        <rdfs:comment xml:lang="en">only for Spanish accessions</rdfs:comment>
+        <rdfs:label xml:lang="en">province</rdfs:label>
+        <rdfs:label xml:lang="es">provincia</rdfs:label>
+        <skos:prefLabel xml:lang="en">province</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">provincia</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000083 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000083">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <rdfs:comment xml:lang="en">only for Spanish accessions
+Derived field</rdfs:comment>
+        <rdfs:label xml:lang="en">province up</rdfs:label>
+        <rdfs:label xml:lang="es">provincia actualizada</rdfs:label>
+        <skos:prefLabel xml:lang="en">province up</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">provincia actualizada</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000084 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000084">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <rdfs:label xml:lang="en">municipality</rdfs:label>
+        <rdfs:label xml:lang="es">municipio</rdfs:label>
+        <skos:prefLabel xml:lang="en">municipality</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">municipio</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000085 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000085">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <rdfs:comment xml:lang="en">Derived field!</rdfs:comment>
+        <rdfs:label xml:lang="en">municipality up</rdfs:label>
+        <rdfs:label xml:lang="es">municipio actualizado</rdfs:label>
+        <skos:prefLabel xml:lang="en">municipality up</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">municipio actualizado</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000086 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000086">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        <rdfs:comment xml:lang="en">Update of the country of collection
+derived field</rdfs:comment>
+        <rdfs:label xml:lang="en">country up</rdfs:label>
+        <rdfs:label xml:lang="es">país actualizado</rdfs:label>
+        <skos:prefLabel xml:lang="en">country up</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">país actualizado</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000087 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000087">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DetStatus"/>
+        <rdfs:label xml:lang="es">ID no verificada (dudosa)</rdfs:label>
+        <rdfs:label xml:lang="en">unverified ID (doubtful)</rdfs:label>
+        <skos:prefLabel xml:lang="es">ID verificada (dudosa)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">unverified ID (doubtful)</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000088 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000088">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DetStatus"/>
+        <rdfs:label xml:lang="es">ID provisional (cierta incertidumbre)</rdfs:label>
+        <rdfs:label xml:lang="en">provisional ID (some uncertainty)</rdfs:label>
+        <skos:prefLabel xml:lang="es">ID provisional (cierta incertidumbre)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">provisional ID (some uncertainty)</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000089 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000089">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DetStatus"/>
+        <rdfs:label xml:lang="es">ID verificada en el campo</rdfs:label>
+        <rdfs:label xml:lang="en">verified in field</rdfs:label>
+        <skos:prefLabel xml:lang="es">ID verificada en el campo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">verified in field</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000090 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000090">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DetStatus"/>
+        <rdfs:label xml:lang="es">ID verificada en gabinete</rdfs:label>
+        <rdfs:label xml:lang="en">verified off field</rdfs:label>
+        <skos:prefLabel xml:lang="es">ID verificada en gabinete</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">verified off field</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000091 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000091">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DetStatusUp"/>
+        <rdfs:label xml:lang="es">ID no verificado (dudosa)</rdfs:label>
+        <rdfs:label xml:lang="en">unverified ID (doubtful)</rdfs:label>
+        <skos:prefLabel xml:lang="es">ID no verificado (dudosa)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">unverified ID (doubtful)</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000092 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000092">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DetStatusUp"/>
+        <rdfs:label xml:lang="es">ID provisional (cierta incertidumbre)</rdfs:label>
+        <rdfs:label xml:lang="en">provisional ID (some uncertainty)</rdfs:label>
+        <skos:prefLabel xml:lang="es">ID provisional (cierta incertidumbre)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">provisional ID (some uncertainty)</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000093 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000093">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DetStatusUp"/>
+        <rdfs:label xml:lang="es">ID verificada en el campo</rdfs:label>
+        <rdfs:label xml:lang="en">ID verified in field</rdfs:label>
+        <skos:prefLabel xml:lang="es">ID verificada en el campo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">ID verified in field</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000094 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000094">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DetStatusUp"/>
+        <rdfs:label xml:lang="es">ID verificada en gabinete</rdfs:label>
+        <rdfs:label xml:lang="en">ID verified off field</rdfs:label>
+        <skos:prefLabel xml:lang="es">ID verificada en gabinete</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">ID verified off field</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000095 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000095">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#MotivesAndPermits"/>
+        <rdfs:comment xml:lang="en">Conservation motive includes the case of accessions collected by the institution that conserved them and accessions that have been collected by others and are here duplicates.</rdfs:comment>
+        <rdfs:label xml:lang="en">consrv motive</rdfs:label>
+        <rdfs:label xml:lang="es">motivo conservación</rdfs:label>
+        <skos:prefLabel xml:lang="en">consrv motive</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">motivo conservación</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000096 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000096">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#MotivesAndPermits"/>
+        <rdfs:comment xml:lang="en">Link to the pdf with the permit for collecting
+Caution: Permiso (bansem2) includes both types of permit: permit from a donor and permit for a collecting expedition</rdfs:comment>
+        <rdfs:label xml:lang="en">coll permit</rdfs:label>
+        <rdfs:label xml:lang="es">permiso recolección</rdfs:label>
+        <skos:prefLabel xml:lang="en">coll permit</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">permiso recolección</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000097 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000097">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CEAESP"/>
+        <dc:description xml:lang="en">taxa or populations that are at risk of becoming &quot;endangered&quot; in the immediate future if the adverse factors acting on them are not corrected</dc:description>
+        <rdfs:label xml:lang="en">vulnerable</rdfs:label>
+        <skos:prefLabel xml:lang="en">vulnerable</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000098 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000098">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CEAESP"/>
+        <dc:description xml:lang="en">taxa or populations whose survival is unlikely if the causal factors of their current situation continue to act.</dc:description>
+        <rdfs:label xml:lang="en">in danger of exctiction</rdfs:label>
+        <skos:prefLabel xml:lang="en">in danger of exctiction</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000099 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000099">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CEAESP"/>
+        <rdfs:label xml:lang="en">blank</rdfs:label>
+        <skos:prefLabel xml:lang="en">blank</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000100 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000100">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CONSACTION"/>
+        <rdfs:label xml:lang="es">0 no acciones de conservación</rdfs:label>
+        <rdfs:label xml:lang="en">0 no conservation actions</rdfs:label>
+        <skos:prefLabel xml:lang="es">0 no acciones de conservación</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">0 no conservation actions</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000101 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000101">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CONSACTION"/>
+        <rdfs:label xml:lang="es">1 acciones de seguimiento y recuperación de la población</rdfs:label>
+        <rdfs:label xml:lang="en">1 monitoring and recovery actions for  the population</rdfs:label>
+        <skos:prefLabel xml:lang="es">1 acciones de seguimiento y recuperación de la población</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">1 monitoring and recovery actions for the population</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000102 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000102">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CONSACTION"/>
+        <rdfs:label xml:lang="es">2 acciones protección y gestión del hábitat</rdfs:label>
+        <rdfs:label xml:lang="en">2 habitat protection and management actions</rdfs:label>
+        <skos:prefLabel xml:lang="es">2 acciones protección y gestión del hábitat</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">2 habitat protection and management actions</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000103 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000103">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CONSACTION"/>
+        <rdfs:label xml:lang="es">3 acciones gestión población</rdfs:label>
+        <rdfs:label xml:lang="en">3 population management actions</rdfs:label>
+        <skos:prefLabel xml:lang="es">3 acciones gestión población</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">3 population management actions</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000104 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000104">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CONSACTION"/>
+        <rdfs:label xml:lang="es">4 acciones legislativas de educación sobre la población</rdfs:label>
+        <rdfs:label xml:lang="en">4 education and legislation actions for population</rdfs:label>
+        <skos:prefLabel xml:lang="es">4 acciones legislativas de educación sobre la población</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">4 education and legislation actions for population</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000105 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000105">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#CONSACTION"/>
+        <rdfs:label xml:lang="en">99 other</rdfs:label>
+        <rdfs:label xml:lang="es">99 otras</rdfs:label>
+        <skos:prefLabel xml:lang="en">99 other</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">99 otras</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000106 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000106">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#MLSSTAT"/>
+        <rdfs:label xml:lang="en">0 not available under the MLS</rdfs:label>
+        <skos:prefLabel xml:lang="en">0 not available under the MLS</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000107 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000107">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#MLSSTAT"/>
+        <rdfs:label xml:lang="en">1 available under the MLS</rdfs:label>
+        <skos:prefLabel xml:lang="en">1 available under the MLS</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000108 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000108">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RESTR"/>
+        <rdfs:label xml:lang="en">0 no restriction for online publication</rdfs:label>
+        <skos:prefLabel xml:lang="en">0 no restriction for online publication</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000109 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000109">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RESTR"/>
+        <rdfs:label xml:lang="en">1 no geodata to be published online, except county</rdfs:label>
+        <skos:prefLabel xml:lang="en">1 no geodata to be published online, except county</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000110 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000110">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#RESTR"/>
+        <rdfs:label xml:lang="en">2 fuzzy matched lat/long, no locality notes or altitude to be published online</rdfs:label>
+        <skos:prefLabel xml:lang="en">2 fuzzy matched lat/long, no locality or altitude to be published online</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000111 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000111">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultivated"/>
+        <rdfs:label xml:lang="en">true</rdfs:label>
+        <rdfs:label xml:lang="es">verdadero</rdfs:label>
+        <skos:prefLabel xml:lang="en">true</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">verdadero</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000112 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000112">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultivated"/>
+        <rdfs:label xml:lang="en">false</rdfs:label>
+        <rdfs:label xml:lang="es">falso</rdfs:label>
+        <skos:prefLabel xml:lang="en">false</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">falso</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000116 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000116">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+        <rdfs:comment xml:lang="en">http://sweetgum.nybg.org/science/ih/
+Index Herbariorum code of the institute where the ex
+situ accession/herbarium specimen is maintained</rdfs:comment>
+        <rdfs:label xml:lang="es">código Index Herbariorum</rdfs:label>
+        <rdfs:label xml:lang="en">herb code</rdfs:label>
+        <skos:prefLabel xml:lang="es">código Index Herbariorum</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">herb code</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000117 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000117">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+        <rdfs:comment xml:lang="en">Herbarium specimen number</rdfs:comment>
+        <rdfs:label xml:lang="es">número especimen herbario</rdfs:label>
+        <rdfs:label xml:lang="en">spec numb</rdfs:label>
+        <skos:prefLabel xml:lang="es">número especimen herbario</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">spec numb</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000118 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000118">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+        <rdfs:comment xml:lang="en">Herbarium sheet prepared?</rdfs:comment>
+        <rdfs:label xml:lang="es">pliego de herbario</rdfs:label>
+        <rdfs:label xml:lang="en">voucher</rdfs:label>
+        <skos:prefLabel xml:lang="es">pliego de herbario</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">voucher</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000119 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000119">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000118"/>
+        <rdfs:label xml:lang="es">sí</rdfs:label>
+        <rdfs:label xml:lang="en">yes</rdfs:label>
+        <skos:prefLabel xml:lang="es">sí</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">yes</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000120 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000120">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000118"/>
+        <rdfs:label xml:lang="en">no</rdfs:label>
+        <rdfs:label xml:lang="es">no</rdfs:label>
+        <skos:prefLabel xml:lang="en">no</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">no</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000122 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000122">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+        <rdfs:label xml:lang="en">coll name</rdfs:label>
+        <rdfs:label xml:lang="es">institución responsable reccoleción</rdfs:label>
+        <skos:prefLabel xml:lang="en">coll name</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">institución responsable reccoleción</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000124 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000124">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+        <rdfs:comment xml:lang="en">Derived field</rdfs:comment>
+        <rdfs:comment xml:lang="en">Updated Collecting institute name. Name of the institute collecting the sample. This descriptor should be used only if COLLCODE cannot be filled because the FAO WIEWS code for this institute is not available. Multiple values are separated by a semicolon without space.</rdfs:comment>
+        <rdfs:label xml:lang="en">coll name up</rdfs:label>
+        <rdfs:label xml:lang="es">institución responsable reccoleción actualizado</rdfs:label>
+        <skos:prefLabel xml:lang="en">coll name up</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">institución responsable reccoleción actualizado</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000125 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000125">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+        <rdfs:comment xml:lang="en">Derived field</rdfs:comment>
+        <rdfs:comment xml:lang="en">Updated Collecting institute address. Address of the institute collecting the sample. This descriptor should be used only if COLLCODE cannot be filled since the FAO WIEWS code for this institute is not available. Multiple values are separated by a semicolon without space</rdfs:comment>
+        <rdfs:label xml:lang="en">coll inst address up</rdfs:label>
+        <rdfs:label xml:lang="es">dirección institución responsable reccoleción actualizada</rdfs:label>
+        <skos:prefLabel xml:lang="en">coll inst address up</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">dirección institución responsable reccoleción actualizada</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000126 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000126">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+        <rdfs:comment xml:lang="en">Includes the full name of the person responsible of the collection mission.</rdfs:comment>
+        <rdfs:label xml:lang="en">collector</rdfs:label>
+        <rdfs:label xml:lang="es">recolectores</rdfs:label>
+        <skos:prefLabel xml:lang="en">collector</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">recolectores</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000128 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#FLAIR_GG_000128">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sample"/>
+        <rdfs:comment xml:lang="en">Collecting institute address. Address of the institute collecting the sample. This descriptor should be used only if COLLCODE cannot be filled since the FAO WIEWS code for this institute is not available. Multiple values are separated by a semicolon without space</rdfs:comment>
+        <rdfs:label xml:lang="en">coll inst address</rdfs:label>
+        <rdfs:label xml:lang="es">dirección institución responsable reccoleción</rdfs:label>
+        <skos:prefLabel xml:lang="en">coll inst address</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">dirección institución responsable reccoleción</skos:prefLabel>
     </owl:Class>
     
 
@@ -1100,36 +3875,6 @@
 
     <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000111">
         <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000112 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000112">
-        <rdfs:label xml:lang="es">categoría de peligro de extinción</rdfs:label>
-        <rdfs:label xml:lang="en">endangerment category</rdfs:label>
-        <skos:prefLabel xml:lang="en">endangerment category</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000113 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000113">
-        <rdfs:label xml:lang="en">national catalogue code</rdfs:label>
-        <skos:prefLabel xml:lang="es">código del catálogo nacional</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">national catalogue code</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000117 -->
-
-    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000117">
-        <rdfs:label xml:lang="en">determination status</rdfs:label>
-        <rdfs:label xml:lang="es">estado de determinación</rdfs:label>
-        <skos:prefLabel>determination status</skos:prefLabel>
     </owl:Class>
     
 
@@ -2642,5 +5387,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
