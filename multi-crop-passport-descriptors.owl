@@ -1,0 +1,3262 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#"
+     xml:base="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology>
+        <dc:description>Adapted from FAO/Bioversity Multi-Crop Passport Descriptors, 2004\ncoverage: Multi-Crop Passport Descriptors\ncreator: Jeffrey Detras, Tom Hazekamp and Richard Bruskiewich\npublisher: Bioversity International and IRRI under the Generation Challenge Program</dc:description>
+        <dc:title>Multicrop Passport Ontology</dc:title>
+        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <oboInOwl:hasOBOFormatVersion>1.0</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:saved-by>Mark Wilkinson</oboInOwl:saved-by>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broaderTransitive -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000131 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000131">
+        <rdfs:label xml:lang="en">acquisition time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000132 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000132">
+        <rdfs:label xml:lang="en">collecting date of sample</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000133 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000133">
+        <rdfs:label xml:lang="en">terrain inclination</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#InSituConservationStatusOfConservationActions -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#InSituConservationStatusOfConservationActions"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Remarks -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Remarks"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000003 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000003">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000005 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000005">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000006 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000006">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000007 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000007">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000008 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000008">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000009 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000009">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000010 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000010">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000011 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000011">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000012 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000012">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000013 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000013">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000014 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000014">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000015 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000015">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000016 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000016">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000017 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000017">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000018 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000018">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000020 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000020">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000021 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000021">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000022 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000022">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000024 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000024">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000025 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000025">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000027 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000027">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000028 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000028">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000030 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000030">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000031 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000031">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000032 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000032">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000033 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000033">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000036 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000036">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000037 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000037">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000038 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000038">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000039 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000039">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000040 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000040">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000042 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000042">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000043 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000043">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000045 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000045">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000046 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000046">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000047 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000047">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000048 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000048">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000049 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000049">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000051 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000051">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000052 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000052">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000053 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000053">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000054 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000054">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000055 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000055">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000056 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000056">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000057 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000057">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000058 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000058">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000059 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000059">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000060 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000060">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000061 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000061">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000063 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000063">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000064 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000064">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000067 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000067">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000068 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000068">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000069 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000069">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000070 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000070">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000071 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000071">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000072 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000072">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000073 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000073">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000077 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000077">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000085 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000085"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000090 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000090">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000091 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000091">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000092 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000092">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000093 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000093">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000094 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000094">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000095 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000095">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000096 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000096">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000097 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000097">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000098 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000098">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000099 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000099">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000100 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000100">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000101 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000101">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000102 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000102">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000103 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000103">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000104 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000104">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000105 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000105">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000106 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000106">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000108 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000108">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000109 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000109">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000110 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000110">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000111 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000111">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000129 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000129">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
+        <rdfs:label xml:lang="en">national catalogue code</rdfs:label>
+        <rdfs:label xml:lang="es">número del catálogo nacional</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000130 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000130">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+        <rdfs:label xml:lang="en">determination status</rdfs:label>
+        <rdfs:label xml:lang="es">estado de determinación</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000134 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000134">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">Cardinality (collapp).
+Degrees from 0 to 359</rdfs:comment>
+        <rdfs:label xml:lang="en">aspect</rdfs:label>
+        <rdfs:label xml:lang="es">orientación detectada in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">aspect</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">orientación detectada in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000136 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000136">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">Observed geology: either outcropping or parent bedrock, e.g. Basalt; Granite; Limestone; Sandstone; Chalk; et</rdfs:comment>
+        <rdfs:label xml:lang="en">geology</rdfs:label>
+        <rdfs:label xml:lang="es">litología detectada in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">geology</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">litología detectada in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000137 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000137">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">Habitat description.
+Memo (unlimited)
+Example: Deciduous woodland.</rdfs:comment>
+        <rdfs:label xml:lang="en">habitattxt</rdfs:label>
+        <rdfs:label xml:lang="es">hábitat detectado in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">habitattxt</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">hábitat detectado in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000138 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000138">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">Free text field.
+Estado fitosanitario (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="es">estado fitosanitario detectado in situ</rdfs:label>
+        <rdfs:label xml:lang="en">health con</rdfs:label>
+        <skos:prefLabel xml:lang="es">estado fitosanitario detectado in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">health con</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000140 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000140">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">The major landuse category(ies) of the immediate collection point. 
+Memo (unlimited)</rdfs:comment>
+        <rdfs:label xml:lang="en">landuse</rdfs:label>
+        <rdfs:label xml:lang="es">uso suelo detectado in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">landuse</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">uso suelo detectado in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000141 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000141">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">Level of leaf litter on the ground
+valorHojarasca (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="es">hojarasca detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">leaf litter</rdfs:label>
+        <skos:prefLabel xml:lang="es">hojarasca detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">leaf litter</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000142 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000142">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">Microhábitat (collapp)</rdfs:comment>
+        <rdfs:comment xml:lang="en">microhabitat</rdfs:comment>
+        <rdfs:label xml:lang="es">microhábitat detectado in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">microhabitat</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">microhábitat detectado in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000143 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000143">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">Level of organic matter in the soil
+valorMateriaOrganica (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="es">materia organica detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">organic matter</rdfs:label>
+        <skos:prefLabel xml:lang="es">materia organica detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">organic matter</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000144 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000144">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <dc:description xml:lang="en">ReactionHCl (collapp).
+Indicates whether the surface soil horizon bubbles when a few drops of 10% HCl are poured on it.</dc:description>
+        <rdfs:label xml:lang="es">reacción HCL detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">reaction HCL</rdfs:label>
+        <skos:prefLabel xml:lang="es">reacción HCL detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">reaction HCL</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000146 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000146">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">valorRocosidad (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="en">rockiness</rdfs:label>
+        <rdfs:label xml:lang="es">rocosidad detectada in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">rockiness</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">rocosidad detectada in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000147 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000147">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:label xml:lang="en">salt types</rdfs:label>
+        <rdfs:label xml:lang="es">tipo de sales detectados in situ</rdfs:label>
+        <skos:prefLabel xml:lang="en">salt types</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">tipo de sales detectados in situ</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000148 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000148">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">Slope values from 0 to 90</rdfs:comment>
+        <rdfs:label xml:lang="es">pendiente detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">slope</rdfs:label>
+        <skos:prefLabel xml:lang="es">pendiente detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">slope</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000149 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000149">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">Stoniness on top of soil 
+valorPedregosidad (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="es">pedregosidad detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">stoniness</rdfs:label>
+        <skos:prefLabel xml:lang="es">pedregosidad detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">stoniness</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000150 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000150">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">Texture of the upper horizon
+valorTexture (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="es">textura detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">texture</rdfs:label>
+        <skos:prefLabel xml:lang="es">textura detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">texture</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000151 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000151">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">In situ revealed threats.
+Threat type, for example fire, overcollection, disturbance, grazing etc. Multiple threats can added and separated with a semi-colon;. IUCN field.
+See full list of threat types here https://www.iucnredlist.org/resources/threat-classifi</rdfs:comment>
+        <rdfs:label xml:lang="es">amenazas detectadas in situ</rdfs:label>
+        <rdfs:label xml:lang="en">threat</rdfs:label>
+        <skos:prefLabel xml:lang="es">amenazas detectadas in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">threat</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000152 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000152">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">NombreTopografía (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="es">topografía detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">topography</rdfs:label>
+        <skos:prefLabel xml:lang="es">topografía detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">topography</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000153 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000153">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">Plant cover.
+Percentage</rdfs:comment>
+        <rdfs:label xml:lang="es">cobertura vegetal detectada in situ</rdfs:label>
+        <rdfs:label xml:lang="en">veg cover</rdfs:label>
+        <skos:prefLabel xml:lang="es">cobertura vegetal detectada in situ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">veg cover</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000154 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000154">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#Environment"/>
+        <rdfs:comment xml:lang="en">Associated plant species: enter the scientific name. Up to 3 associated plant species can be entered.
+Especies vegetales asociadas (collapp)</rdfs:comment>
+        <rdfs:label xml:lang="en">ass plant species</rdfs:label>
+        <rdfs:label xml:lang="es">especies vegetales asociadas</rdfs:label>
+        <skos:prefLabel xml:lang="en">ass plant species</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">especies vegetales asociadas</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000155 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000155">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000152"/>
+        <rdfs:label xml:lang="en">gully</rdfs:label>
+        <rdfs:label xml:lang="es">hondonada</rdfs:label>
+        <skos:prefLabel xml:lang="en">gully</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">hondonada</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000156 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000156">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000141"/>
+        <rdfs:label xml:lang="es">alta</rdfs:label>
+        <rdfs:label xml:lang="en">high</rdfs:label>
+        <skos:prefLabel xml:lang="es">alta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">high</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000157 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000157">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000141"/>
+        <rdfs:label xml:lang="es">baja</rdfs:label>
+        <rdfs:label xml:lang="en">low</rdfs:label>
+        <skos:prefLabel xml:lang="es">baja</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">low</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000158 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000158">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000141"/>
+        <rdfs:label xml:lang="es">media</rdfs:label>
+        <rdfs:label xml:lang="en">medium</rdfs:label>
+        <skos:prefLabel xml:lang="es">media</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">medium</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000159 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000159">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000152"/>
+        <rdfs:label xml:lang="en">plain</rdfs:label>
+        <rdfs:label xml:lang="es">plana</rdfs:label>
+        <skos:prefLabel xml:lang="en">plain</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">plana</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000160 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000160">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000152"/>
+        <rdfs:label xml:lang="es">cresta</rdfs:label>
+        <rdfs:label xml:lang="en">ridge</rdfs:label>
+        <skos:prefLabel xml:lang="es">cresta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">ridge</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000161 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000161">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000152"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000162 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000162">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#InSituConservationStatusOfConservationActions"/>
+        <rdfs:comment xml:lang="en">Derived field! 
+The official list is in:
+https://www.mapa.gob.es/es/agricultura/temas/medios-de-produccion/mapa_estrategiadeconservacion_04_tcm30-636650.pdf</rdfs:comment>
+        <rdfs:label xml:lang="en">CWR</rdfs:label>
+        <rdfs:label xml:lang="es">Parientes silvestres de los cultivos</rdfs:label>
+        <skos:prefLabel xml:lang="en">CWR</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Parientes silvestres de los cultivos</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000163 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000163">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000151"/>
+        <rdfs:label xml:lang="en">fire</rdfs:label>
+        <rdfs:label xml:lang="es">fuego</rdfs:label>
+        <skos:prefLabel xml:lang="en">fire</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">fuego</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000164 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000164">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000151"/>
+        <rdfs:label xml:lang="en">overcollection</rdfs:label>
+        <rdfs:label xml:lang="es">sobrerecolección</rdfs:label>
+        <skos:prefLabel xml:lang="en">overcollection</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">sobrerecolección</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000165 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000165">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000151"/>
+        <rdfs:label xml:lang="en">disturbance</rdfs:label>
+        <rdfs:label xml:lang="es">perturbación</rdfs:label>
+        <skos:prefLabel xml:lang="en">disturbance</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">perturbación</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000166 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000166">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000151"/>
+        <rdfs:label xml:lang="en">grazing</rdfs:label>
+        <rdfs:label xml:lang="es">pastoreo</rdfs:label>
+        <skos:prefLabel xml:lang="en">grazing</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">pastoreo</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000167 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000167">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000153"/>
+        <rdfs:label xml:lang="es">alta</rdfs:label>
+        <rdfs:label xml:lang="en">high</rdfs:label>
+        <skos:prefLabel xml:lang="es">alta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">high</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000168 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000168">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000153"/>
+        <rdfs:label xml:lang="es">media</rdfs:label>
+        <rdfs:label xml:lang="en">medium</rdfs:label>
+        <skos:prefLabel xml:lang="es">media</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">medium</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000169 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000169">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000153"/>
+        <rdfs:label xml:lang="es">baja</rdfs:label>
+        <rdfs:label xml:lang="en">low</rdfs:label>
+        <skos:prefLabel xml:lang="es">baja</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">low</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000170 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000170">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000153"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000171 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000171">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000141"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000172 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000172">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000143"/>
+        <rdfs:label xml:lang="es">alta</rdfs:label>
+        <rdfs:label xml:lang="en">high</rdfs:label>
+        <skos:prefLabel xml:lang="es">alta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">high</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000173 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000173">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000143"/>
+        <rdfs:label xml:lang="es">media</rdfs:label>
+        <rdfs:label xml:lang="en">medium</rdfs:label>
+        <skos:prefLabel xml:lang="es">media</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">medium</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000174 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000174">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000143"/>
+        <rdfs:label xml:lang="es">baja</rdfs:label>
+        <rdfs:label xml:lang="en">low</rdfs:label>
+        <skos:prefLabel xml:lang="es">baja</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">low</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000175 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000175">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000143"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000176 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000176">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000142"/>
+        <rdfs:label xml:lang="es">no definido</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definido</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000177 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000177">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000142"/>
+        <rdfs:label xml:lang="es">cuneta</rdfs:label>
+        <rdfs:label xml:lang="en">roadside</rdfs:label>
+        <skos:prefLabel xml:lang="es">cuneta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">roadside</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000178 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000178">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000142"/>
+        <rdfs:label xml:lang="es">borde curso de agua</rdfs:label>
+        <rdfs:label xml:lang="en">watercourse edge</rdfs:label>
+        <skos:prefLabel xml:lang="es">borde curso de agua</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">watercourse edge</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000179 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000179">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000142"/>
+        <rdfs:label xml:lang="es">repisa en roca</rdfs:label>
+        <rdfs:label xml:lang="en">rocky ledge</rdfs:label>
+        <skos:prefLabel xml:lang="es">repisa en roca</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">rocky ledge</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000180 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000180">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000142"/>
+        <rdfs:label xml:lang="es">grieta en roca</rdfs:label>
+        <rdfs:label xml:lang="en">rocky crevice</rdfs:label>
+        <skos:prefLabel xml:lang="es">grieta en roca</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">rocky crevice</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000181 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000181">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000142"/>
+        <rdfs:label xml:lang="es">pedregal</rdfs:label>
+        <rdfs:label xml:lang="en">pedregal (scree spot)</rdfs:label>
+        <skos:prefLabel xml:lang="es">pedregal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">pedregal (scree spot)</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000182 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000182">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000142"/>
+        <rdfs:label xml:lang="es">arenal</rdfs:label>
+        <rdfs:label xml:lang="en">arenal (sandy spot)</rdfs:label>
+        <skos:prefLabel xml:lang="es">arenal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">arenal (sandy spot)</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000183 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000183">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000149"/>
+        <rdfs:label xml:lang="es">alta</rdfs:label>
+        <rdfs:label xml:lang="en">high</rdfs:label>
+        <skos:prefLabel xml:lang="es">alta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">high</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000184 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000184">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000149"/>
+        <rdfs:label xml:lang="es">media</rdfs:label>
+        <rdfs:label xml:lang="en">medium</rdfs:label>
+        <skos:prefLabel xml:lang="es">media</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">medium</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000185 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000185">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000149"/>
+        <rdfs:label xml:lang="es">baja</rdfs:label>
+        <rdfs:label xml:lang="en">low</rdfs:label>
+        <skos:prefLabel xml:lang="es">baja</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">low</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000186 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000186">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000149"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000187 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000187">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000146"/>
+        <rdfs:label xml:lang="es">alta</rdfs:label>
+        <rdfs:label xml:lang="en">high</rdfs:label>
+        <skos:prefLabel xml:lang="es">alta</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">high</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000188 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000188">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000146"/>
+        <rdfs:label xml:lang="es">media</rdfs:label>
+        <rdfs:label xml:lang="en">medium</rdfs:label>
+        <skos:prefLabel xml:lang="es">media</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">medium</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000189 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000189">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000146"/>
+        <rdfs:label xml:lang="es">baja</rdfs:label>
+        <rdfs:label xml:lang="en">low</rdfs:label>
+        <skos:prefLabel xml:lang="es">baja</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">low</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000190 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000190">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000146"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000191 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000191">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000150"/>
+        <rdfs:label xml:lang="es">arenosa</rdfs:label>
+        <rdfs:label xml:lang="en">sandy</rdfs:label>
+        <skos:prefLabel xml:lang="es">arenosa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">sandy</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000192 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000192">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000150"/>
+        <rdfs:label xml:lang="es">limosa</rdfs:label>
+        <rdfs:label xml:lang="en">loamy</rdfs:label>
+        <skos:prefLabel xml:lang="es">limosa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">loamy</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000193 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000193">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000150"/>
+        <rdfs:label xml:lang="es">arcillosa</rdfs:label>
+        <rdfs:label xml:lang="en">clayey</rdfs:label>
+        <skos:prefLabel xml:lang="es">arcillosa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">clayey</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000194 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000194">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000150"/>
+        <rdfs:label xml:lang="es">no definida</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000195 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000195">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000147"/>
+        <rdfs:label xml:lang="es">no definido</rdfs:label>
+        <rdfs:label xml:lang="en">undefined</rdfs:label>
+        <skos:prefLabel xml:lang="es">no definido</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">undefined</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000196 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000196">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000147"/>
+        <rdfs:label xml:lang="en">plaster</rdfs:label>
+        <rdfs:label xml:lang="es">yesosas</rdfs:label>
+        <skos:prefLabel xml:lang="en">plaster</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">yesosas</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000197 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000197">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000147"/>
+        <rdfs:label xml:lang="es">calcareas</rdfs:label>
+        <rdfs:label xml:lang="en">limestone</rdfs:label>
+        <skos:prefLabel xml:lang="es">calcareas</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">limestone</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000198 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000198">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000147"/>
+        <rdfs:label xml:lang="es">humedal salino</rdfs:label>
+        <rdfs:label xml:lang="en">marsh</rdfs:label>
+        <skos:prefLabel xml:lang="es">humedal salino</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">marsh</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000199 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000199">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000147"/>
+        <rdfs:label xml:lang="es">eflorecencias</rdfs:label>
+        <rdfs:label xml:lang="en">saline efflorescences</rdfs:label>
+        <skos:prefLabel xml:lang="es">eflorecencias</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">saline efflorescences</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#ID:0000000 -->
+
+    <owl:Class rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#ID:0000000">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000003 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000003"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000005 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000005"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000006 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000006"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000007 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000007"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000008 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000008"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000009 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000009"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000010 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000010"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000011 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000011"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000012 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000012"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000013 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000013"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000014 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000014"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000015 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000015"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000016 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000016"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000017 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000017"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000018 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000018"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000020 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000020"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000021 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000021"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000022 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000022"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000024 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000024"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000025 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000025"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000027 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000027"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000028 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000028"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000030 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000030"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000031 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000031"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000032 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000032"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000033 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000033"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000036 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000036"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000037 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000037"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000038 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000038"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000039 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000039"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000040 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000040"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000042 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000042"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000043 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000043"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000045 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000045"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000046 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000046"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000047 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000047"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000048 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000048"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000049 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000049"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000051 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000051"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000052 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000052"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000053 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000053"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000054 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000054"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000055 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000055"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000056 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000056"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000057 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000057"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000058 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000058"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000059 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000059"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000060 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000060"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000061 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000061"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000063 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000063"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000064 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000064"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000067 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000067"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000068 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000068"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000069 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000069"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000070 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000070"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000071 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000071"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000072 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000072"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000073 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000073"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000077 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000077"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000084 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000084"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000085 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000085"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000090 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000090"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000091 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000091"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000092 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000092"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000093 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000093"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000094 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000094"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000095 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000095"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000096 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000096"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000097 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000097"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000098 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000098"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000099 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000099"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000100 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000100"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000101 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000101"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000102 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000102"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000103 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000103"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000104 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000104"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000105 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000105"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000106 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000106"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000108 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000108"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000109 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000109"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000110 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000110"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000111 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000111"/>
+    
+
+
+    <!-- https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#ID:0000000 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#ID:0000000"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000">
+        <rdfs:label xml:lang="en">multicrop passport ontology</rdfs:label>
+        <rdfs:label xml:lang="es">ontología pasaporte multicultivo</rdfs:label>
+        <skos:prefLabel xml:lang="en">multicrop passport ontology</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000003">
+        <rdfs:label xml:lang="en">collecting number</rdfs:label>
+        <rdfs:label xml:lang="es">número de recolección</rdfs:label>
+        <skos:altLabel xml:lang="en">(COLLNUMB) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
+        <skos:prefLabel xml:lang="en">collecting number</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004">
+        <rdfs:label xml:lang="en">collecting institute code</rdfs:label>
+        <rdfs:label xml:lang="es">código de la institución colectora</rdfs:label>
+        <skos:altLabel xml:lang="en">(COLLCODE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
+        <skos:prefLabel xml:lang="en">collecting institute code</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000005">
+        <rdfs:label xml:lang="en">genus</rdfs:label>
+        <rdfs:label xml:lang="es">género</rdfs:label>
+        <skos:altLabel xml:lang="en">(GENUS) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
+        <skos:prefLabel xml:lang="en">genus</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000006">
+        <rdfs:label xml:lang="es">especie</rdfs:label>
+        <rdfs:label xml:lang="en">species</rdfs:label>
+        <skos:altLabel xml:lang="en">(SPECIES) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
+        <skos:prefLabel xml:lang="en">species</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000007">
+        <rdfs:label xml:lang="es">autoría de especie</rdfs:label>
+        <rdfs:label xml:lang="en">species authority</rdfs:label>
+        <skos:altLabel xml:lang="en">(SPAUTHOR) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
+        <skos:prefLabel xml:lang="en">species authority</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000008">
+        <rdfs:label xml:lang="en">subtaxa</rdfs:label>
+        <rdfs:label xml:lang="es">subtaxón</rdfs:label>
+        <skos:altLabel xml:lang="en">Subspecies RELATED []]</skos:altLabel>
+        <skos:altLabel xml:lang="en">[(SUBTAXA) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
+        <skos:prefLabel xml:lang="en">subtaxa</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000009">
+        <rdfs:label xml:lang="es">autoría de subtaxón</rdfs:label>
+        <rdfs:label xml:lang="en">subtaxa authority</rdfs:label>
+        <skos:altLabel xml:lang="en">(SUBTAUTHOR) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
+        <skos:prefLabel xml:lang="en">subtaxa authority</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000010">
+        <rdfs:label xml:lang="en">common crop name</rdfs:label>
+        <rdfs:label xml:lang="es">nombre comúm de cultivo</rdfs:label>
+        <skos:altLabel xml:lang="en">(CROPNAME) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081"/>
+        <skos:prefLabel xml:lang="en">common crop name</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000011">
+        <rdfs:label xml:lang="en">accession name</rdfs:label>
+        <rdfs:label xml:lang="es">nombre de la accesión</rdfs:label>
+        <skos:altLabel xml:lang="en">(ACCENAME) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
+        <skos:prefLabel xml:lang="en">accession name</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000012">
+        <rdfs:label xml:lang="en">acquisition date</rdfs:label>
+        <rdfs:label xml:lang="es">fecha de adquisición</rdfs:label>
+        <skos:altLabel xml:lang="en">(ACQDATE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086"/>
+        <skos:prefLabel xml:lang="en">acquisition date</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000013">
+        <rdfs:label xml:lang="en">country of origin</rdfs:label>
+        <rdfs:label xml:lang="es">país de origen</rdfs:label>
+        <skos:altLabel xml:lang="en">(ORIGCTY) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+        <skos:prefLabel xml:lang="en">country of origin</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000014">
+        <rdfs:label xml:lang="es">localización del lugar de recolección</rdfs:label>
+        <rdfs:label xml:lang="en">location of collecting site</rdfs:label>
+        <skos:altLabel xml:lang="en">(COLLSITE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+        <skos:prefLabel xml:lang="en">location of collecting site</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000015">
+        <rdfs:label xml:lang="es">latitud del lugar de recolección (grados, minutos, segundos, etc)</rdfs:label>
+        <rdfs:label xml:lang="en">latitude of collecting site (degree, min, sec)</rdfs:label>
+        <skos:altLabel xml:lang="en">(LATITUDE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+        <skos:prefLabel xml:lang="en">latitude of collecting site (degree, min, sec)</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000016">
+        <rdfs:label xml:lang="es">longitud del lugar de recolección (grados, minutos, segundos, etc)</rdfs:label>
+        <rdfs:label xml:lang="en">longitude of collecting site (degree, min, sec)</rdfs:label>
+        <skos:altLabel xml:lang="en">(LONGITUDE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+        <skos:prefLabel xml:lang="en">longitude of collecting site (degree, min, sec)</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000017">
+        <rdfs:label xml:lang="es">elevación del lugar de recolección</rdfs:label>
+        <rdfs:label xml:lang="en">elevation of collecting site</rdfs:label>
+        <skos:altLabel xml:lang="en">(ELEVATION) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+        <skos:prefLabel xml:lang="en">elevation of collecting site</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000018">
+        <rdfs:label xml:lang="en">collecting date of sample</rdfs:label>
+        <rdfs:label xml:lang="es">fecha de recolección de la muestra</rdfs:label>
+        <skos:altLabel xml:lang="en">(COLLDATE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086"/>
+        <skos:prefLabel xml:lang="en">collecting date of sample</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019">
+        <rdfs:label xml:lang="en">breeding institute code</rdfs:label>
+        <rdfs:label xml:lang="es">código de la institución de mejora genética</rdfs:label>
+        <skos:altLabel xml:lang="en">(BREDCODE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
+        <skos:prefLabel xml:lang="en">breeding institute code</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000020">
+        <rdfs:label xml:lang="en">biological status of accession</rdfs:label>
+        <rdfs:label xml:lang="es">estado biológico de la accesión</rdfs:label>
+        <skos:altLabel xml:lang="en">(SAMPSTAT) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+        <skos:prefLabel xml:lang="en">biological status of accession</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000021">
+        <rdfs:label xml:lang="en">ancestral data</rdfs:label>
+        <rdfs:label xml:lang="es">datos ancestrales</rdfs:label>
+        <skos:altLabel xml:lang="en">(ANCEST) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082"/>
+        <skos:prefLabel xml:lang="en">ancestral data</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000022">
+        <rdfs:label xml:lang="en">collecting or acquisition source</rdfs:label>
+        <rdfs:label xml:lang="es">fuente de recolección o adquisición</rdfs:label>
+        <skos:altLabel xml:lang="en">(COLLSRC) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+        <skos:prefLabel xml:lang="en">collecting or acquisition source</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023">
+        <rdfs:label xml:lang="es">código de institución donante</rdfs:label>
+        <rdfs:label xml:lang="en">donor institute code</rdfs:label>
+        <skos:altLabel xml:lang="en">(DONORCODE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
+        <skos:prefLabel xml:lang="en">donor institute code</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000024">
+        <rdfs:label xml:lang="en">donor accession number</rdfs:label>
+        <rdfs:label xml:lang="es">número de accesión del donante</rdfs:label>
+        <skos:altLabel xml:lang="en">(DONORNUMB) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089"/>
+        <skos:prefLabel xml:lang="en">donor accession number</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000025">
+        <rdfs:label xml:lang="en">other identification numbers associated with the accession</rdfs:label>
+        <rdfs:label xml:lang="es">otros números de identificación asociados con la accesión</rdfs:label>
+        <skos:altLabel xml:lang="en">(OTHERNUMB) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
+        <skos:prefLabel xml:lang="en">other identification numbers associated with the accession</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026">
+        <rdfs:label xml:lang="es">localización de duplicados de seguridad</rdfs:label>
+        <rdfs:label xml:lang="en">location of safety duplicates</rdfs:label>
+        <skos:altLabel xml:lang="en">(DUPLSITE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
+        <skos:prefLabel xml:lang="en">location of safety duplicates</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000027">
+        <rdfs:label xml:lang="es">tipo de almacenamiento de germoplasma</rdfs:label>
+        <rdfs:label xml:lang="en">type of germplasm storage</rdfs:label>
+        <skos:altLabel xml:lang="en">(STORAGE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+        <skos:prefLabel xml:lang="en">type of germplasm storage</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000028">
+        <rdfs:label xml:lang="es">comentarios</rdfs:label>
+        <rdfs:label xml:lang="en">remarks</rdfs:label>
+        <skos:altLabel xml:lang="en">(REMARKS) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+        <skos:prefLabel xml:lang="en">remarks</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029">
+        <rdfs:label xml:lang="es">salvaje</rdfs:label>
+        <rdfs:label xml:lang="en">wild</rdfs:label>
+        <skos:altLabel xml:lang="en">(100 wild)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+        <skos:prefLabel xml:lang="en">wild</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000030">
+        <rdfs:label xml:lang="en">natural</rdfs:label>
+        <rdfs:label xml:lang="es">natural</rdfs:label>
+        <skos:altLabel xml:lang="en">(110 natural)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029"/>
+        <skos:prefLabel xml:lang="en">natural</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000031">
+        <rdfs:label xml:lang="en">semi-natural or wild</rdfs:label>
+        <rdfs:label xml:lang="es">seminatural o salvaje</rdfs:label>
+        <skos:altLabel xml:lang="en">(120 semi-natural or wild)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029"/>
+        <skos:prefLabel xml:lang="en">semi-natural or wild</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000032">
+        <rdfs:label xml:lang="es">maleza</rdfs:label>
+        <rdfs:label xml:lang="en">weedy</rdfs:label>
+        <skos:altLabel xml:lang="en">(200 weedy)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+        <skos:prefLabel xml:lang="en">weedy</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000033">
+        <rdfs:label xml:lang="es">cultivar tradicional o variedad autóctona</rdfs:label>
+        <rdfs:label xml:lang="en">traditional cultivar or landrace</rdfs:label>
+        <skos:altLabel xml:lang="en">(300 primitive cultivar)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+        <skos:prefLabel xml:lang="en">traditional cultivar or landrace</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034">
+        <rdfs:label xml:lang="en">breeding or research material</rdfs:label>
+        <rdfs:label xml:lang="es">material de mejora genética o de investigación</rdfs:label>
+        <skos:altLabel xml:lang="en">(400 breeding or research material)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+        <skos:prefLabel xml:lang="en">breeding or research material</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035">
+        <rdfs:label xml:lang="en">breeder&apos;s line</rdfs:label>
+        <rdfs:label xml:lang="es">línea de mejora genética</rdfs:label>
+        <skos:altLabel xml:lang="en">(410 breeder&apos;s line)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034"/>
+        <skos:prefLabel xml:lang="en">breeder&apos;s line</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000036">
+        <rdfs:label xml:lang="es">población sintética</rdfs:label>
+        <rdfs:label xml:lang="en">synthetic population</rdfs:label>
+        <skos:altLabel xml:lang="en">(411 synthetic population)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
+        <skos:prefLabel xml:lang="en">synthetic population</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000037">
+        <rdfs:label xml:lang="en">hybrid</rdfs:label>
+        <rdfs:label xml:lang="es">híbrido</rdfs:label>
+        <skos:altLabel xml:lang="en">(412 hybrid)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
+        <skos:prefLabel xml:lang="en">hybrid</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000038">
+        <rdfs:label xml:lang="en">founder stock or base population</rdfs:label>
+        <rdfs:label xml:lang="es">población fundadora o población base</rdfs:label>
+        <skos:altLabel xml:lang="en">(413 founder stock or base population)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
+        <skos:prefLabel xml:lang="en">founder stock or base population</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000039">
+        <rdfs:label xml:lang="en">inbred line (parent of hybrid cultivar)</rdfs:label>
+        <rdfs:label xml:lang="es">línea endocriada (progenitor de cultivar híbrido)</rdfs:label>
+        <skos:altLabel xml:lang="en">(414 inbred line)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
+        <skos:prefLabel xml:lang="en">inbred line (parent of hybrid cultivar)</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000040">
+        <rdfs:label xml:lang="es">población segregadora</rdfs:label>
+        <rdfs:label xml:lang="en">segregating population</rdfs:label>
+        <skos:altLabel xml:lang="en">(415 segregating population)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
+        <skos:prefLabel xml:lang="en">segregating population</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041">
+        <rdfs:label xml:lang="en">genetic stock</rdfs:label>
+        <rdfs:label xml:lang="es">reserva genética</rdfs:label>
+        <skos:altLabel xml:lang="es">(420 genetic stock)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000034"/>
+        <skos:prefLabel xml:lang="en">genetic stock</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000042">
+        <rdfs:label xml:lang="en">advanced or improved cultivar</rdfs:label>
+        <rdfs:label xml:lang="es">cultivar avanzado o mejorado</rdfs:label>
+        <skos:altLabel xml:lang="en">(500 advanced or improved cultivar)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+        <skos:prefLabel xml:lang="en">advanced or improved cultivar</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000043">
+        <rdfs:label xml:lang="en">other biological status of accession</rdfs:label>
+        <rdfs:label xml:lang="es">otros estados biológicos de la accesión</rdfs:label>
+        <skos:altLabel xml:lang="en">(999 other biological status of accession)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+        <skos:prefLabel xml:lang="en">other biological status of accession</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044">
+        <rdfs:label xml:lang="es">hábitat silvestre</rdfs:label>
+        <rdfs:label xml:lang="en">wild habitat</rdfs:label>
+        <skos:altLabel xml:lang="en">(10 wild hábitat)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+        <skos:prefLabel xml:lang="en">wild habitat</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000045">
+        <rdfs:label xml:lang="es">bosque o zona arbolada</rdfs:label>
+        <rdfs:label xml:lang="en">forest or woodland</rdfs:label>
+        <skos:altLabel>(11 forest or woodland)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
+        <skos:prefLabel xml:lang="en">forest or woodland</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000046">
+        <rdfs:label xml:lang="es">matorral</rdfs:label>
+        <rdfs:label xml:lang="en">shrubland</rdfs:label>
+        <skos:altLabel xml:lang="en">(12 shrubland)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
+        <skos:prefLabel xml:lang="en">shrubland</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000047">
+        <rdfs:label xml:lang="en">grassland</rdfs:label>
+        <rdfs:label xml:lang="es">pastizal</rdfs:label>
+        <skos:altLabel xml:lang="en">(13 grassland)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
+        <skos:prefLabel xml:lang="en">grassland</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000048">
+        <rdfs:label xml:lang="en">desert or tundra</rdfs:label>
+        <rdfs:label xml:lang="es">desierto o tundra</rdfs:label>
+        <skos:altLabel xml:lang="en">(14 desert or tundra)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
+        <skos:prefLabel xml:lang="en">desert or tundra</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000049">
+        <rdfs:label xml:lang="en">aquatic habitat</rdfs:label>
+        <rdfs:label xml:lang="es">hábitat acuático</rdfs:label>
+        <skos:altLabel xml:lang="en">(15 aquatic habitat)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000044"/>
+        <skos:prefLabel xml:lang="en">aquatic habitat</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050">
+        <rdfs:label xml:lang="en">farm or cultivated habitat</rdfs:label>
+        <rdfs:label xml:lang="es">granja o hábitat cultivado</rdfs:label>
+        <skos:altLabel xml:lang="en">(20 farm or cultivated habitat)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+        <skos:prefLabel xml:lang="en">farm or cultivated habitat</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000051">
+        <rdfs:label xml:lang="es">campo de cultivo</rdfs:label>
+        <rdfs:label xml:lang="en">field</rdfs:label>
+        <skos:altLabel xml:lang="en">(21 field)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+        <skos:prefLabel xml:lang="en">field</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000052">
+        <rdfs:label xml:lang="es">huerto frutal</rdfs:label>
+        <rdfs:label xml:lang="en">orchard</rdfs:label>
+        <skos:altLabel xml:lang="en">(22 orchard)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+        <skos:prefLabel xml:lang="en">orchard</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000053">
+        <rdfs:label xml:lang="en">backyard, kitchen, or home garden (urban, peri-urban or rural)</rdfs:label>
+        <rdfs:label xml:lang="es">huerto doméstico (trasero, de cocina o familiar; urbano, periurbano o rural)</rdfs:label>
+        <skos:altLabel xml:lang="en">(23 backyard, kitchen, or home garden (urban, peri-urban or rural))</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+        <skos:prefLabel xml:lang="en">backyard, kitchen, or home garden (urban, peri-urban or rural)</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000054">
+        <rdfs:label xml:lang="en">(24 fallow land)</rdfs:label>
+        <rdfs:label xml:lang="en">fallow land</rdfs:label>
+        <rdfs:label xml:lang="es">tierra en barbecho</rdfs:label>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+        <skos:prefLabel xml:lang="en">fallow land</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000055">
+        <rdfs:label xml:lang="en">pasture</rdfs:label>
+        <rdfs:label xml:lang="es">pradera</rdfs:label>
+        <skos:altLabel xml:lang="en">(25 pasture)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+        <skos:prefLabel xml:lang="en">pasture</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000056">
+        <rdfs:label xml:lang="es">almacén agrícola</rdfs:label>
+        <rdfs:label xml:lang="en">farm store</rdfs:label>
+        <skos:altLabel xml:lang="en">(26 farm store)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+        <skos:prefLabel xml:lang="en">farm store</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000057">
+        <rdfs:label xml:lang="es">era de trilla</rdfs:label>
+        <rdfs:label xml:lang="en">threshing floor</rdfs:label>
+        <skos:altLabel xml:lang="en">(27 threshing floor)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+        <skos:prefLabel xml:lang="en">threshing floor</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000058">
+        <rdfs:label xml:lang="en">park</rdfs:label>
+        <rdfs:label xml:lang="es">parque</rdfs:label>
+        <skos:altLabel xml:lang="en">(28 park)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000050"/>
+        <skos:prefLabel xml:lang="en">park</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000059">
+        <rdfs:label xml:lang="en">market or shop</rdfs:label>
+        <rdfs:label xml:lang="es">mercado o tienda</rdfs:label>
+        <skos:altLabel xml:lang="en">(30 market or shop)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+        <skos:prefLabel xml:lang="en">market or shop</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000060">
+        <rdfs:label xml:lang="en">institute, experimental station, research organization, genebank</rdfs:label>
+        <rdfs:label xml:lang="es">instituto, estación experimental, organización de investigación, banco de genes</rdfs:label>
+        <skos:altLabel xml:lang="en">(40 institute, experimental station, research organization, genebank)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+        <skos:prefLabel xml:lang="en">institute, experimental station, research organization, genebank</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000061">
+        <rdfs:label xml:lang="es">empresa semillera</rdfs:label>
+        <rdfs:label xml:lang="en">seed company</rdfs:label>
+        <skos:altLabel xml:lang="en">(50 seed company)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+        <skos:prefLabel xml:lang="en">seed company</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062">
+        <rdfs:label xml:lang="es">hábitat ruderal, alterado o con malezas</rdfs:label>
+        <rdfs:label xml:lang="en">weedy, disturbed or ruderal habitat</rdfs:label>
+        <skos:altLabel xml:lang="en">(60 weedy, disturbed or ruderal habitat)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+        <skos:prefLabel xml:lang="en">weedy, disturbed or ruderal habitat</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000063">
+        <rdfs:label xml:lang="es">borde de carretera</rdfs:label>
+        <rdfs:label xml:lang="en">roadside</rdfs:label>
+        <skos:altLabel xml:lang="en">(61 roadside)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062"/>
+        <skos:prefLabel xml:lang="en">roadside</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000064">
+        <rdfs:label xml:lang="es">borde del campo</rdfs:label>
+        <rdfs:label xml:lang="en">field margin</rdfs:label>
+        <skos:altLabel xml:lang="en">(62 field margin)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000062"/>
+        <skos:prefLabel xml:lang="en">field margin</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065">
+        <rdfs:label xml:lang="es">Código de descriptor de pasaporte multicultivo</rdfs:label>
+        <rdfs:label xml:lang="en">MultiCropPassportDescriptorCode</rdfs:label>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000"/>
+        <skos:prefLabel xml:lang="en">MultiCropPassportDescriptorCode</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066">
+        <rdfs:label xml:lang="es">colección de semillas</rdfs:label>
+        <rdfs:label xml:lang="en">seed collection</rdfs:label>
+        <skos:altLabel xml:lang="es">(10 seed collection)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+        <skos:prefLabel xml:lang="en">seed collection</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000067">
+        <rdfs:label xml:lang="es">corto plazo</rdfs:label>
+        <rdfs:label xml:lang="en">short term</rdfs:label>
+        <skos:altLabel xml:lang="en">(11 short term)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066"/>
+        <skos:prefLabel xml:lang="en">short term</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000068">
+        <rdfs:label xml:lang="en">12 medium term</rdfs:label>
+        <rdfs:label>plazo medio</rdfs:label>
+        <skos:altLabel xml:lang="en">(12 medium term)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066"/>
+        <skos:prefLabel xml:lang="en">12 medium term</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000069">
+        <rdfs:label xml:lang="es">largo plazo</rdfs:label>
+        <rdfs:label xml:lang="en">long term</rdfs:label>
+        <skos:altLabel xml:lang="en">(13 long term)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000066"/>
+        <skos:prefLabel xml:lang="en">long term</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000070">
+        <rdfs:label xml:lang="es">colección en campo</rdfs:label>
+        <rdfs:label xml:lang="en">field collection</rdfs:label>
+        <skos:altLabel xml:lang="en">(20 field collection)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+        <skos:prefLabel xml:lang="en">field collection</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000071">
+        <rdfs:label xml:lang="es">colección in vitro</rdfs:label>
+        <rdfs:label xml:lang="en">in vitro collection</rdfs:label>
+        <skos:altLabel xml:lang="en">(30 in vitro collection)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+        <skos:prefLabel xml:lang="en">in vitro collection</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000072">
+        <rdfs:label xml:lang="es">colección criopreservada</rdfs:label>
+        <rdfs:label xml:lang="en">cryopreserved collection</rdfs:label>
+        <skos:altLabel xml:lang="en">(40 cryopresserved collection)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+        <skos:prefLabel xml:lang="en">cryopreserved collection</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000073">
+        <rdfs:label xml:lang="en">other type of germplasm storage</rdfs:label>
+        <rdfs:label xml:lang="es">otro tipo de almacenamiento del germoplasma</rdfs:label>
+        <skos:altLabel xml:lang="en">(99 other type of germplasm storage)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+        <skos:prefLabel xml:lang="en">other type of germplasm storage</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074">
+        <rdfs:label xml:lang="es">descriptor de pasaporte multicultivo</rdfs:label>
+        <rdfs:label xml:lang="en">multicrop passport descriptor</rdfs:label>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000000"/>
+        <skos:prefLabel xml:lang="en">multicrop passport descriptor</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075">
+        <rdfs:label xml:lang="en">BiologicalStatusOfAccessionCode</rdfs:label>
+        <rdfs:label xml:lang="es">estado biológico del código de accesión</rdfs:label>
+        <skos:broader rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000020"/>
+        <skos:broader rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065"/>
+        <skos:prefLabel xml:lang="en">BiologicalStatusOfAccessionCode</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076">
+        <rdfs:label xml:lang="en">CollectingOrAcquisitionSourceCode</rdfs:label>
+        <rdfs:label xml:lang="es">Código de fuente de adquisición o recolección</rdfs:label>
+        <skos:broader rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000022"/>
+        <skos:broader rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065"/>
+        <skos:prefLabel xml:lang="en">CollectingOrAcquisitionSourceCode</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000077">
+        <rdfs:label xml:lang="en">other collecting or acquisition source</rdfs:label>
+        <rdfs:label xml:lang="es">otra fuente de colecta o adquisición</rdfs:label>
+        <skos:altLabel xml:lang="en">(99 other collecting or acquisition source)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000076"/>
+        <skos:prefLabel xml:lang="en">other collecting or acquisition source</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078">
+        <rdfs:label xml:lang="es">Código del tipo de almacenamiento del germoplasma</rdfs:label>
+        <rdfs:label xml:lang="en">TypeOfGermplasmStorageCode</rdfs:label>
+        <skos:broader rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000027"/>
+        <skos:broader rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065"/>
+        <skos:prefLabel xml:lang="en">TypeOfGermplasmStorageCode</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079">
+        <rdfs:label xml:lang="es">descriptor de identificador de germoplasma</rdfs:label>
+        <rdfs:label xml:lang="en">germplasm identifier descriptor</rdfs:label>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+        <skos:prefLabel xml:lang="en">germplasm identifier descriptor</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080">
+        <rdfs:label xml:lang="es">descriptor de institución</rdfs:label>
+        <rdfs:label xml:lang="en">institute descriptor</rdfs:label>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+        <skos:prefLabel xml:lang="en">institute descriptor</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000081">
+        <rdfs:label xml:lang="es">descriptor de taxonomía</rdfs:label>
+        <rdfs:label xml:lang="en">taxonomy descriptor</rdfs:label>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+        <skos:prefLabel xml:lang="en">taxonomy descriptor</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082">
+        <rdfs:label xml:lang="es">descriptor de origen</rdfs:label>
+        <rdfs:label xml:lang="en">origin descriptor</rdfs:label>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+        <skos:prefLabel xml:lang="en">origin descriptor</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000085">
+        <rdfs:label xml:lang="en">CountryOfOriginCode</rdfs:label>
+        <rdfs:label xml:lang="es">Código del país de origen</rdfs:label>
+        <skos:broader rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000013"/>
+        <skos:broader rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000065"/>
+        <skos:prefLabel xml:lang="en">CountryOfOriginCode</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000086">
+        <rdfs:label xml:lang="en">date descriptor</rdfs:label>
+        <rdfs:label xml:lang="es">descriptor de fecha</rdfs:label>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+        <skos:prefLabel xml:lang="en">date descriptor</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087">
+        <rdfs:label xml:lang="es">descripción de localización</rdfs:label>
+        <rdfs:label xml:lang="en">location descriptor</rdfs:label>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000082"/>
+        <skos:prefLabel xml:lang="en">location descriptor</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088">
+        <rdfs:label xml:lang="es">código de institución</rdfs:label>
+        <rdfs:label xml:lang="en">institute code</rdfs:label>
+        <skos:altLabel xml:lang="en">(INSTCODE) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000080"/>
+        <skos:prefLabel xml:lang="en">institute code</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000089">
+        <rdfs:label xml:lang="en">accession number</rdfs:label>
+        <rdfs:label xml:lang="es">número de accesión</rdfs:label>
+        <skos:altLabel xml:lang="en">(ACCENUMB) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000079"/>
+        <skos:prefLabel xml:lang="en">accession number</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000090">
+        <rdfs:label xml:lang="en">collecting institute address</rdfs:label>
+        <rdfs:label xml:lang="es">dirección de la institución colectora</rdfs:label>
+        <skos:altLabel xml:lang="en">COLLINSTADDRESS RELATED []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
+        <skos:prefLabel xml:lang="en">collecting institute address</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000091">
+        <rdfs:label xml:lang="en">collecting mission identifier</rdfs:label>
+        <rdfs:label xml:lang="es">identificador de misión de recolección</rdfs:label>
+        <skos:altLabel xml:lang="en">COLLMISSID RELATED []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000088"/>
+        <skos:prefLabel xml:lang="en">collecting mission identifier</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000092">
+        <rdfs:label xml:lang="es">latitud del lugar de recolección (grados decimales)</rdfs:label>
+        <rdfs:label xml:lang="en">latitude of collecting site (decimal degree)</rdfs:label>
+        <skos:altLabel xml:lang="en">DECLATITUDE RELATED []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+        <skos:prefLabel xml:lang="en">latitude of collecting site (decimal degree)</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000093">
+        <rdfs:label xml:lang="es">longitud del lugar de recolección (grados decimales)</rdfs:label>
+        <rdfs:label xml:lang="en">longitude of collecting site (decimal degree)</rdfs:label>
+        <skos:altLabel xml:lang="en">DECLONGITUDE RELATED []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+        <skos:prefLabel xml:lang="en">longitude of collecting site (decimal degree)</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000094">
+        <rdfs:label xml:lang="en">coordinate uncertainty</rdfs:label>
+        <rdfs:label xml:lang="es">incertidumbre de coordenadas</rdfs:label>
+        <skos:altLabel xml:lang="en">COORDUNCERT RELATED []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+        <skos:prefLabel xml:lang="en">coordinate uncertainty</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000095">
+        <rdfs:label xml:lang="en">coordinate datum</rdfs:label>
+        <rdfs:label xml:lang="es">datum de coordenadas</rdfs:label>
+        <skos:altLabel xml:lang="en">COORDDATUM RELATED []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+        <skos:prefLabel xml:lang="en">coordinate datum</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000096">
+        <rdfs:label xml:lang="en">georeferencing method</rdfs:label>
+        <rdfs:label xml:lang="es">método de georeferrenciación</rdfs:label>
+        <skos:altLabel xml:lang="en">GEOREFMETH RELATED []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000087"/>
+        <skos:prefLabel xml:lang="en">georeferencing method</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000097">
+        <rdfs:label xml:lang="en">Breeding institute name</rdfs:label>
+        <rdfs:label xml:lang="es">nombre de la institución de mejora genética</rdfs:label>
+        <skos:altLabel xml:lang="en">BREDNAME RELATED []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000019"/>
+        <skos:prefLabel xml:lang="en">Breeding institute name</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000098">
+        <rdfs:label xml:lang="en">semi-natural or sown</rdfs:label>
+        <rdfs:label xml:lang="es">seminatural o sembrado</rdfs:label>
+        <skos:altLabel xml:lang="en">(130 semi-natural or sown)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000029"/>
+        <skos:prefLabel xml:lang="en">semi-natural or sown</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000099">
+        <rdfs:label xml:lang="en">clonal selection</rdfs:label>
+        <rdfs:label xml:lang="es">selección clonal</rdfs:label>
+        <skos:altLabel xml:lang="en">(416 clonal selection)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000035"/>
+        <skos:prefLabel xml:lang="en">clonal selection</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000100">
+        <rdfs:label xml:lang="en">mutant</rdfs:label>
+        <rdfs:label xml:lang="es">mutante</rdfs:label>
+        <skos:altLabel xml:lang="en">(421 mutant)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041"/>
+        <skos:prefLabel xml:lang="en">mutant</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000101">
+        <rdfs:label xml:lang="en">cytogenic stocks</rdfs:label>
+        <rdfs:label xml:lang="es">reserva citogénica</rdfs:label>
+        <skos:altLabel xml:lang="en">(422 cytogenic stocks)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041"/>
+        <skos:prefLabel xml:lang="en">cytogenic stocks</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000102">
+        <rdfs:label xml:lang="en">Other genetic stocks</rdfs:label>
+        <rdfs:label xml:lang="es">otras reservas genéticas</rdfs:label>
+        <skos:altLabel xml:lang="en">(423 other genetic stocks)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000041"/>
+        <skos:prefLabel xml:lang="en">Other genetic stocks</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000103">
+        <rdfs:label xml:lang="en">GMO</rdfs:label>
+        <rdfs:label xml:lang="es">OMG</rdfs:label>
+        <skos:altLabel xml:lang="en">(600 GMO)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000075"/>
+        <skos:prefLabel xml:lang="en">GMO</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000104">
+        <rdfs:label xml:lang="en">donor institute name</rdfs:label>
+        <rdfs:label xml:lang="es">nombre de institución donante</rdfs:label>
+        <skos:altLabel xml:lang="en">DONORNAME RELATED []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000023"/>
+        <skos:prefLabel xml:lang="en">donor institute name</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000105">
+        <rdfs:label xml:lang="en">Institute maintaining safety duplicates</rdfs:label>
+        <rdfs:label xml:lang="es">institución manteniendo los duplicados de seguridad</rdfs:label>
+        <skos:altLabel xml:lang="en">DUPLINSTNAME RELATED []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000026"/>
+        <skos:prefLabel xml:lang="en">Institute maintaining safety duplicates</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000106">
+        <rdfs:label xml:lang="en">DNA collection</rdfs:label>
+        <rdfs:label xml:lang="es">colección de ADN</rdfs:label>
+        <skos:altLabel xml:lang="en">(50 DNA collection)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000078"/>
+        <skos:prefLabel xml:lang="en">DNA collection</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107">
+        <rdfs:label xml:lang="en">MLS status of the accession</rdfs:label>
+        <rdfs:label xml:lang="es">estado de MLS de la accesión</rdfs:label>
+        <skos:altLabel xml:lang="en">MLSSTAT RELATED []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+        <skos:prefLabel xml:lang="en">MLS status of the accession</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000108">
+        <rdfs:label xml:lang="en">No</rdfs:label>
+        <rdfs:label xml:lang="es">No</rdfs:label>
+        <skos:altLabel xml:lang="en">(0 No)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107"/>
+        <skos:prefLabel xml:lang="en">No</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000109">
+        <rdfs:label xml:lang="es">Sí</rdfs:label>
+        <rdfs:label xml:lang="en">Yes</rdfs:label>
+        <skos:altLabel xml:lang="en">(1 Yes)</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107"/>
+        <skos:prefLabel xml:lang="en">Yes</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000110">
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+        <skos:altLabel xml:lang="en">(99 Other)</skos:altLabel>
+        <skos:altLabel xml:lang="es">Otro</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000107"/>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000111">
+        <rdfs:label xml:lang="en">collecting institute name</rdfs:label>
+        <rdfs:label xml:lang="es">nombre de la institución colectora</rdfs:label>
+        <skos:altLabel xml:lang="en">(COLLNAME) EXACT []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000004"/>
+        <skos:prefLabel xml:lang="en">collecting institute name</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#ID:0000000">
+        <rdfs:label xml:lang="es">identificador único persistente</rdfs:label>
+        <rdfs:label xml:lang="en">persistent unique identifier</rdfs:label>
+        <skos:altLabel xml:lang="en">PUID RELATED []</skos:altLabel>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/fao-ipgr/multi-passport-descriptor.owl#CO_020:0000074"/>
+        <skos:prefLabel xml:lang="en">persistent unique identifier</skos:prefLabel>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
